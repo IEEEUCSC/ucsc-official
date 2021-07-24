@@ -1,0 +1,107 @@
+.btn-pulse {
+	background: #006699;
+	color: white;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 0;
+	height: 0;
+	padding: 20px;
+	text-decoration: none;
+	border-radius: 50%;
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	z-index: 1000;
+}
+
+.btn-pulse:hover{
+	background: #fff;
+	color: #006699;
+	border-style: solid;
+	border-color: #006699;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 #006699;
+	}
+	80% {
+		box-shadow: 0 0 0 10px #006699;
+	}
+}
+
+.btn-pulse-border-fb {
+	bottom: 205px;
+	right: 20px;
+	animation-play-state: paused;
+}
+.btn-pulse-border-insta {
+	bottom: 150px;
+	right: 20px;
+	animation-play-state: paused;
+}
+.btn-pulse-border-linked {
+	bottom:95px;
+	right: 20px;
+	animation-play-state: paused;
+}
+
+.btn-pulse-border::before {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	padding: 15px;
+	border: 5px solid #006699;
+	opacity: 0.75;
+	animation-name: pulse-border;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulse-border {
+	0% {
+		padding: 25px;
+		opacity: 0.75;
+	}
+	75% {
+		padding: 30px;
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.scrollTop {
+	position: fixed; 
+	width: 100%;
+	bottom: 20px;
+	align-items: center;
+	height: 20px;
+	justify-content: center;
+	z-index: 1000;
+	cursor: pointer;
+	animation: fadeIn 0.3s;
+	transition: opacity 0.4s;
+	opacity: 0.5;
+  }
+  
+  .scrollTop:hover{
+	opacity: 1;
+  }
+  
+  @keyframes fadeIn {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 0.5;
+	}
+  }

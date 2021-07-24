@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+
+.section-header{
+  padding-top: 60px;
+}
+.sr-only {
+  visibility: hidden;
+}
+
+.hidden {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.hidden svg {
+  width: 150px;
+  height: 150px;
+}
+
+.challenge-title {
+  text-align: center;
+  padding: 0;
+  margin: 1rem 0 0.5rem;
+  color: #006699;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.challenge-subtitle {
+  text-align: center;
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #b5bbc3;
+}
+
+.challenge-part-of {
+  text-align: center;
+  margin: 1rem 0 0;
+  font-size: 0.875rem;
+  color: #b5bbc3;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.challenge-part-of a,
+.challenge-part-of a:visited {
+  color: #b5bbc3;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+}
+.challenge-part-of a:hover, .challenge-part-of a:active,
+.challenge-part-of a:visited:hover,
+.challenge-part-of a:visited:active {
+  color: #d1d5da;
+}
+
+.cen-div{
+    margin: 40px auto;
+    width:90%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    
+}
+
+.container-x {
+
+  /* padding: 2rem; */
+  width: 100%;
+  /* min-height: 500px; */
+  border: 1px solid #d1d5da;
+  border-radius: 1rem;
+
+}
+
+.sbs-title {
+  color: #c3c8cf;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  margin: 0 0 1rem;
+  padding: 1rem 0;
+}
+.sbs-title:first-of-type {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.stat {
+  display: flex;
+  align-items: stretch;
+
+}
+.stat .stat-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: stretch;
+  padding: 0 1rem;
+  height:200px;
+}
+.stat .stat-item .stat-card {
+  border: 1px solid #edeff1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.stat .stat-item .stat-card .stat-title {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.stat .stat-item .stat-card .stat-title .prefix {
+  margin-bottom: 0.125rem;
+  font-size: 0.75rem;
+  color: #b5bbc3;
+}
+.stat .stat-item .stat-card .stat-title .value {
+  font-size: 2rem;
+  color: #45505a;
+}
+.stat .stat-item .stat-card .stat-title .stat-change {
+  margin-top: 0.125rem;
+  font-size: 0.75rem;
+  align-self: flex-start;
+  display: inline-block;
+  margin-top: 0.25rem;
+  padding: 0.25rem;
+  border-radius: 10px;
+}
+.stat .stat-item .stat-card .stat-title .stat-change.up {
+  background-color: #cceeff;
+  color: #006699;
+}
+.stat .stat-item .stat-card .stat-title .stat-change.up i {
+  transform: rotate(-45deg);
+}
+.stat .stat-item .stat-card .stat-title .stat-change.down {
+  background-color: #f2dddd;
+  color: #bc4749;
+}
+.stat .stat-item .stat-card .stat-title .stat-change.down i {
+  transform: rotate(45deg);
+}
+.stat .stat-item .stat-card .stat-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  width: 150px;
+  height: 150px;
+}
+.stat .stat-item .stat-card .stat-icon svg {
+  width: 100%;
+  height: 100%;
+}
+.stat.stat-bordered {
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.stat.stat-bordered .stat-item {
+  padding: 0;
+}
+.stat.stat-bordered .stat-item:first-of-type .stat-card {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.stat.stat-bordered .stat-item:not(:first-of-type) .stat-card {
+  border-left: 0;
+}
+.stat.stat-bordered .stat-item:last-of-type .stat-card {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.stat.stat-bordered .stat-item .stat-card {
+  box-shadow: none;
+  border-radius: 0;
+}
+.stat.stat-bordered .stat-item .stat-card .stat-title .prefix {
+  color: #2f363d;
+}
+.stat.stat-bordered .stat-item .stat-card .stat-title .value {
+  color: #005580;
+}
+.stat.stat-bordered .stat-item .stat-card .stat-icon {
+  right: 1rem;
+}
+
+.fill-primary {
+  fill: #006699;
+}
+
+.blink {
+  -webkit-animation: blinkColor 2s linear infinite;
+          animation: blinkColor 2s linear infinite;
+}
+
+.blink-2 {
+  -webkit-animation: blinkColor 2.5s linear infinite;
+          animation: blinkColor 2.5s linear infinite;
+}
+
+.blink-3 {
+  -webkit-animation: blinkColor 3s linear infinite;
+          animation: blinkColor 3s linear infinite;
+}
+
+@-webkit-keyframes blinkColor {
+  78% {
+    fill: #006699;
+  }
+  79% {
+    fill: #d1d5da;
+  }
+  81% {
+    fill: #006699;
+  }
+  82% {
+    fill: #d1d5da;
+  }
+  83% {
+    fill: #006699;
+  }
+  92% {
+    fill: #d1d5da;
+  }
+  92.5% {
+    fill: #006699;
+  }
+}
+
+@keyframes blinkColor {
+  78% {
+    fill: #006699;
+  }
+  79% {
+    fill: #d1d5da;
+  }
+  81% {
+    fill: #006699;
+  }
+  82% {
+    fill: #d1d5da;
+  }
+  83% {
+    fill: #006699;
+  }
+  92% {
+    fill: #d1d5da;
+  }
+  92.5% {
+    fill: #006699;
+  }
+}
+
+
+
+
+  .container-y {
+    display: flex;
+    -webkit-display: box;
+    -moz-display: box;
+    -ms-display: flexbox;
+    -webkit-display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: auto;
+    width: 90%;
+
+  }
+  .cards-y {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+  }
+  @media (min-width: 40rem) {
+    .cards-y {
+      width: 50%;
+    }
+  }
+  @media (min-width: 56rem) {
+    .cards-y {
+      width: 33.3%;
+    }
+  }
+  .cards-y .card-item-y {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+  }
+  .cards-y .card-item-y:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  
+  .cards-y .card-info-y {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+    line-height: 1.5em;
+  }
+  .cards-y .card-title-y {
+    font-size: 25px;
+    line-height: 1.1em;
+    color:black;
+    font-weight:600;
+  }
+  
+  .Stat{
+      margin-top:50px;
+      margin-bottom:50px;
+  }
+  

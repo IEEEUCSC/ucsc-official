@@ -12,7 +12,7 @@ import ParticlesBg from 'particles-bg';
 
 
 const Home = () => {
-    const { data: items, isPending, error } = useFetch('http://localhost:8000/items');
+    // const { data: items, isPending, error } = useFetch('http://localhost:8000/items');
 
 
     return (
@@ -43,9 +43,9 @@ const Home = () => {
 
             </div>
             <div className="newsFeed">
-                {error && <div>{error}</div>}
+                {/* {error && <div>{error}</div>}
                 {isPending && <div>Loading...</div>}
-                {items && <NewsList items={items} />}
+        {items && */} <NewsList />
             </div>
             <div className="gallery">
 

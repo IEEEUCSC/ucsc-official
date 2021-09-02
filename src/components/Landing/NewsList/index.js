@@ -1,10 +1,12 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './index.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
+import data from '../data/newsItems.json'
 
-const NewsList = ({ items }) => {
-
+const NewsList = () => {
+ const [items]= useState(data.items);
   return (
 
     <section id="newslist">

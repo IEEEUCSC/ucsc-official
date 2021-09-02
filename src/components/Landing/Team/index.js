@@ -111,6 +111,73 @@ function Team() {
                         </div>
                     </div>
                 </div>
+                <div className="section-header">
+                    <h3>Our Director Board</h3>
+                    <p style={{ paddingBottom: "20px" }}> Meet Our Team </p>
+
+                </div>
+                <div className="row rows-cols-6 mt-5 justify-content-center">
+                    <div className="col-sm col-4 wow fadeInUp" style={{ visibility: "visible", animationName: "fadeInUp" }}>
+                        <div className="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454811/team-1.jpg" className="img-fluid" alt=""></img>
+                            <div className="member-info">
+                                <div className="member-info-content">
+                                    <h4>Walt Hannis</h4> <span>Chief Executive Officer</span>
+                                    <div className="social"> <a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm col-4 wow fadeInUp" data-wow-delay="0.1s" style={{ visibility: "visible", animationName: "fadeInUp", animationDelay: "0.1s" }}>
+                        <div className="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454840/team-2.jpg" className="img-fluid" alt=""></img>
+                            <div className="member-info">
+                                <div className="member-info-content">
+                                    <h4>Namia Sarah</h4> <span>Project Manager</span>
+                                    <div className="social"> <a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm col-4 wow fadeInUp" data-wow-delay="0.2s" style={{ visibility: "visible", animationName: "fadeInUp", animationDelay: "0.2s" }}>
+                        <div className="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454870/team-3.jpg" className="img-fluid" alt=""></img>
+                            <div className="member-info">
+                                <div className="member-info-content">
+                                    <h4>Jammy Anderson</h4> <span>CTO</span>
+                                    <div className="social"> <a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm col-4 wow fadeInUp" data-wow-delay="0.3s" style={{ visibility: "visible", animationName: "fadeInUp", animationDelay: "0.3s" }}>
+                        <div className="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg" className="img-fluid" alt=""></img>
+                            <div className="member-info">
+                                <div className="member-info-content">
+                                    <h4>Yasith Samaradivakara</h4> <span>Developer</span>
+                                    <div className="social"> <a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm col-4 wow fadeInUp" data-wow-delay="0.3s" style={{ visibility: "visible", animationName: "fadeInUp", animationDelay: "0.3s" }}>
+                        <div className="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg" className="img-fluid" alt=""></img>
+                            <div className="member-info">
+                                <div className="member-info-content">
+                                    <h4>Jepson Sinah</h4> <span>Developer</span>
+                                    <div className="social"> <a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm col-4 wow fadeInUp" data-wow-delay="0.3s" style={{ visibility: "visible", animationName: "fadeInUp", animationDelay: "0.3s" }}>
+                        <div className="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg" className="img-fluid" alt=""></img>
+                            <div className="member-info">
+                                <div className="member-info-content">
+                                    <h4>Jepson Sinah</h4> <span>Developer</span>
+                                    <div className="social"> <a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             {/* <div class="container">
         <div class="section-header">

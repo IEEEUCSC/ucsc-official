@@ -39,7 +39,7 @@ const Navbar = () => {
                                 offset={0}
                                 duration={500}
                             >
-                                <a class="nav-link" href="http://localhost:3000" >  <FontAwesomeIcon icon={faHome} /> Home</a>
+                                <a class="nav-link" href="" >  <FontAwesomeIcon icon={faHome} /> Home</a>
                                 {/* <span className="sr-only">(current)</span> */}
                             </Link></li>
                         <li class="nav-item">

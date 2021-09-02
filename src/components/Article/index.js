@@ -1,16 +1,16 @@
-import React from 'react'
+import {useState,React} from 'react'
 import './index.css';
 import { useParams} from "react-router-dom";
 import  useFetch from '../../useFetch';
+import data from '../Landing/data/newsItems.json'
 
 function Article() {
     const {id}=useParams();
-    const {data: items,isPending,error} = useFetch('http://localhost:8000/items/' + id);
+    const [items] = useState(data.items[id-1]);
     return (
       <div className="article">
         <div class="container">
-        { isPending && <div>Loading...</div> }
-        { error && <div>{ error }</div> }
+       
          { items && (
          <div className="container">  
             <img class="img-fluid rounded mb-4 mb-lg-0" src={`../.${items.url}`} alt=""></img>   

@@ -14,8 +14,8 @@ function Team() {
                     <h3>Our Executive Committee</h3>
                     <p style={{ paddingBottom: "20px" }}> Meet Our Team </p>
                 </div>
-                <div className="row ml-2 mr-2"> 
-                    <div class="col-md-3 col-sm-6">
+                <div className="row rows-cols-5 mt-5 justify-content-center"> 
+                    <div class="col-md-3 col-sm-6 col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -30,7 +30,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-sm-6 col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -45,7 +45,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-sm-6 col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -60,7 +60,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-sm-6 col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -77,7 +77,7 @@ function Team() {
                     </div>        
                 </div>
                 <div className="row rows-cols-5 mt-5 justify-content-center">
-                    <div class="col-sm col-4">
+                    <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -92,7 +92,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm col-4">
+                    <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -107,7 +107,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm col-4">
+                    <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -122,7 +122,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm col-4">
+                    <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -137,7 +137,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm col-4">
+                    <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -158,7 +158,7 @@ function Team() {
                     <p style={{ paddingBottom: "20px" }}> Meet Our Team </p>
                 </div>
                 <div className="row rows-cols-6 mt-5 justify-content-center">
-                    <div class="col-sm col-4">
+                    <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -173,7 +173,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm col-4">
+                    <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -188,7 +188,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm col-4">
+                    <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -203,7 +203,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm col-4">
+                    <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -218,7 +218,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm col-4">
+                    <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
@@ -233,7 +233,7 @@ function Team() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm col-4">
+                    <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>

@@ -1,0 +1,80 @@
+.timeline-section {
+  /*background: #bdc3c7;*/
+}
+
+.section-title h1 {
+  color: #283D50;
+  font-size: 45px !important;
+  font-weight: 800;
+}
+
+.timeline-section .vertical-timeline::before {
+  background: #069;
+}
+
+.timeline-section .vertical-timeline .vertical-timeline-element-title {
+  font-weight: bold;
+}
+
+.timeline-section .vertical-timeline .vertical-timeline-element-subtitle {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #069;
+}
+
+.timeline-section .vertical-timeline .vertical-timeline-element-content {
+  transition: all 0.2s ease-out;
+  background: #bdc3c7;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.timeline-section .vertical-timeline .vertical-timeline-element-content:hover {
+  background: #ecf0f1;
+  box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
+}
+
+.timeline-section .vertical-timeline .vertical-timeline-element-content-arrow {
+  transition: all 0.2s ease-out;
+  border-right: 9px solid #bdc3c7;
+}
+
+.timeline-section .vertical-timeline .vertical-timeline-element-content:hover .vertical-timeline-element-content-arrow {
+  border-right: 9px solid #ecf0f1;
+}
+
+
+.timeline-section .vertical-timeline .vertical-timeline-element-content p {
+  font-size: 1.05em;
+}
+
+.timeline-section .vertical-timeline .vertical-timeline-element-icon {
+  transition: transform 0.2s ease-out;
+  transform: scale(1.1);
+  background: white;
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05), rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.timeline-section .vertical-timeline .vertical-timeline-element-icon img {
+  border-radius: 50%;
+}
+
+.timeline-section .vertical-timeline .vertical-timeline-element-icon:hover {
+  transform: scale(1.2);
+}
+
+.timeline-section .vertical-timeline .vertical-timeline-element-date {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #1b1e21;
+}
+
+@media only screen and (min-width: 1170px) {
+  .timeline-section .vertical-timeline.vertical-timeline--two-columns {
+    width: 100%;
+  }
+
+  .timeline-section .vertical-timeline .vertical-timeline-element-date {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}

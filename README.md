@@ -14,7 +14,7 @@ Runs local json server
 ```
 $cd ucsc-official-ieee
 $npm i json-server
-$json-server --watch ./src/components/Landing/data/newsitems.json --port 8000
+$json-server --watch ./src/components/Landing/JSONData/newsitems.json --port 8000
 
 ```
 

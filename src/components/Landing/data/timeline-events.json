@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "MADHACK",
+      "subTitle": "Mobile App Development Hackathon",
+      "date": "Jul - Sep 2021",
+      "iconSrc": "MADHACK-logo.png",
+      "altText": "MADHACK logo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+    },
+    {
+      "id": 2,
+      "title": "RevolUX",
+      "subTitle": "Inter-university UI/UX Designathon",
+      "date": "Aug - Jul 2021",
+      "iconSrc": "Revolux-logo.png",
+      "altText": "RevolUX logo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+    },
+    {
+      "id": 3,
+      "title": "7linesOfCode",
+      "subTitle": "Everything related to code, in 7 days",
+      "date": "Jun - Aug 2021",
+      "iconSrc": "7linesOfCode-logo.png",
+      "altText": "7linesOfCode logo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+    },
+    {
+      "id": 4,
+      "title": "IEEE Day 2021",
+      "subTitle": "Celebrating Global IEEE Day",
+      "date": "5th Oct 2021",
+      "iconSrc": "IEEE-Day-2021-logo.png",
+      "altText": "IEEE Day 2021 logo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+    }
+  ]
+}

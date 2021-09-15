@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NewsList from './NewsList';
+
 import TimeLine from './Timeline';
 import useFetch from '../../useFetch';
 import AboutUs from './About';
@@ -8,6 +8,7 @@ import Work from './Stat';
 import Title from './Title';
 import ContactUs from './Contact';
 import ParticlesBg from 'particles-bg';
+import NewsList from "./NewsList/NewsList";
 
 
 
@@ -45,7 +46,7 @@ const Home = () => {
             <div className="newsFeed">
                 {/* {error && <div>{error}</div>}
                 {isPending && <div>Loading...</div>}
-        {items && */} <NewsList />
+        {items && */} <NewsList/>
             </div>
             <div className="gallery">
 

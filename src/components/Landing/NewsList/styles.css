@@ -18,7 +18,7 @@
 
 .newslist-section .card-container .card {
     transition: all 0.3s ease-out;
-    margin: 24px;
+    margin: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0 7px 25px 0;
     border-radius: 10px;
 }
@@ -67,9 +67,9 @@
     color: white;
 }
 
-.newslist-section .slick-slider {
-    padding: 0 15px 0 15px;
-}
+/*.newslist-section .slick-slider {*/
+/*    padding: 0;*/
+/*}*/
 
 .newslist-section .slick-slider .slick-dots li button:before {
     font-size: 10px;
@@ -78,5 +78,43 @@
 
 .newslist-section .slick-slider .slick-prev:before, .newslist-section .slick-slider .slick-next:before {
     font-size: 24px;
+}
+
+.newslist-section .slick-slider .slick-prev{
+    left: -32px;
+}
+
+.newslist-section .slick-slider .slick-next{
+    right: -30px;
+}
+
+@media (max-width: 1200px) {
+    .newslist-section .card-container .card {
+        margin: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .newslist-section .card-container .card {
+        margin: 18px;
+    }
+
+    .newslist-section .slick-slider .slick-prev{
+        left: -32px;
+    }
+
+    .newslist-section .slick-slider .slick-next{
+        right: -30px;
+    }
+
+    .newslist-section .slick-slider .slick-prev:before, .newslist-section .slick-slider .slick-next:before {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 576px) {
+    .newslist-section .card-container .card {
+        margin: 12px;
+    }
 }
 

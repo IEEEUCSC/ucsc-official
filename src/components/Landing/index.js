@@ -1,12 +1,18 @@
+import React, { useState, useEffect } from 'react';
+import TimeLine from './Timeline';
+import useFetch from '../../useFetch';
 import React from 'react';
+
 import NewsList from './NewsList';
 import AboutUs from './About';
 import Team from './Team';
 import Work from './Stat';
 import Title from './Title';
 import ContactUs from './Contact';
-import Timeline from "./Timeline/Timeline";
+import ParticlesBg from 'particles-bg';
 
+import NewsList from "./NewsList/NewsList";
+import Timeline from "./Timeline/Timeline";
 
 const Home = () => {
   // const { data: items, isPending, error } = useFetch('http://localhost:8000/items');

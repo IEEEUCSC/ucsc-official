@@ -1,0 +1,120 @@
+.newslist-section {
+    background: #00629b;
+    overflow: auto;
+}
+
+.newslist-section .section-header {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newslist-section .section-header h3 {
+    /*position: sticky;*/
+    color: white;
+    text-align: left;
+}
+
+.newslist-section .card-container .card {
+    transition: all 0.3s ease-out;
+    margin: 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 7px 25px 0;
+    border-radius: 10px;
+}
+
+.newslist-section .card-container .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 10px 30px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
+    transform: scale(1.05);
+}
+
+.newslist-section .card-container .card img {
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid darkgrey;
+}
+
+.newslist-section .card-container .card .card-subtitle {
+    font-size: 0.85em;
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.newslist-section .card-container .card .card-title {
+    font-weight: bold;
+}
+
+.newslist-section .card-container .card .card-text {
+    padding-bottom: 20px;
+    padding-top: 3px;
+    font-size: 0.9em;
+}
+
+.newslist-section .card-container .card button {
+    transition: all 0.3s ease-out;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #137aaa;
+    border: 1px solid #137aaa;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    margin: 4px 4px 4px 0;
+}
+
+.newslist-section .card-container .card button:hover {
+    background: #137aaa;
+    color: white;
+}
+
+/*.newslist-section .slick-slider {*/
+/*    padding: 0;*/
+/*}*/
+
+.newslist-section .slick-slider .slick-dots li button:before {
+    font-size: 10px;
+    color: white;
+}
+
+.newslist-section .slick-slider .slick-prev:before, .newslist-section .slick-slider .slick-next:before {
+    font-size: 24px;
+}
+
+.newslist-section .slick-slider .slick-prev{
+    left: -32px;
+}
+
+.newslist-section .slick-slider .slick-next{
+    right: -30px;
+}
+
+@media (max-width: 1200px) {
+    .newslist-section .card-container .card {
+        margin: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .newslist-section .card-container .card {
+        margin: 18px;
+    }
+
+    .newslist-section .slick-slider .slick-prev{
+        left: -32px;
+    }
+
+    .newslist-section .slick-slider .slick-next{
+        right: -30px;
+    }
+
+    .newslist-section .slick-slider .slick-prev:before, .newslist-section .slick-slider .slick-next:before {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 576px) {
+    .newslist-section .card-container .card {
+        margin: 12px;
+    }
+}
+

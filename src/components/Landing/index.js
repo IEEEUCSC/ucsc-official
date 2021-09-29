@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import TimeLine from './Timeline';
 import useFetch from '../../useFetch';
-import React from 'react';
+// import React from 'react';
 
-import NewsList from './NewsList';
+// import NewsList from './NewsList';
 import AboutUs from './About';
 import Team from './Team';
 import Work from './Stat';

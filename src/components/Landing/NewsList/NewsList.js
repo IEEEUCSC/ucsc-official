@@ -1,25 +1,31 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import Slider from "react-slick";
 import "./styles.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {SizeMe} from 'react-sizeme'
+import data from "../data/past-events.json"
 
 const NewsList = () => {
 
-  // const getSlidesCount = () => {
-  //   const w = window.innerWidth;
-  //   if (w < 576) {
-  //     return 1;
-  //   } else if (w <= 768) {
-  //     return 2;
-  //   } else if (w < 1200) {
-  //     return 3;
-  //   } else {
-  //     return 4;
-  //   }
-  // }
+  const [events] = useState(data.events);
+
+  const EventCards = events.map((event)=>
+    <div className="mt-2 mb-4">
+      <Card>
+        <Card.Img variant="top" src={event.image}/>
+        <Card.Body>
+          <Card.Subtitle className="my-0">{event.date}</Card.Subtitle>
+          <Card.Title as="h3" className="my-3">{event.title}</Card.Title>
+          <Card.Text>
+            {event.summary}
+          </Card.Text>
+          <Button variant="outline-primary">Read more</Button>
+        </Card.Body>
+      </Card>
+    </div>
+  )
 
   const sliderSettings = {
     dots: true,
@@ -38,127 +44,7 @@ const NewsList = () => {
         arrows: size.width >= 576,
         speed: size.width >= 576 ? 1000 : 1500,
       }} className="mx-3 px-0">
-
-        <div className="mt-2 mb-4">
-          <Card>
-            <Card.Img variant="top" src="/images/1.png"/>
-            <Card.Body>
-              <Card.Subtitle className="my-1">30 Nov 2019</Card.Subtitle>
-              <Card.Title as="h3" className="my-3">GameRush 2019</Card.Title>
-              <Card.Text>
-                UCSC IEEE Day 2017 was celebrated with much grace and grandeur on 11th of October 2017 at the New
-                Arts Theatre of University of Colombo.
-              </Card.Text>
-              <Button variant="outline-primary">Read more</Button>
-            </Card.Body>
-          </Card>
-        </div>
-
-        <div className="mt-2 mb-3">
-          <Card>
-            <Card.Img variant="top" src="/images/1.png"/>
-            <Card.Body>
-              <Card.Subtitle className="my-1">30 Nov 2019</Card.Subtitle>
-              <Card.Title as="h3" className="my-3">GameRush 2019</Card.Title>
-              <Card.Text>
-                UCSC IEEE Day 2017 was celebrated with much grace and grandeur on 11th of October 2017 at the New
-                Arts Theatre of University of Colombo.
-              </Card.Text>
-              <Button variant="outline-primary">Read more</Button>
-            </Card.Body>
-          </Card>
-        </div>
-
-        <div className="mt-2 mb-3">
-          <Card>
-            <Card.Img variant="top" src="/images/1.png"/>
-            <Card.Body>
-              <Card.Subtitle className="my-1">30 Nov 2019</Card.Subtitle>
-              <Card.Title as="h3" className="my-3">GameRush 2019</Card.Title>
-              <Card.Text>
-                UCSC IEEE Day 2017 was celebrated with much grace and grandeur on 11th of October 2017 at the New
-                Arts Theatre of University of Colombo.
-              </Card.Text>
-              <Button variant="outline-primary">Read more</Button>
-            </Card.Body>
-          </Card>
-        </div>
-
-        <div className="mt-2 mb-3">
-          <Card>
-            <Card.Img variant="top" src="/images/1.png"/>
-            <Card.Body>
-              <Card.Subtitle className="my-1">30 Nov 2019</Card.Subtitle>
-              <Card.Title as="h3" className="my-3">GameRush 2019</Card.Title>
-              <Card.Text>
-                UCSC IEEE Day 2017 was celebrated with much grace and grandeur on 11th of October 2017 at the New
-                Arts Theatre of University of Colombo.
-              </Card.Text>
-              <Button variant="outline-primary">Read more</Button>
-            </Card.Body>
-          </Card>
-        </div>
-
-        <div className="mt-2 mb-3">
-          <Card>
-            <Card.Img variant="top" src="/images/1.png"/>
-            <Card.Body>
-              <Card.Subtitle className="my-1">30 Nov 2019</Card.Subtitle>
-              <Card.Title as="h3" className="my-3">GameRush 2019</Card.Title>
-              <Card.Text>
-                UCSC IEEE Day 2017 was celebrated with much grace and grandeur on 11th of October 2017 at the New
-                Arts Theatre of University of Colombo.
-              </Card.Text>
-              <Button variant="outline-primary">Read more</Button>
-            </Card.Body>
-          </Card>
-        </div>
-
-        <div className="mt-2 mb-3">
-          <Card>
-            <Card.Img variant="top" src="/images/1.png"/>
-            <Card.Body>
-              <Card.Subtitle className="my-1">30 Nov 2019</Card.Subtitle>
-              <Card.Title as="h3" className="my-3">GameRush 2019</Card.Title>
-              <Card.Text>
-                UCSC IEEE Day 2017 was celebrated with much grace and grandeur on 11th of October 2017 at the New
-                Arts Theatre of University of Colombo.
-              </Card.Text>
-              <Button variant="outline-primary">Read more</Button>
-            </Card.Body>
-          </Card>
-        </div>
-
-        <div className="mt-2 mb-3">
-          <Card>
-            <Card.Img variant="top" src="/images/1.png"/>
-            <Card.Body>
-              <Card.Subtitle className="my-1">30 Nov 2019</Card.Subtitle>
-              <Card.Title as="h3" className="my-3">GameRush 2019</Card.Title>
-              <Card.Text>
-                UCSC IEEE Day 2017 was celebrated with much grace and grandeur on 11th of October 2017 at the New
-                Arts Theatre of University of Colombo.
-              </Card.Text>
-              <Button variant="outline-primary">Read more</Button>
-            </Card.Body>
-          </Card>
-        </div>
-
-        <div className="mt-2 mb-3">
-          <Card>
-            <Card.Img variant="top" src="/images/1.png"/>
-            <Card.Body>
-              <Card.Subtitle className="my-1">30 Nov 2019</Card.Subtitle>
-              <Card.Title as="h3" className="my-3">GameRush 2019</Card.Title>
-              <Card.Text>
-                UCSC IEEE Day 2017 was celebrated with much grace and grandeur on 11th of October 2017 at the New
-                Arts Theatre of University of Colombo.
-              </Card.Text>
-              <Button variant="outline-primary">Read more</Button>
-            </Card.Body>
-          </Card>
-        </div>
-
+        {EventCards}
       </Slider>
 
     }</SizeMe>
@@ -172,7 +58,7 @@ const NewsList = () => {
           <h3>PAST EVENTS</h3>
         </Col>
 
-        <Col xs={12} lg={10} className="mt-0 mb-2 my-lg-4 card-container px-0 pt-1 pb-2 pl-lg-5 pr-lg-4 px-xl-5">
+        <Col xs={12} lg={10} className="mt-0 mb-2 my-lg-4 card-container px-0 pt-1 pb-1 pl-lg-5 pr-lg-4 px-xl-5">
           {renderSlider()}
         </Col>
       </Row>

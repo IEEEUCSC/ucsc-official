@@ -12,15 +12,20 @@ const NewsList = () => {
   const [events] = useState(data.events);
 
   const EventCards = events.map((event)=>
-    <div className="mt-2 mb-4">
+    <div className="mt-2 mb-4" key={event.id}>
       <Card>
         <Card.Img variant="top" src={event.image}/>
         <Card.Body>
-          <Card.Subtitle className="my-0">{event.date}</Card.Subtitle>
-          <Card.Title as="h3" className="my-3">{event.title}</Card.Title>
-          <Card.Text>
-            {event.summary}
-          </Card.Text>
+          <Card.Subtitle className="my-0 pb-1">{event.date}</Card.Subtitle>
+          <Card.Title as="h3" className="mt-2 mb-3">{event.title}</Card.Title>
+          <div className="card-text-container">
+            <Card.Text>
+              {event.summary}
+            </Card.Text>
+
+
+          </div>
+          <div className="text-fade"/>
           <Button variant="outline-primary">Read more</Button>
         </Card.Body>
       </Card>

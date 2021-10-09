@@ -1,34 +1,39 @@
 import Home from './components/Landing';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Common/NavBar/index';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import SocialMedia from './components/Common/SocialMedia/index';
-import Article from './components/Article/index';
 import Footer from './components/Common/Footer/index'
-
+import EventDetails from "./components/Landing/EventDetails/EventDetails";
+import NavBar from "./components/Common/NavBar";
+import React from "react";
 
 
 function App() {
+  // let { id } = useParams();
   return (
-    <Router>
-      <div className="App">
+    <>
+
+      <Router>
+        <main>
+
           <Switch>
             <Route exact path="/">
-              <Home />
+              <NavBar showLinks={true}/>
+              <Home/>
+              <Footer/>
             </Route>
-           
-            <Route path="/items/:id">
-              <Article/>
+            <Route path="/event-details/:id">
+              <NavBar showLinks={false}/>
+              <EventDetails/>
+              <Footer/>
             </Route>
-
-            {/*
-            <Route path="*">
-              <NotFound />
-            </Route>*/}
           </Switch>
-       
-        <SocialMedia/>
-      </div>
-    </Router>
+
+          <SocialMedia/>
+        </main>
+      </Router>
+
+    </>
   );
 }
+
 export default App;

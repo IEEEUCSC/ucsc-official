@@ -32,7 +32,7 @@ const Timeline = () => {
         </Col>
       </Row>
 
-      <Row className="mb-5">
+      <Row className="mb-5 overflow-hidden">
         <Col xs={12} className="my-3 my-lg-4">
           <VerticalTimeline>
             {TimelineElements}

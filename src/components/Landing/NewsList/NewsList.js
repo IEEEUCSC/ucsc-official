@@ -11,7 +11,6 @@ import {useHistory} from "react-router-dom";
 const NewsList = (props) => {
   let history = useHistory();
   const {type} = props;
-
   const [events] = useState(data.events);
 
   useEffect(()=>{
@@ -23,41 +22,50 @@ const NewsList = (props) => {
   }, [])
 
   const EventCards1 = events.map((event)=>
-    <div className="mt-2 mb-4">
+    <div className="mt-2 mb-4" key={event.id}>
+
       <Card>
         <Card.Img variant="top" src={"./images/" + event.image}/>
         <Card.Body>
           <Card.Subtitle className="my-0">{event.date}</Card.Subtitle>
           <Card.Title as="h3" className="my-3">{event.title}</Card.Title>
-          <Card.Text>
-            {event.summary}
-          </Card.Text>
+          <div className="card-text-container">
+            <Card.Text>
+              {event.summary}
+            </Card.Text>
+          </div>
+          <div className="text-fade"/>
           <Button variant="outline-primary" onClick={()=>{
             window.localStorage.setItem("scrollYPosition", window.scrollY.toString());
             history.push("/event-details/" + event.id);
           }}>Read more</Button>
         </Card.Body>
       </Card>
+
     </div>
   )
 
   const EventCards2 = events.map((event)=>
-    <div className="mt-2 mb-4">
+    <div className="mt-2 mb-4" key={event.id}>
+
       <Card>
         <Card.Img variant="top" src={"../images/" + event.image}/>
         <Card.Body>
           <Card.Subtitle className="my-0">{event.date}</Card.Subtitle>
           <Card.Title as="h3" className="my-3">{event.title}</Card.Title>
-          <Card.Text>
-            {event.summary}
-          </Card.Text>
-            <Button variant="outline-primary" onClick={()=>{
-              window.localStorage.setItem("scrollYPosition", window.scrollY.toString());
-              alert(window.scrollY);
-              history.push("/event-details/" + event.id);
-            }}>Read more</Button>
+          <div className="card-text-container">
+            <Card.Text>
+              {event.summary}
+            </Card.Text>
+          </div>
+          <div className="text-fade"/>
+          <Button variant="outline-primary" onClick={()=>{
+            window.localStorage.setItem("scrollYPosition", window.scrollY.toString());
+            history.push("/event-details/" + event.id);
+          }}>Read more</Button>
         </Card.Body>
       </Card>
+
     </div>
   )
 

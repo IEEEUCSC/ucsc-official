@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Team() {
 
@@ -20,13 +21,12 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Sahan Dissanayaka</h3>
+                            <span class="post">Chairman</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/sahan-dissanayaka-3099b9191/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/sahan.dissanayaka.71"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="mailto:tsahandisaai@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -35,13 +35,13 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Anjana Dodampe</h3>
+                            <span class="post">Vice Chairman</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/anjanadodampe"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/IManjanadodampe"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="https://www.instagram.com/anjana_hd/"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                                <li><a href="mailto:ahmdodampe@ieee.org"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -50,13 +50,13 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Thenuka Weerasinghe</h3>
+                            <span class="post">Secretary</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/thenuka-ovin-55a721199/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/thenuka.ovin"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="https://www.instagram.com/ov1.n/"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                                <li><a href="mailto:thenukaovin@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -65,13 +65,13 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Chanaka Wickramasinghe</h3>
+                            <span class="post">Treasurer</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/chanakawick/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/cwickramasinghe"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="https://www.instagram.com/_mr.chaw/"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                                <li><a href="mailto:cmwickramasinghe703@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>        
@@ -82,13 +82,13 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Akila Maithripala</h3>
+                            <span class="post">Design Master</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/akilamaithri"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/akila.my3"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="https://www.instagram.com/akila_maithripala"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                                <li><a href="mailto:akilamaithripala@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -97,13 +97,11 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Yasith Samaradivakara</h3>
+                            <span class="post">Web Master</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/yasith-samaradivakara-a2b72919b/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="mailto:yasith.sam7@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -112,13 +110,12 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Dinithi Gimhara</h3>
+                            <span class="post">Coordinator</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/dinithi-bandara-587b281a4/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/dini.gimhara.12"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="mailto:dinithigimhara@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -127,13 +124,13 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Thisari Gunawardena</h3>
+                            <span class="post">Coordinator</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/thisarigunawardena/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/thisari.gunawardena/"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="https://www.instagram.com/_thisari_99_/"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                                <li><a href="mailto:thisarigun99@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -142,13 +139,12 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Dulaj Prabhasha</h3>
+                            <span class="post">Coordinator</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/dulaj-prabasha-007/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.instagram.com/adow_dulaj"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="mailto:shad3s.of.m3@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -163,13 +159,12 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Pinsara Dhanika</h3>
+                            <span class="post">Director of Finance</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/pinsara-dhanika-43a78b1a5"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/pinsara.dhanika"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="mailto:pinsaradhanika@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -178,13 +173,12 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Ravin Perera</h3>
+                            <span class="post">Director of Program</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/ravin-perera-b3ba551a4"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/ravin.perera.7923"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="mailto:bravinperera@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -193,13 +187,11 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Isuru Harischandra</h3>
+                            <span class="post">Director of PR</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/isuru-harischandra-9b09081a4/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="mailto:isuruvihan@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -208,13 +200,13 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Kalsha Samarajeewa</h3>
+                            <span class="post">Director of Design</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/mwlite/in/kalsha-samarajeewa"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/kalsha.sam"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="https://www.instagram.com/yaiya_sam/"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                                <li><a href="mailto:kalsha.sam26@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -223,13 +215,13 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Asela Pathirage</h3>
+                            <span class="post">Director of Web</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/asela-pathirage-719b261a4/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/asela.pathirage"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="https://www.instagram.com/_aseladp_/"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                                <li><a href="mailto:aselapathirage@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -238,13 +230,13 @@ function Team() {
                             <div class="pic">
                                 <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
                             </div>
-                            <h3 class="title">Kristiana</h3>
-                            <span class="post">Web Designer</span>
+                            <h3 class="title">Yadeesha Weerasinghe</h3>
+                            <span class="post">Director of Content</span>
                             <ul class="social">
-                                <li><a href="https://"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="https://"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="http://www.linkedin.com/in/yadeesha-weerasinghe-284936211"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="https://www.facebook.com/yadeesha.weerasinghe.9"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="https://www.instagram.com/yadeeshaa/"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                                <li><a href="mailto:yadeeshaw@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
                             </ul>
                         </div>
                     </div>

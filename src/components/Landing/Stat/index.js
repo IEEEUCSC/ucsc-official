@@ -17,57 +17,43 @@ const Stat = () => {
 
                 </div>
                 <div className="container container-y">
-                    <div className="cards cards-y">
-                        <div className="card-item card-item-y">
+                    <div className="row rows-cols-5 mt-5 justify-content-center">
+                        <div className="cards cards-y">
+                            <div className="card-item card-item-y">
 
-                            <div className="card-info card-info-y">
-                                <h2 className="card-title card-title-y"><FontAwesomeIcon icon={faDesktop} /> WORKSHOPS</h2>
-                                <p className="card-intro card-intro-y">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <div className="card-info card-info-y">
+                                    <h2 className="card-title card-title-y"><FontAwesomeIcon icon={faDesktop} /> Workshops</h2>
+                                    <p className="card-intro card-intro-y">Comprehensive knowledge plays a major role on  setting  sights to the  advancing technological world. Workshops help in  boosting  up the students to investigate and expand their scope.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="cards cards-y">
+                            <div className="card-item card-item-y">
+
+                                <div className="card-info card-info-y">
+                                    <h2 className="card-title card-title-y"><FontAwesomeIcon icon={faUsers} /> Competitions</h2>
+                                    <p className="card-intro card-intro-y">In motivating students to develop skills and clinch to greater heights and excel in the IT field. This gives them the opportunity to  uncover and showcase their talents.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="cards cards-y">
-                        <div className="card-item card-item-y">
+                    <div className="row rows-cols-5 mt-5 justify-content-center">
+                        <div className="cards cards-y">
+                            <div className="card-item card-item-y">
 
-                            <div className="card-info card-info-y">
-                                <h2 className="card-title card-title-y"><FontAwesomeIcon icon={faUsers} /> COMPETITIONS</h2>
-                                <p className="card-intro card-intro-y">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <div className="card-info card-info-y">
+                                    <h2 className="card-title card-title-y"><FontAwesomeIcon icon={faProjectDiagram} /> Events and Activities</h2>
+                                    <p className="card-intro card-intro-y">Engaging in meaningful and interesting volunteering experiences bring fun and fulfillment to life while paving a way for our members to explore their interests and passions.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="cards cards-y">
-                        <div className="card-item card-item-y">
+                        <div className="cards cards-y">
+                            <div className="card-item card-item-y">
 
-                            <div className="card-info card-info-y">
-                                <h2 className="card-title card-title-y"><FontAwesomeIcon icon={faProjectDiagram} /> SEMINARS</h2>
-                                <p className="card-intro card-intro-y">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="cards cards-y">
-                        <div className="card-item card-item-y">
-
-                            <div className="card-info card-info-y">
-                                <h2 className="card-title card-title-y"><FontAwesomeIcon icon={faNewspaper} /> MAGAZINE</h2>
-                                <p className="card-intro card-intro-y">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="cards cards-y">
-                        <div className="card-item card-item-y">
-
-                            <div className="card-info card-info-y">
-                                <h2 className="card-title card-title-y"><FontAwesomeIcon icon={faRobot} /> ACTIVITIES</h2>
-                                <p className="card-intro card-intro-y">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="cards cards-y">
-                        <div className="card-item card-item-y">
-
-                            <div className="card-info card-info-y">
-                                <h2 className="card-title card-title-y"><FontAwesomeIcon icon={faPeopleArrows} /> PERSONALITY DEVELOPMENT</h2>
-                                <p className="card-intro card-intro-y">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <div className="card-info card-info-y">
+                                    <h2 className="card-title card-title-y"><FontAwesomeIcon icon={faPeopleArrows} /> Member Development</h2>
+                                    <p className="card-intro card-intro-y">The perfect platform for colleagues to engage in dynamic environments which emphasize co-creation and collaboration to develop their distinct and unique personalities and professionalism.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

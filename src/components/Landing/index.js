@@ -1,66 +1,59 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import TimeLine from './Timeline';
-import useFetch from '../../useFetch';
-import AboutUs from './About';
 import Team from './Team';
 import Work from './Stat';
 import Title from './Title';
 import ContactUs from './Contact';
 import ParticlesBg from 'particles-bg';
+
+import About from "./About/About";
 import NewsList from "./NewsList/NewsList";
-
-
+import Timeline from "./Timeline/Timeline";
 
 const Home = () => {
-    // const { data: items, isPending, error } = useFetch('http://localhost:8000/items');
+  // const { data: items, isPending, error } = useFetch('http://localhost:8000/items');
 
+  return (
+    <main className="home">
+      <section className="titleSection">
+        <Title/>
+      </section>
 
-    return (
-        <div className="home">
-            <div className="titleSection">
-                <Title />
-            </div>
+      <section className="aboutUs">
+        <About/>
+      </section>
 
-            <div className="aboutus">
-                <AboutUs />
-            </div>
-
-           
-            {/* <div className="WhatWeDo">
+      {/* <div className="WhatWeDo">
                 <OurWork/>
             </div> */}
-            <div className="numbers">
-                <Work />
 
+      <section className="numbers">
+        <Work/>
+      </section>
 
+      <section id="timeline">
+        <Timeline/>
+      </section>
 
-            </div>
-
-            <div className="timeLine">
-                <TimeLine />
-
-
-
-            </div>
-            <div className="newsFeed">
-                {/* {error && <div>{error}</div>}
+      <section className="newsFeed">
+        {/* {error && <div>{error}</div>}
                 {isPending && <div>Loading...</div>}
-        {items && */} <NewsList/>
-            </div>
-            <div className="gallery">
+        {items && */} <NewsList type="home"/>
+      </section>
 
-            </div>
-            <div className="team">
-                <Team />
+      <section className="gallery">
+      </section>
 
-            </div>
-            <div className="contatUs">
-                <ContactUs />
+      <section className="team">
+        <Team/>
+      </section>
 
-            </div>
-        </div>
-    );
+      <section className="contactUs">
+        <ContactUs/>
+      </section>
+
+    </main>
+  );
 }
 
 export default Home;

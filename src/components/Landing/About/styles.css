@@ -1,0 +1,214 @@
+.about-us-section #parallax-images {
+    height: 260px;
+}
+
+.about-us-section #parallax-images .parallax-container {
+    position: absolute;
+}
+
+.about-us-section #parallax-images .parallax-inner {
+    transition: all 0.6s ease-out;
+}
+
+.about-us-section #parallax-images .parallax-inner img {
+    border: 2px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+}
+
+.about-us-section #parallax-images #img-1 {
+    width: 135px;
+    transform: rotate(-10deg);
+}
+
+.about-us-section #parallax-images #img-2 {
+    width: 130px;
+    transform: rotate(5deg);
+}
+
+.about-us-section #parallax-images #img-3 {
+    width: 130px;
+    transform: rotate(-2deg);
+}
+
+.about-us-section #parallax-images #img-4 {
+    width: 128px;
+    transform: rotate(-5deg);
+}
+
+.about-us-section #parallax-images #img-5 {
+    width: 135px;
+    transform: rotate(4deg);
+}
+
+.about-us-section #parallax-images #img-6 {
+    width: 138px;
+    transform: rotate(2deg);
+}
+
+@media only screen and (min-width: 450px) {
+
+    .about-us-section #parallax-images {
+        height: 310px;
+    }
+
+    .about-us-section #parallax-images #img-1 {
+        width: 170px;
+    }
+
+    .about-us-section #parallax-images #img-2 {
+        width: 165px;
+    }
+
+    .about-us-section #parallax-images #img-3 {
+        width: 165px;
+    }
+
+    .about-us-section #parallax-images #img-4 {
+        width: 160px;
+    }
+
+    .about-us-section #parallax-images #img-5 {
+        width: 165px;
+    }
+
+}
+
+@media only screen and (min-width: 540px) {
+
+    .about-us-section #parallax-images {
+        height: 400px;
+    }
+
+    .about-us-section #parallax-images #img-1 {
+        width: 200px;
+    }
+
+    .about-us-section #parallax-images #img-2 {
+        width: 190px;
+    }
+
+    .about-us-section #parallax-images #img-3 {
+        width: 190px;
+    }
+
+    .about-us-section #parallax-images #img-4 {
+        width: 185px;
+    }
+
+    .about-us-section #parallax-images #img-5 {
+        width: 195px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .about-us-section #parallax-images {
+        height: 310px;
+    }
+
+    .about-us-section #parallax-images #img-1 {
+        width: 165px;
+    }
+
+    .about-us-section #parallax-images #img-2 {
+        width: 160px;
+    }
+
+    .about-us-section #parallax-images #img-3 {
+        width: 160px;
+    }
+
+    .about-us-section #parallax-images #img-4 {
+        width: 155px;
+    }
+
+    .about-us-section #parallax-images #img-5 {
+        width: 160px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .about-us-section #parallax-images {
+        height: 420px;
+    }
+
+    .about-us-section #parallax-images #img-1 {
+        width: 220px;
+    }
+
+    .about-us-section #parallax-images #img-2 {
+        width: 210px;
+    }
+
+    .about-us-section #parallax-images #img-3 {
+        width: 210px;
+    }
+
+    .about-us-section #parallax-images #img-4 {
+        width: 205px;
+    }
+
+    .about-us-section #parallax-images #img-5 {
+        width: 210px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .about-us-section #parallax-images {
+        height: 500px;
+    }
+
+    .about-us-section #parallax-images #img-1 {
+        width: 250px;
+    }
+
+    .about-us-section #parallax-images #img-2 {
+        width: 240px;
+    }
+
+    .about-us-section #parallax-images #img-3 {
+        width: 250px;
+    }
+
+    .about-us-section #parallax-images #img-4 {
+        width: 240px;
+    }
+
+    .about-us-section #parallax-images #img-5 {
+        width: 245px;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .about-us-section #parallax-images {
+        height: 550px;
+    }
+
+    .about-us-section #parallax-images #img-1 {
+        width: 300px;
+    }
+
+    .about-us-section #parallax-images #img-2 {
+        width: 270px;
+    }
+
+    .about-us-section #parallax-images #img-3 {
+        width: 280px;
+    }
+
+    .about-us-section #parallax-images #img-4 {
+        width: 270px;
+    }
+
+    .about-us-section #parallax-images #img-5 {
+        width: 290px;
+    }
+
+}

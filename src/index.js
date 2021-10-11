@@ -2,14 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Footer from './components/Common/Footer';
-import NavBar from './components/Common/NavBar'
 
 ReactDOM.render(
   <React.StrictMode>
-    <NavBar />
     <App />
-    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

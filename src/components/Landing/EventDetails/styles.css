@@ -1,0 +1,43 @@
+.event-details-section button {
+    transition: all 0.3s ease-out;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #137aaa;
+    border: 1px solid #137aaa;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+
+.event-details-section button:hover {
+    background: #137aaa;
+    color: white;
+}
+
+.event-details-section .card {
+    border-radius: 10px;
+
+}
+.event-details-section .card .card-title{
+    font-size: 2.4em;
+}
+
+.event-details-section .card .card-subtitle{
+    color: darkgrey;
+}
+
+.event-details-section .card .card-text{
+    font-size: 1.05em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+
+.event-details-section .card image{
+    height: 400px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

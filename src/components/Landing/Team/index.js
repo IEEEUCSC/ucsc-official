@@ -19,7 +19,7 @@ function Team() {
                     <div class="col-md-3 col-sm-6 col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Sahan.jpg"/>
                             </div>
                             <h3 class="title">Sahan Dissanayaka</h3>
                             <span class="post">Chairman</span>
@@ -33,7 +33,7 @@ function Team() {
                     <div class="col-md-3 col-sm-6 col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Anjana.jpg"/>
                             </div>
                             <h3 class="title">Anjana Dodampe</h3>
                             <span class="post">Vice Chairman</span>
@@ -48,7 +48,7 @@ function Team() {
                     <div class="col-md-3 col-sm-6 col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Thenuka.jpg"/>
                             </div>
                             <h3 class="title">Thenuka Weerasinghe</h3>
                             <span class="post">Secretary</span>
@@ -63,7 +63,7 @@ function Team() {
                     <div class="col-md-3 col-sm-6 col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Chanaka.jpg"/>
                             </div>
                             <h3 class="title">Chanaka Wickramasinghe</h3>
                             <span class="post">Treasurer</span>
@@ -80,7 +80,7 @@ function Team() {
                     <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Akila.jpg"/>
                             </div>
                             <h3 class="title">Akila Maithripala</h3>
                             <span class="post">Design Master</span>
@@ -95,7 +95,7 @@ function Team() {
                     <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Yasith.jpg"/>
                             </div>
                             <h3 class="title">Yasith Samaradivakara</h3>
                             <span class="post">Web Master</span>
@@ -108,7 +108,7 @@ function Team() {
                     <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Dinithi.jpg"/>
                             </div>
                             <h3 class="title">Dinithi Gimhara</h3>
                             <span class="post">Coordinator</span>
@@ -122,7 +122,7 @@ function Team() {
                     <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Thisari.jpg"/>
                             </div>
                             <h3 class="title">Thisari Gunawardena</h3>
                             <span class="post">Coordinator</span>
@@ -137,7 +137,7 @@ function Team() {
                     <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Dulaj.jpg"/>
                             </div>
                             <h3 class="title">Dulaj Prabhasha</h3>
                             <span class="post">Coordinator</span>
@@ -157,7 +157,7 @@ function Team() {
                     <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Dhanika.jpg"/>
                             </div>
                             <h3 class="title">Pinsara Dhanika</h3>
                             <span class="post">Director of Finance</span>
@@ -171,7 +171,7 @@ function Team() {
                     <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Ravin.jpg"/>
                             </div>
                             <h3 class="title">Ravin Perera</h3>
                             <span class="post">Director of Program</span>
@@ -185,7 +185,7 @@ function Team() {
                     <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Isuru.jpg"/>
                             </div>
                             <h3 class="title">Isuru Harischandra</h3>
                             <span class="post">Director of PR</span>
@@ -198,7 +198,7 @@ function Team() {
                     <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Kalsha.jpg"/>
                             </div>
                             <h3 class="title">Kalsha Samarajeewa</h3>
                             <span class="post">Director of Design</span>
@@ -213,7 +213,7 @@ function Team() {
                     <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Asela.jpg"/>
                             </div>
                             <h3 class="title">Asela Pathirage</h3>
                             <span class="post">Director of Web</span>
@@ -228,7 +228,7 @@ function Team() {
                     <div class="col-sm col-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg"/>
+                                <img src="./images/team/Yadeesha.jpg"/>
                             </div>
                             <h3 class="title">Yadeesha Weerasinghe</h3>
                             <span class="post">Director of Content</span>

@@ -280,6 +280,7 @@
   .cards-y {
     display: flex;
     width: 100%;
+    padding-bottom: 10px;
   }
   @media (min-width: 40rem) {
     .cards-y {

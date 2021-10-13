@@ -1,3 +1,7 @@
+h1{
+  color:#fff; 
+  text-decoration:none;
+} 
 .title-div{
     height: 100vh;
     width: 100%;
@@ -110,4 +114,82 @@
   }
   
 
- 
+  .shownews {
+    font-weight:700;
+    color:#fff;
+    width:600px;
+    height:100px;
+    margin:50px auto;
+    text-transform: capitalize;
+    font-family: open sans;
+    display:grid;
+    grid-template-columns: max-content auto;
+    grid-column-gap:10px;
+    
+  }
+  
+  .shownews .title { 
+    background:rgba(0, 62, 128, 0.7);
+    display:inline-block;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif!important;
+    clip-path: polygon(0px 0px, 100% 0, 100% 100%, 0px 100%);
+    animation: mask 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease;
+    border-radius: 0 0 0 0;
+    width:100px;
+    text-align: center;
+    
+    
+  }
+
+  .shownews .title span {
+    display: block;
+    font-size: 50px;
+  }
+
+  .shownews #news span#text {
+    display: block;
+    font-size: 20px;
+  }
+
+  .shownews #news span#para {
+    display: block;
+    font-size: 13px;
+  }
+  
+   .shownews #news { 
+    background: #00629b;
+    display:inline-block;
+    padding:16px 16px;
+    border-radius: 0 15px 15px 0;
+    font-family: 'Ubuntu', sans-serif; 
+    clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%);
+    animation: mask 2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+  }
+  
+  .shownews #news a{
+    color:#FFF; 
+    text-decoration:none;
+  } 
+  
+  @keyframes mask {
+    0% {
+      clip-path: polygon(0px 0px, 0% 0, 0% 100%, 0px 100%);
+    }
+    100% {
+      clip-path: polygon(0px 0px, 100% 0, 100% 100%, 0px 100%);
+    }
+  }
+
+  @media only screen and (max-width: 479px){
+    .title {width: 25%;}
+    #news {width: 50%;}
+  }
+
+  

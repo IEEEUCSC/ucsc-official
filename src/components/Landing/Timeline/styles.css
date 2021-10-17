@@ -78,3 +78,9 @@
     padding-right: 4px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .timeline-section .timeline-elements {
+    overflow-x: hidden;
+  }
+}

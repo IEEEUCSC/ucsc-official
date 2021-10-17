@@ -1,7 +1,7 @@
 #team {
   background: #fff;
   padding-bottom: 50px;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
 }
 
 .section-header h3 {
@@ -22,14 +22,17 @@
 .fadeInUp {
   animation-name: fadeInUp;
 }
+
 .fadeInUp1 {
   animation-delay: 0.1s;
   animation-name: fadeInUp;
 }
+
 .fadeInUp2 {
   animation-delay: 0.2s;
   animation-name: fadeInUp;
 }
+
 .fadeInUp3 {
   animation-delay: 0.3s;
   animation-name: fadeInUp;
@@ -97,9 +100,11 @@
   border: 1px solid #fff;
   border-radius: 5px;
 }
+
 .social {
   margin-top: 5px;
 }
+
 @media only screen and (max-width: 600px) {
   #team .member .member-info-content {
     margin-bottom: 30px;
@@ -108,6 +113,7 @@
   #team .member .member-info-content h4 {
     font-size: 10px;
   }
+
   #team .member .member-info-content span {
     font-size: 10px;
   }
@@ -118,6 +124,7 @@
   text-align: center;
   padding: 20px 10px 30px;
 }
+
 .our-team .pic {
   text-align: center;
   margin-bottom: 20px;
@@ -125,15 +132,18 @@
   border-radius: 50%;
   overflow: hidden;
 }
+
 .our-team:hover {
   background: #f4f4f4;
   border-radius: 10px;
 }
+
 .pic img {
   width: 100%;
   height: auto;
   border-radius: 50%;
 }
+
 .our-team .title {
   font-weight: 600;
   color: #010101;
@@ -142,6 +152,7 @@
   font-size: 20px;
   margin: 0 0 7px 0;
 }
+
 .our-team .post {
   color: #000000;
   text-transform: capitalize;
@@ -162,6 +173,7 @@
 
   margin-right: 5px;
 }
+
 .our-team .social li a {
   border-radius: 50%;
   font-size: 15px;
@@ -172,7 +184,15 @@
   line-height: 30px;
   transition: all 0.5s ease 0s;
 }
+
 .our-team:hover .social li a {
   background: #00629b;
   color: #fff;
+}
+
+@media only screen and (max-width: 479px) {
+  .our-team .title {
+    font-size: 0.98em;
+    overflow-wrap: anywhere;
+  }
 }

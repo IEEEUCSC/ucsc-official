@@ -53,7 +53,7 @@ h1{
   }
   
   .masthead {
-    position: absolute;
+    /*position: absolute;*/
     overflow: hidden;
     padding-bottom: 3rem;
     z-index: 2;
@@ -188,8 +188,12 @@ h1{
   }
 
   @media only screen and (max-width: 479px){
-    .title {width: 25%;}
-    #news {width: 50%;}
+    .shownews .title {
+      width: 25%;
+    }
+
+    #news {
+      width: 50%;
+    }
   }
 
-  

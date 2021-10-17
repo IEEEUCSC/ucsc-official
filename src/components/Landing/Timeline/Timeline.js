@@ -8,20 +8,21 @@ import data from "../data/timeline-events.json"
 const Timeline = () => {
   const [events] = useState(data.events);
 
-  const TimelineElements = events.map((event)=>
-      <VerticalTimelineElement key={event.id}
-        className="vertical-timeline-element"
-        date={event.date}
-        icon={<img src={"./images/event-logos/" + event.iconSrc} alt={event.altText} width="100%"/>}
-      >
-        <h3 className="vertical-timeline-element-title mb-2">{event.title}</h3>
-        <h4 className="vertical-timeline-element-subtitle mt-2">{event.subTitle}</h4>
-        <hr/>
-        <p>
-          {event.description}
-        </p>
-      </VerticalTimelineElement>
-    )
+  const TimelineElements = events.map((event) =>
+    <VerticalTimelineElement key={event.id}
+                             className="vertical-timeline-element"
+                             date={event.date}
+                             icon={<img src={"./images/event-logos/" + event.iconSrc} alt={event.altText}
+                                        width="100%"/>}
+    >
+      <h3 className="vertical-timeline-element-title mb-2">{event.title}</h3>
+      <h4 className="vertical-timeline-element-subtitle mt-2">{event.subTitle}</h4>
+      <hr/>
+      <p>
+        {event.description}
+      </p>
+    </VerticalTimelineElement>
+  )
 
   return (
     <Container className="timeline-section">
@@ -33,7 +34,7 @@ const Timeline = () => {
       </Row>
 
       <Row className="mb-5 overflow-hidden">
-        <Col xs={12} className="my-3 my-lg-4">
+        <Col xs={12} className="mt-3 pb-2 my-lg-4 mb-2">
           <VerticalTimeline>
             {TimelineElements}
           </VerticalTimeline>

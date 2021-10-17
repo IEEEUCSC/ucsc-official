@@ -4,37 +4,55 @@
       "id": 1,
       "title": "MADHACK",
       "subTitle": "Mobile App Development Hackathon",
-      "date": "Jul - Sep 2021",
+      "date": "Jun - Aug 2021",
       "iconSrc": "MADHACK-logo.png",
       "altText": "MADHACK logo",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+      "description": "MadHack 2021 is a Mobile Application Development workshop series together with a final hackathon which was organized by the IEEE Student Branch of UCSC"
     },
     {
       "id": 2,
       "title": "RevolUX",
       "subTitle": "Inter-university UI/UX Designathon",
-      "date": "Aug - Jul 2021",
+      "date": "Jun - Jul 2021",
       "iconSrc": "Revolux-logo.png",
       "altText": "RevolUX logo",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+      "description": "RevolUX is the first ever UI/UX designathon organized by the IEEE Student Branch of UCSC in collaboration with AIESEC in UOC"
     },
     {
       "id": 3,
       "title": "7linesOfCode",
-      "subTitle": "Everything related to code, in 7 days",
+      "subTitle": "From Hello World to Machine Learning, in 7 days",
       "date": "Jun - Aug 2021",
       "iconSrc": "7linesOfCode-logo.png",
       "altText": "7linesOfCode logo",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+      "description": "7 lines of code, is a 7-day workshop series initiated by the IEEE Student Branch of UCSC"
     },
     {
-      "id": 4,
+      "id": 5,
+      "title": "IEEE Andaheraya 2021",
+      "subTitle": "To learn more and be a part of IEEE",
+      "date": "7th Aug 2021",
+      "iconSrc": "UCSC-IEEEAndheraya-Logo.png",
+      "altText": "IEEE Andaheraya 2021 logo",
+      "description": "An event organized by the IEEE Student Branch of UCSC to educate its members about IEEE in a broader sense and to enlighten them about the many opportunities"
+    },
+    {
+      "id": 6,
       "title": "IEEE Day 2021",
       "subTitle": "Celebrating Global IEEE Day",
-      "date": "5th Oct 2021",
+      "date": "10th Oct 2021",
       "iconSrc": "IEEE-Day-2021-logo.png",
       "altText": "IEEE Day 2021 logo",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+      "description": "The IEEE day is celebrated worldwide for IEEE members to celebrate, gather and share knowledge on technological aspects as the future conquerors."
+    },
+    {
+      "id": 7,
+      "title": "ReidXtreme 2021",
+      "subTitle": "Competitive Programming Competition ",
+      "date": "16th Oct 2021",
+      "iconSrc": "ReidXtreme-logo.png",
+      "altText": "ReidXtreme 2021 logo",
+      "description": "ReidXtreme - a 24-hour Competitive Programming Competition exclusively for UOC Undergraduates."
     }
   ]
 }

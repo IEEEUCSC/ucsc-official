@@ -1,0 +1,28 @@
+.navbar-logos {
+    background-image: url("../../../Assets/header-bkg-blue.png");
+    background-position: 33% center;
+
+    /*backdrop-filter: blur(15px);*/
+    /*background: rgba(255, 255, 255, 0.9) !important;*/
+
+    box-shadow: rgba(17, 12, 46, 0.1) 0 8px 100px 0;
+}
+
+.navbar-links {
+    background: rgb(0, 98, 155) !important;
+    box-shadow: rgba(17, 12, 46, 0.2) 0 48px 100px 0;
+}
+
+.navbar-links .hamburger-react {
+    margin: -7px;
+}
+
+.navbar-links .navbar-nav .nav-link {
+    font-size: 1.03em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-links .nav-item {
+    margin: 0 16px 0 16px;
+}

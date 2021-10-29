@@ -15,11 +15,11 @@ const Home = () => {
 
   return (
     <main className="home">
-      <section className="titleSection">
+      <section id="home" className="titleSection">
         <Title/>
       </section>
 
-      <section className="aboutUs">
+      <section id="about-us" className="aboutUs">
         <ParallaxProvider>
           <About/>
         </ParallaxProvider>
@@ -29,7 +29,7 @@ const Home = () => {
                 <OurWork/>
             </div> */}
 
-      <section className="numbers">
+      <section id="what-we-do" className="numbers">
         <Work/>
       </section>
 
@@ -37,20 +37,20 @@ const Home = () => {
         <Timeline/>
       </section>
 
-      <section className="newsFeed">
+      <section id="past-events" className="newsFeed">
         {/* {error && <div>{error}</div>}
                 {isPending && <div>Loading...</div>}
         {items && */} <NewsList type="home"/>
       </section>
 
-      <section className="gallery">
+      <section id="gallery" className="gallery">
       </section>
 
-      <section className="team">
+      <section id="team" className="team">
         <Team/>
       </section>
 
-      <section className="contactUs">
+      <section id="contact-us" className="contactUs">
         <ContactUs/>
       </section>
 

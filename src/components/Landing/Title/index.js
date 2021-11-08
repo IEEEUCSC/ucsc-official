@@ -50,9 +50,9 @@ const newstext = news.map((key) => key.content);
 function allnews() {
 
   for (let i = 0; i < news.length; i++) {
-        
+
     setTimeout(function () {
-      
+
       $("#text").fadeOut("slow", function () {
         $("#text").html("<a href=" + newslink[i] + ">" + shownews[i] + "</a>");
       });
@@ -67,12 +67,12 @@ function allnews() {
         $("#para").html("<a href=" + newslink[i] + ">" + newstext[i] + "</a>");
       });
       $("#para").fadeIn();
-      
+
     }, pace * i);
-    
-}
 
   }
+
+}
 
 allnews();
 var callCount = 1;
@@ -86,46 +86,47 @@ var repeater = setInterval(function () {
 }, 20000);
 
 const Title = () => {
-    return (
+  return (
 
-        <div className="title-div">
-            <div className="overlay">
-                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" style={{ width: "100%" }}>
-                    <source src={video} type="video/mp4" />
-                </video>
+    <div className="title-div">
+      <div className="overlay">
+        <div className="overlay2"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" style={{ width: "100%" }}>
+          <source src={video} type="video/mp4" />
+        </video>
+      </div>
+
+      <div className="masthead">
+        <div className="masthead-bg"></div>
+        <div className="container h-100">
+          <div className="row h-25"></div>
+          <div className="row h-50">
+            <div className="col-12 my-auto">
+              <div className="masthead-content text-white py-5 py-md-0">
+                <FadeIn delay="300" transitionDuration="800">
+                  <h1 className="mb-3 title-title">WELCOME TO IEEE UCSC !</h1><br />
+                </FadeIn>
+                <FadeIn delay="400" transitionDuration="800">
+                  <p className="mb-5">Experience the enjoy of <strong>learning</strong> with us.</p>
+                </FadeIn>
+              </div>
             </div>
-
-            <div className="masthead">
-                <div className="masthead-bg"></div>
-                <div className="container h-100">
-                    <div className="row h-25"></div>
-                    <div className="row h-50">
-                        <div className="col-12 my-auto">
-                            <div className="masthead-content text-white py-5 py-md-0">
-                                <FadeIn delay="300" transitionDuration="800">
-                                    <h1 className="mb-3 title-title">WELCOME TO IEEE UCSC!</h1><br />
-                                </FadeIn>
-                                <FadeIn delay="400" transitionDuration="800">
-                                    <p className="mb-5">Experience the enjoy of <strong>learning</strong> with us.</p>
-                                </FadeIn>          
-                            </div>
-                        </div>
-                    </div>
-                    <div className="h-25">
-                        <div className="shownews">
-                            <div className="title" id="date"></div>
-                            <div id="news">
-                                <span id="text"></span>
-                                <span id="para"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div className="h-25">
+            <div className="shownews">
+              <div className="title" id="date"></div>
+              <div id="news">
+                <span id="text"></span>
+                <span id="para"></span>
+              </div>
             </div>
-
+          </div>
         </div>
+      </div>
 
-    )
+    </div>
+
+  )
 }
 
 export default Title

@@ -20,13 +20,13 @@ const ContactUs = () => {
                         <h3 class="title">Let's get in touch</h3>
                         <p class="text"> Contact us with the following details.  </p>
                         <div class="info">
-                            <div class="social-information"><p><FontAwesomeIcon icon={faMapMarkerAlt} /> IEEE Student Branch of UCSC,<br /> University of Colombo School of Computing,<br /> 35, Reid Avenue,<br /> Colombo 7.</p>
+                            <div class="social-information"><p><FontAwesomeIcon icon={faMapMarkerAlt} /> IEEE Student Branch of UCSC,<br />&nbsp;&nbsp;&nbsp; University of Colombo School of Computing,<br />&nbsp;&nbsp;&nbsp; 35, Reid Avenue,<br />&nbsp;&nbsp;&nbsp; Colombo 7.</p>
                             </div>
                             <div class="social-information"> <p><FontAwesomeIcon icon={faEnvelope} />
                                 <a href="mailto:
-ucscieee@gmail.com"> ucscieee@gmail.com</a></p>
+ucscieee@gmail.com" style={{ textDecoration: 'black' }}> ucscieee@gmail.com</a></p>
                             </div>
-                            <div class="social-information"><p><FontAwesomeIcon icon={faPhoneAlt} /> +94112843687 </p>
+                            <div class="social-information"><p><FontAwesomeIcon icon={faPhoneAlt} /> +94 112843687 </p>
                             </div>
                         </div>
 
@@ -36,12 +36,12 @@ ucscieee@gmail.com"> ucscieee@gmail.com</a></p>
                         <h3 class="titlec">Contact us</h3>
                         <p>
                             <hr />
-                            <b>Mr. Sahan</b>  <br />President, IEEE Student Branch of UCSC<br />
-        sahan@gmail.com<br /><hr />
-                            <b>Mr. ABC</b> <br />Vice-President, IEEE Student Branch of UCSC<br />
-        ABC@gmail.com<br /><hr />
-                            <b>Mr. ABC</b> <br />Secretery, IEEE Student Branch of UCSC<br />
-        ABC@gmail.com<br /><hr />
+                            <b>Sahan Dissanayaka</b>  <br />Chairman, IEEE Student Branch of UCSC<br />
+                            tsahandisaai@gmail.com<br /><hr />
+                            <b>Anjana Dodampe</b> <br />Vice Chairman, IEEE Student Branch of UCSC<br />
+                            ahmdodampe@ieee.org<br /><hr />
+                            <b>Thenuka Weerasinghe</b> <br />Secretery, IEEE Student Branch of UCSC<br />
+                            thenukaovin@gmail.com<br /><hr />
 
                         </p>
                     </div>

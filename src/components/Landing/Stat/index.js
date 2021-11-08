@@ -37,7 +37,7 @@ const Stat = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row rows-cols-5 mt-5 justify-content-center">
+                    <div className="row rows-cols-5 justify-content-center">
                         <div className="cards cards-y">
                             <div className="card-item card-item-y">
 
@@ -288,7 +288,7 @@ const Stat = () => {
 
 
                 <div className="cen-div">
-                    <h3 style={{ color: "white", fontSize: "45px", fontWeight: "800", paddingBottom: "20px" }}>Our Stats </h3>
+                    <h3 style={{ color: "white", fontSize: "45px", fontWeight: "800", paddingBottom: "20px" }}>OUR STATS </h3>
                     <div className="container container-x">
 
 

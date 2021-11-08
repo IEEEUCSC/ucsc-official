@@ -26,3 +26,10 @@
 .navbar-links .nav-item {
     margin: 0 16px 0 16px;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.781);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.932);
+}

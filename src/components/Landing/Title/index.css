@@ -18,6 +18,7 @@ h1{
     padding:0;
     right: 0;
     min-width: 100%;
+    object-fit: cover;
     
   }
    
@@ -31,7 +32,7 @@ h1{
     .masthead .masthead-bg {
       background-image: url("../../../Assets/1182.jpg");
       background-size: cover;
-     
+     opacity: 0.9;
     }
 
     .overlay{
@@ -46,8 +47,20 @@ h1{
     height: 100vh;
     width: 100%;
     background-color: #002e66;
-    opacity: 0.7;
+    opacity: 0.9;
     z-index: -1;
+    margin: 0;
+    padding:0;
+  }
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #00629b60;
+    opacity: 0.5;
+    z-index: 1;
     margin: 0;
     padding:0;
   }
@@ -66,17 +79,23 @@ h1{
     bottom: 0;
     right: 0;
     left: 0;
-    width: 100%;
+    width: 40%;
     /* min-height: 35rem; */
     height: 100vh;
-    background-color: rgba(0, 46, 102, 0.8);
+    background-color: rgba(0, 46, 102, 0.767);
     transform: skewY(4deg);
     transform-origin: bottom right;
+    z-index: -1;
+  }
+
+  .masthead-content {
+    /* position: absolute; */
+    z-index: 3;
   }
   
   .masthead .masthead-content h1 {
     padding-top: 40px;
-    font-size: 2.5rem;
+    font-size: 50px;
   }
   
   .masthead .masthead-content p {
@@ -107,9 +126,12 @@ h1{
     }
     .masthead .masthead-content h1 {
       font-size: 60px;
+      font-weight:700;
+      text-shadow: 0 0 3px #000000;
     }
     .masthead .masthead-content p {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
+      text-shadow: 0 0 2px #000000;
     }
   }
   
@@ -129,7 +151,7 @@ h1{
   }
   
   .shownews .title { 
-    background:rgba(0, 62, 128, 0.7);
+    background:rgb(7, 43, 82);
     display:inline-block;
     padding: 10px;
     font-family: 'Ubuntu', sans-serif!important;
@@ -189,11 +211,21 @@ h1{
 
   @media only screen and (max-width: 479px){
     .shownews .title {
-      width: 25%;
+      /* width: 25%; */
     }
 
     #news {
-      width: 50%;
+      width: 45%;
     }
+
+.masthead .masthead-bg{
+  width: 100%;
+}
+
+.masthead .masthead-content h1{
+  font-size:55px;
+  font-weight:700;
+}
+
   }
 

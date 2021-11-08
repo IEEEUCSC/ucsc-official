@@ -7,7 +7,7 @@
       "date": "Jul - Sep 2021",
       "iconSrc": "MADHACK-logo.png",
       "altText": "MADHACK logo",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+      "description": "MadHack 2021 is a Mobile Application Development workshop series together with a final hackathon which was organized by the IEEE Student Branch of UCSC with the intention of giving undergraduates of the country an extensive introduction to the world of Mobile Application Development."
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "date": "Aug - Jul 2021",
       "iconSrc": "Revolux-logo.png",
       "altText": "RevolUX logo",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+      "description": "RevolUX is the first ever UI/UX designathon organized by the IEEE Student Branch of UCSC in collaboration with AIESEC in UOC. The major objective of this event was to unleash the creative and artistic minds of Sri Lankan undergraduates and schoolers while giving them an indispensable exposure to different trends in User Interface and User Experience Design, and related fields."
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "date": "Jun - Aug 2021",
       "iconSrc": "7linesOfCode-logo.png",
       "altText": "7linesOfCode logo",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+      "description": "7 lines of code, is a 7-day workshop series initiated by the IEEE Student Branch of UCSC after identifying the necessity of providing proper guidance and knowledge to our set of fresh mindsets who are beginning their journey in the vast industry of Information Technology."
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "date": "5th Oct 2021",
       "iconSrc": "IEEE-Day-2021-logo.png",
       "altText": "IEEE Day 2021 logo",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores fuga nihil odit possimus quas."
+      "description": "Celebrating Global IEEE Day."
     }
   ]
 }

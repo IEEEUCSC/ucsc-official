@@ -24,7 +24,7 @@
 
 .timeline-section .vertical-timeline .vertical-timeline-element-content {
   transition: all 0.2s ease-out;
-  background: #bdc3c7;
+  background: #edf6fa;
   box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
 
@@ -35,7 +35,7 @@
 
 .timeline-section .vertical-timeline .vertical-timeline-element-content-arrow {
   transition: all 0.2s ease-out;
-  border-right: 9px solid #bdc3c7;
+  border-right: 9px solid #edf6fa;
 }
 
 .timeline-section .vertical-timeline .vertical-timeline-element-content:hover .vertical-timeline-element-content-arrow {

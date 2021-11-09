@@ -10,22 +10,15 @@ const news = [
   {
     month: "OCT",
     date: "22",
-    news: "ReidXtreme 2.0 - Registrations Now Open",
-    content: "So for.",
+    news: "ReidXtreme 2.0 - Officially Announced",
+    content: "Visit our ReidXtreme 2.0 official page",
     link: "https://reidxtreme.ucscieee.com/"
-  },
-  {
-    month: "OCT",
-    date: "26",
-    news: "IEEEXtreme 15.0 - Registrations Now Open",
-    content: "Dilwale Puchde",
-    link: "https://ieeextreme.org/"
   },
   {
     month: "OCT",
     date: "25",
     news: "MADHack Winners - Officially Announced",
-    content: "Neh Cha",
+    content: "Visit our MADHack official page",
     link: "https://madhack.ucscieee.com/"
   },
   {

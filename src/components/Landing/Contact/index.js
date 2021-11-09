@@ -42,6 +42,8 @@ ucscieee@gmail.com" style={{ textDecoration: 'black' }}> ucscieee@gmail.com</a><
                             ahmdodampe@ieee.org<br /><hr />
                             <b>Thenuka Weerasinghe</b> <br />Secretery, IEEE Student Branch of UCSC<br />
                             thenukaovin@gmail.com<br /><hr />
+                            <b>Chanaka Wickramasinghe</b> <br />Treasurer, IEEE Student Branch of UCSC<br />
+                            cmwickramasinghe703@gmail.com<br /><hr />
 
                         </p>
                     </div>

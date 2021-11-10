@@ -8,14 +8,13 @@ import {SizeMe} from 'react-sizeme'
 import data from "../data/past-events.json"
 import {useHistory} from "react-router-dom";
 
-const NewsList = (props) => {
+const NewsList = ({type}) => {
   let history = useHistory();
-  const {type} = props;
   const [events] = useState(data.events);
 
-  useEffect(()=>{
+  useEffect(() => {
     let scrollYPosition = window.localStorage.getItem("scrollYPosition");
-    if(scrollYPosition){
+    if (scrollYPosition) {
       window.scrollTo(0, parseInt(scrollYPosition));
       window.localStorage.removeItem("scrollYPosition");
     }

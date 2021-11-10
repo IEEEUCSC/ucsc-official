@@ -2,20 +2,20 @@ import React from 'react'
 import './index.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faFacebookF, faInstagram, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 function Team() {
 
     return (
-        <section id="team">
+        <section>
             <div className="container">
                 <div className="section-header">
                     <h3>Our Executive Committee</h3>
-                    <p style={{ paddingBottom: "20px" }}> Meet Our Team </p>
+                    <p style={{paddingBottom: "20px"}}> Meet Our Team </p>
                 </div>
-                <div className="row rows-cols-5 mt-5 justify-content-center"> 
+                <div className="row rows-cols-5 mt-5 justify-content-center">
                     <div class="col-md-3 col-sm-6 col-6">
                         <div class="our-team">
                             <div class="pic">
@@ -24,9 +24,12 @@ function Team() {
                             <h3 class="title">Sahan Dissanayaka</h3>
                             <span class="post">Chairman</span>
                             <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/sahan-dissanayaka-3099b9191/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/sahan.dissanayaka.71"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="mailto:tsahandisaai@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/sahan-dissanayaka-3099b9191/"><FontAwesomeIcon
+                                    icon={faLinkedinIn}/></a></li>
+                                <li><a href="https://www.facebook.com/sahan.dissanayaka.71"><FontAwesomeIcon
+                                    icon={faFacebookF}/></a></li>
+                                <li><a href="mailto:tsahandisaai@gmail.com"><FontAwesomeIcon icon={faEnvelope}/></a>
+                                </li>
                             </ul>
                         </div>
                     </div>

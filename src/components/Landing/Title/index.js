@@ -1,8 +1,9 @@
 import React from 'react'
 import './index.css'
-import video from "../../../Assets/mp4/web_vid.mp4"
+import video from "../../../assets/mp4/web_vid.mp4"
 import FadeIn from 'react-fade-in';
 import $ from 'jquery';
+
 var pace = 5000; //Pace show
 
 //News and links
@@ -100,7 +101,7 @@ const Title = () => {
                   <h1 className="mb-3 title-title">WELCOME TO IEEE UCSC !</h1><br />
                 </FadeIn>
                 <FadeIn delay="400" transitionDuration="800">
-                  <p className="mb-5">Experience the enjoy of <strong>learning</strong> with us.</p>
+                  <p className="mb-5">Experience the joy of <strong>learning</strong> with us.</p>
                 </FadeIn>
               </div>
             </div>

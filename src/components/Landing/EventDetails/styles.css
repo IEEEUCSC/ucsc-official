@@ -30,14 +30,14 @@
 
 .event-details-section .card .card-text{
     font-size: 1.05em;
-    line-height: 1.6em;
+    line-height: 1.7em;
     text-align: justify;
 }
 
 
-.event-details-section .card image{
-    height: 400px;
+.event-details-section .card img {
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
 }

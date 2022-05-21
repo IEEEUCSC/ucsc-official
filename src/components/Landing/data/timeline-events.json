@@ -35,6 +35,15 @@
       "iconSrc": "IEEE-Day-2021-logo.png",
       "altText": "IEEE Day 2021 logo",
       "description": "Celebrating Global IEEE Day."
+    },
+    {
+      "id": 5,
+      "title": "RevolUX 2.0",
+      "subTitle": "Inter-university UI/UX Designathon",
+      "date": "June - July 2022",
+      "iconSrc": "Revolux2.0-logo.png",
+      "altText": "Revolux 2.0 logo",
+      "description": "RevolUX 2.0 is an inter-university UI/UX designathon organized by the IEEE Student Branch of UCSC in collaboration with AIESEC in UOC. We are proud to bring this event for the second time in a row with the goal of providing undergraduates with hands on experience in User Interface and User Experience Design"
     }
   ]
 }

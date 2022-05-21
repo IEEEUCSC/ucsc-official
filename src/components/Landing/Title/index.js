@@ -1,38 +1,21 @@
-import React from 'react'
-import './index.css'
-import video from "../../../assets/mp4/web_vid.mp4"
-import FadeIn from 'react-fade-in';
-import $ from 'jquery';
+import React from "react";
+import "./index.css";
+import video from "../../../assets/mp4/web_vid.mp4";
+import FadeIn from "react-fade-in";
+import $ from "jquery";
 
 var pace = 5000; //Pace show
 
 //News and links
 const news = [
   {
-    month: "OCT",
+    month: "MAY",
     date: "22",
-    news: "ReidXtreme 2.0 - Officially Announced",
-    content: "Visit our ReidXtreme 2.0 official page",
-    link: "https://reidxtreme.ucscieee.com/"
-  },
-  {
-    month: "OCT",
-    date: "25",
-    news: "MADHack Winners - Officially Announced",
-    content: "Visit our MADHack official page",
-    link: "https://madhack.ucscieee.com/"
-  },
-  {
-    month: "OCT",
-    date: "20",
-    news: "IEEE Day Latest",
-    content: "So for this year, the IEEE",
-    link: "https://ieeeday.org/"
-
+    news: "RevolUX 2.0 - Officially Announced",
+    content: "Visit the RevolUX 2.0 official page",
+    link: "",
   },
 ];
-
-
 
 const shownews = news.map((key) => key.news);
 const newslink = news.map((key) => key.link);
@@ -42,11 +25,8 @@ const newstext = news.map((key) => key.content);
 
 //Show News and links
 function allnews() {
-
   for (let i = 0; i < news.length; i++) {
-
     setTimeout(function () {
-
       $("#text").fadeOut("slow", function () {
         $("#text").html("<a href=" + newslink[i] + ">" + shownews[i] + "</a>");
       });
@@ -61,11 +41,8 @@ function allnews() {
         $("#para").html("<a href=" + newslink[i] + ">" + newstext[i] + "</a>");
       });
       $("#para").fadeIn();
-
     }, pace * i);
-
   }
-
 }
 
 allnews();
@@ -81,11 +58,16 @@ var repeater = setInterval(function () {
 
 const Title = () => {
   return (
-
     <div className="title-div">
       <div className="overlay">
         <div className="overlay2"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" style={{ width: "100%" }}>
+        <video
+          playsinline="playsinline"
+          autoplay="autoplay"
+          muted="muted"
+          loop="loop"
+          style={{ width: "100%" }}
+        >
           <source src={video} type="video/mp4" />
         </video>
       </div>
@@ -98,10 +80,13 @@ const Title = () => {
             <div className="col-12 my-auto">
               <div className="masthead-content text-white py-5 py-md-0">
                 <FadeIn delay="300" transitionDuration="800">
-                  <h1 className="mb-3 title-title">WELCOME TO IEEE UCSC !</h1><br />
+                  <h1 className="mb-3 title-title">WELCOME TO IEEE UCSC !</h1>
+                  <br />
                 </FadeIn>
                 <FadeIn delay="400" transitionDuration="800">
-                  <p className="mb-5">Experience the joy of <strong>learning</strong> with us.</p>
+                  <p className="mb-5">
+                    Experience the joy of <strong>learning</strong> with us.
+                  </p>
                 </FadeIn>
               </div>
             </div>
@@ -117,10 +102,8 @@ const Title = () => {
           </div>
         </div>
       </div>
-
     </div>
+  );
+};
 
-  )
-}
-
-export default Title
+export default Title;

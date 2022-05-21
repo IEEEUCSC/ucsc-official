@@ -1,251 +1,121 @@
-import React from 'react'
-import './index.css';
+import React from "react";
+import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faFacebookF, faInstagram, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faLinkedinIn,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import data from "../data/team.json";
+
+function Member({ data }) {
+  return (
+    <div class="our-team">
+      <div class="pic">
+        <img src={"../images/team/" + data.img} alt={data.name} />
+      </div>
+      <h3 class="title">{data.name}</h3>
+      <span class="post">{data.post}</span>
+      <ul class="social">
+        {data.linkedin ? (
+          <li>
+            <a href={data.linkedin}>
+              <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
+          </li>
+        ) : null}
+        {data.facebook ? (
+          <li>
+            <a href={data.facebook}>
+              <FontAwesomeIcon icon={faFacebookF} />
+            </a>
+          </li>
+        ) : null}
+        {data.instagram ? (
+          <li>
+            <a href={data.instagram}>
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          </li>
+        ) : null}
+        <li>
+          <a href={"mailto:" + data.email}>
+            <FontAwesomeIcon icon={faEnvelope} />
+          </a>
+        </li>
+      </ul>
+    </div>
+  );
+}
 
 function Team() {
-
-    return (
-        <section>
-            <div className="container">
-                <div className="section-header">
-                    <h3>Our Executive Committee</h3>
-                    <p style={{paddingBottom: "20px"}}> Meet Our Team </p>
-                </div>
-                <div className="row rows-cols-5 mt-5 justify-content-center">
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Sahan.jpg"/>
-                            </div>
-                            <h3 class="title">Sahan Dissanayaka</h3>
-                            <span class="post">Chairman</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/sahan-dissanayaka-3099b9191/"><FontAwesomeIcon
-                                    icon={faLinkedinIn}/></a></li>
-                                <li><a href="https://www.facebook.com/sahan.dissanayaka.71"><FontAwesomeIcon
-                                    icon={faFacebookF}/></a></li>
-                                <li><a href="mailto:tsahandisaai@gmail.com"><FontAwesomeIcon icon={faEnvelope}/></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Anjana.jpg"/>
-                            </div>
-                            <h3 class="title">Anjana Dodampe</h3>
-                            <span class="post">Vice Chairman</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/anjanadodampe"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/IManjanadodampe"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://www.instagram.com/anjana_hd/"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="mailto:ahmdodampe@ieee.org"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Thenuka.jpg"/>
-                            </div>
-                            <h3 class="title">Thenuka Weerasinghe</h3>
-                            <span class="post">Secretary</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/thenuka-ovin-55a721199/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/thenuka.ovin"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://www.instagram.com/ov1.n/"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="mailto:thenukaovin@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Chanaka.jpg"/>
-                            </div>
-                            <h3 class="title">Chanaka Wickramasinghe</h3>
-                            <span class="post">Treasurer</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/chanakawick/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/cwickramasinghe"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://www.instagram.com/_mr.chaw/"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="mailto:cmwickramasinghe703@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>        
-                </div>
-                <div className="row rows-cols-5 mt-5 justify-content-center">
-                    <div class="col-sm col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Akila.jpg"/>
-                            </div>
-                            <h3 class="title">Akila Maithripala</h3>
-                            <span class="post">Design Master</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/akilamaithri"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/akila.my3"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://www.instagram.com/akila_maithripala"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="mailto:akilamaithripala@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Yasith.jpg"/>
-                            </div>
-                            <h3 class="title">Yasith Samaradivakara</h3>
-                            <span class="post">Web Master</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/yasith-samaradivakara-a2b72919b/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="mailto:yasith.sam7@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Dinithi.jpg"/>
-                            </div>
-                            <h3 class="title">Dinithi Gimhara</h3>
-                            <span class="post">Coordinator</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/dinithi-bandara-587b281a4/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/dini.gimhara.12"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="mailto:dinithigimhara@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Thisari.jpg"/>
-                            </div>
-                            <h3 class="title">Thisari Gunawardena</h3>
-                            <span class="post">Coordinator</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/thisarigunawardena/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/thisari.gunawardena/"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://www.instagram.com/_thisari_99_/"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="mailto:thisarigun99@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Dulaj.jpg"/>
-                            </div>
-                            <h3 class="title">Dulaj Prabhasha</h3>
-                            <span class="post">Coordinator</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/dulaj-prabasha-007/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.instagram.com/adow_dulaj"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="mailto:shad3s.of.m3@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div className="section-header">
-                    <h3>Our Director Board</h3>
-                    <p style={{ paddingBottom: "20px" }}> Meet Our Team </p>
-                </div>
-                <div className="row rows-cols-6 mt-5 justify-content-center">
-                    <div class="col-sm col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Dhanika.jpg"/>
-                            </div>
-                            <h3 class="title">Pinsara Dhanika</h3>
-                            <span class="post">Director of Finance</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/pinsara-dhanika-43a78b1a5"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/pinsara.dhanika"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="mailto:pinsaradhanika@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Ravin.jpg"/>
-                            </div>
-                            <h3 class="title">Ravin Perera</h3>
-                            <span class="post">Director of Program</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/ravin-perera-b3ba551a4"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/ravin.perera.7923"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="mailto:bravinperera@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Isuru.jpg"/>
-                            </div>
-                            <h3 class="title">Isuru Harischandra</h3>
-                            <span class="post">Director of PR</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/isuru-harischandra-9b09081a4/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="mailto:isuruvihan@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Kalsha.jpg"/>
-                            </div>
-                            <h3 class="title">Kalsha Samarajeewa</h3>
-                            <span class="post">Director of Design</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/mwlite/in/kalsha-samarajeewa"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/kalsha.sam"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://www.instagram.com/yaiya_sam/"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="mailto:kalsha.sam26@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Asela.jpg"/>
-                            </div>
-                            <h3 class="title">Asela Pathirage</h3>
-                            <span class="post">Director of Web</span>
-                            <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/asela-pathirage-719b261a4/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/asela.pathirage"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://www.instagram.com/_aseladp_/"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="mailto:aselapathirage@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm col-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="./images/team/Yadeesha.jpg"/>
-                            </div>
-                            <h3 class="title">Yadeesha Weerasinghe</h3>
-                            <span class="post">Director of Content</span>
-                            <ul class="social">
-                                <li><a href="http://www.linkedin.com/in/yadeesha-weerasinghe-284936211"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="https://www.facebook.com/yadeesha.weerasinghe.9"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="https://www.instagram.com/yadeeshaa/"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="mailto:yadeeshaw@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* <div class="container">
+  return (
+    <section>
+      <div className="container">
+        <div className="section-header">
+          <h3>Our Executive Committee</h3>
+          <p style={{ paddingBottom: "20px" }}> Meet Our Team </p>
+        </div>
+        <div className="row rows-cols-5 mt-5 justify-content-center">
+          <div class="col-lg-3 col-sm-6 col-6">
+            <Member data={data.excom.chairperson} />
+          </div>
+          <div class="col-lg-3 col-sm-6 col-6">
+            <Member data={data.excom.viceChairperson} />
+          </div>
+          <div class="col-lg-3 col-sm-6 col-6">
+            <Member data={data.excom.secretary} />
+          </div>
+          <div class="col-lg-3 col-sm-6 col-6">
+            <Member data={data.excom.treasurer} />
+          </div>
+        </div>
+        <div className="row rows-cols-5 mt-5 justify-content-center">
+          <div class="col-lg-2 col-sm-6 col-6">
+            <Member data={data.excom.publicityCoord} />
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <Member data={data.excom.programCoord} />
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <Member data={data.excom.membershipCoord} />
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <Member data={data.excom.designMaster} />
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <Member data={data.excom.webMaster} />
+          </div>
+        </div>
+        <div className="section-header">
+          <h3>Our Director Board</h3>
+          <p style={{ paddingBottom: "20px" }}> Meet Our Team </p>
+        </div>
+        <div className="row rows-cols-6 mt-5 justify-content-center">
+          <div class="col-lg-2 col-sm-6 col-6">
+            <Member data={data.bod.web} />
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <Member data={data.bod.program} />
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <Member data={data.bod.content} />
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <Member data={data.bod.design} />
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <Member data={data.bod.finance} />
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <Member data={data.bod.publicRelations} />
+          </div>
+        </div>
+      </div>
+      {/* <div class="container">
         <div class="section-header">
         <h3>Our Team Leaders</h3>
             <p> Meet Our Team </p>
@@ -295,8 +165,8 @@ function Team() {
         </div>
        
     </div> */}
-        </section>
-    )
+    </section>
+  );
 }
 
-export default Team
+export default Team;

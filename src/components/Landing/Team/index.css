@@ -198,7 +198,7 @@
   transition: all 0.5s ease 0s;
 }
 
-.our-team:hover .social li a {
+.our-team .social li a:hover {
   background: #00629b;
   color: #fff;
 }

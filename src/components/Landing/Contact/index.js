@@ -63,17 +63,15 @@ const ContactUs = () => {
             <span class="circle one"></span> <span class="circle two"></span>
             <h3 class="titlec">Contact us</h3>
             <p>
-              <hr />
               {officers.map((officer) => (
                 <>
+                  <hr />
                   <b>{officer.name}</b> <br />
                   {officer.post}, IEEE Student Branch of UCSC
                   <br />
                   <a class="email" href={"mailto:" + officer.email}>
                     {officer.email}
                   </a>
-                  <br />
-                  <hr />
                 </>
               ))}
             </p>

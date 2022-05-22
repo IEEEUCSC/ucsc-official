@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.70ca4efb.chunk.css",
+    "main.js": "/static/js/main.fa511d1c.chunk.js",
+    "main.js.map": "/static/js/main.fa511d1c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6add2f10.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6add2f10.js.map",
+    "static/css/2.eabad437.chunk.css": "/static/css/2.eabad437.chunk.css",
+    "static/js/2.cd9da7e3.chunk.js": "/static/js/2.cd9da7e3.chunk.js",
+    "static/js/2.cd9da7e3.chunk.js.map": "/static/js/2.cd9da7e3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.eabad437.chunk.css.map": "/static/css/2.eabad437.chunk.css.map",
+    "static/css/main.70ca4efb.chunk.css.map": "/static/css/main.70ca4efb.chunk.css.map",
+    "static/js/2.cd9da7e3.chunk.js.LICENSE.txt": "/static/js/2.cd9da7e3.chunk.js.LICENSE.txt",
+    "static/media/1.f76d3310.webp": "/static/media/1.f76d3310.webp",
+    "static/media/2.9a4982a0.webp": "/static/media/2.9a4982a0.webp",
+    "static/media/3.9f8fc0aa.webp": "/static/media/3.9f8fc0aa.webp",
+    "static/media/4.0109c21d.webp": "/static/media/4.0109c21d.webp",
+    "static/media/5.35e3cb1e.webp": "/static/media/5.35e3cb1e.webp",
+    "static/media/styles.css": "/static/media/header-bkg-blue.a9fa2e78.png",
+    "static/media/ieeeucsc.523531d1.webp": "/static/media/ieeeucsc.523531d1.webp",
+    "static/media/logo-ieee.a499e542.svg": "/static/media/logo-ieee.a499e542.svg",
+    "static/media/index.css": "/static/media/network-bg.e9e09ccc.webp",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/web_vid.ba9e8eef.mp4": "/static/media/web_vid.ba9e8eef.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6add2f10.js",
+    "static/css/2.eabad437.chunk.css",
+    "static/js/2.cd9da7e3.chunk.js",
+    "static/css/main.70ca4efb.chunk.css",
+    "static/js/main.fa511d1c.chunk.js"
+  ]
+}

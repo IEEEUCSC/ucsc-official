@@ -3,7 +3,7 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faHome, faAddressCard, faInfinity, faStream, faNewspaper, faUserFriends, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 // import './index.css'
-// import logo from "../../../assets/ieeeucsc.png"
+// import logo from "../../../assets/ieeeucsc.webp"
 // import logoieee from "../../../assets/logo-ieee.svg"
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/js/bootstrap.bundle";

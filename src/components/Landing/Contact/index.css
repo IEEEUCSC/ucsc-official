@@ -1,4 +1,17 @@
 .contact-us{
     background-color: #c2c7cc;
     border-radius: 10px;
-  }
+}
+
+.email {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-information .email:hover {
+  color: grey;
+}
+.contact-info-form .email:hover {
+  color: #dddddd;
+}

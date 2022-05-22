@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../assets/ieeeucsc.png";
+import logo from "../../../assets/ieeeucsc.webp";
 import "./index.css";
 
 function Footer() {

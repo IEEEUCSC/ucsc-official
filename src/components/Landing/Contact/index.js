@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {} from "@fortawesome/free-brands-svg-icons";
 import {
   faMapMarkerAlt,
   faEnvelope,
@@ -28,7 +27,9 @@ const ContactUs = () => {
         <div class="form formy">
           <div class="contact-info">
             <h3 class="title">Let's get in touch</h3>
-            <p class="text"> Contact us with the following details. </p>
+            <p class="text">
+              Post, email or call us - whichever works for you.
+            </p>
             <div class="info">
               <div class="social-information">
                 <p>
@@ -46,12 +47,8 @@ const ContactUs = () => {
                 {" "}
                 <p>
                   <FontAwesomeIcon icon={faEnvelope} />
-                  <a
-                    href="mailto: ucscieee@gmail.com"
-                    style={{ textDecoration: "black" }}
-                  >
-                    {" "}
-                    ucscieee@gmail.com
+                  <a class="email" href="mailto:ucscieee@gmail.com">
+                    &nbsp;ucscieee@gmail.com
                   </a>
                 </p>
               </div>
@@ -63,19 +60,18 @@ const ContactUs = () => {
             </div>
           </div>
           <div class="contact-info-form">
-            {" "}
             <span class="circle one"></span> <span class="circle two"></span>
             <h3 class="titlec">Contact us</h3>
             <p>
-              <hr />
               {officers.map((officer) => (
                 <>
+                  <hr />
                   <b>{officer.name}</b> <br />
                   {officer.post}, IEEE Student Branch of UCSC
                   <br />
-                  {officer.email}
-                  <br />
-                  <hr />
+                  <a class="email" href={"mailto:" + officer.email}>
+                    {officer.email}
+                  </a>
                 </>
               ))}
             </p>

@@ -5,7 +5,7 @@
       "title": "MADHACK",
       "subTitle": "Mobile App Development Hackathon",
       "date": "Jul - Sep 2021",
-      "iconSrc": "MADHACK-logo.png",
+      "iconSrc": "MADHACK-logo.webp",
       "altText": "MADHACK logo",
       "description": "MadHack 2021 is a Mobile Application Development workshop series together with a final hackathon which was organized by the IEEE Student Branch of UCSC with the intention of giving undergraduates of the country an extensive introduction to the world of Mobile Application Development."
     },
@@ -14,7 +14,7 @@
       "title": "RevolUX",
       "subTitle": "Inter-university UI/UX Designathon",
       "date": "Aug - Jul 2021",
-      "iconSrc": "Revolux-logo.png",
+      "iconSrc": "Revolux-logo.webp",
       "altText": "RevolUX logo",
       "description": "RevolUX is the first ever UI/UX designathon organized by the IEEE Student Branch of UCSC in collaboration with AIESEC in UOC. The major objective of this event was to unleash the creative and artistic minds of Sri Lankan undergraduates and schoolers while giving them an indispensable exposure to different trends in User Interface and User Experience Design, and related fields."
     },
@@ -23,7 +23,7 @@
       "title": "7linesOfCode",
       "subTitle": "Everything related to code, in 7 days",
       "date": "Jun - Aug 2021",
-      "iconSrc": "7linesOfCode-logo.png",
+      "iconSrc": "7linesOfCode-logo.webp",
       "altText": "7linesOfCode logo",
       "description": "7 lines of code, is a 7-day workshop series initiated by the IEEE Student Branch of UCSC after identifying the necessity of providing proper guidance and knowledge to our set of fresh mindsets who are beginning their journey in the vast industry of Information Technology."
     },
@@ -32,16 +32,16 @@
       "title": "IEEE Day 2021",
       "subTitle": "Celebrating Global IEEE Day",
       "date": "5th Oct 2021",
-      "iconSrc": "IEEE-Day-2021-logo.png",
+      "iconSrc": "IEEE-Day-2021-logo.webp",
       "altText": "IEEE Day 2021 logo",
-      "description": "Celebrating Global IEEE Day."
+      "description": "IEEE Day is celebrated worldwide for IEEE members to rejoice, gather and share knowledge. Keeping in line with the global IEEE Day theme, \"Leveraging Technology for a Better Tomorrow\", the IEEE Student Branches of the University of Colombo School of Computing have put forth an effort to organize a phenominal IEEE Day 2021."
     },
     {
       "id": 5,
       "title": "RevolUX 2.0",
       "subTitle": "Inter-university UI/UX Designathon",
       "date": "June - July 2022",
-      "iconSrc": "Revolux2.0-logo.png",
+      "iconSrc": "Revolux2.0-logo.webp",
       "altText": "Revolux 2.0 logo",
       "description": "RevolUX 2.0 is an inter-university UI/UX designathon organized by the IEEE Student Branch of UCSC in collaboration with AIESEC in UOC. We are proud to bring this event for the second time in a row with the goal of providing undergraduates with hands on experience in User Interface and User Experience Design"
     }

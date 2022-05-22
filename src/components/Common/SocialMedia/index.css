@@ -13,18 +13,19 @@
 	padding: 20px;
 	text-decoration: none;
 	border-radius: 50%;
-	animation-name: pulse;
+	border: solid transparent;
+	transition: background-color 0.3s, color 0.3s;
+	/* animation-name: pulse;
 	animation-duration: 1.5s;
 	animation-timing-function: ease-out;
-	animation-iteration-count: infinite;
+	animation-iteration-count: infinite; */
 	z-index: 1000;
 }
 
 .btn-pulse:hover{
 	background: #fff;
 	color: #006699;
-	border-style: solid;
-	border-color: #006699;
+	border: solid #006699;
 }
 
 @keyframes pulse {
@@ -39,20 +40,20 @@
 .btn-pulse-border-fb {
 	bottom: 205px;
 	right: 20px;
-	animation-play-state: paused;
+	/* animation-play-state: paused; */
 }
 .btn-pulse-border-insta {
 	bottom: 150px;
 	right: 20px;
-	animation-play-state: paused;
+	/* animation-play-state: paused; */
 }
 .btn-pulse-border-linked {
 	bottom:95px;
 	right: 20px;
-	animation-play-state: paused;
+	/* animation-play-state: paused; */
 }
 
-.btn-pulse-border::before {
+/* .btn-pulse-border::before {
 	content: "";
 	position: absolute;
 	border-radius: 50%;
@@ -63,7 +64,7 @@
 	animation-duration: 1.5s;
 	animation-timing-function: ease-out;
 	animation-iteration-count: infinite;
-}
+} */
 
 @keyframes pulse-border {
 	0% {
@@ -81,27 +82,32 @@
 
 .scrollTop {
 	position: fixed; 
-	width: 100%;
 	bottom: 20px;
-	align-items: center;
-	height: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	font-size: 50px;
+	display: flex;
 	justify-content: center;
+	align-items: center;
 	z-index: 1000;
 	cursor: pointer;
-	animation: fadeIn 0.3s;
-	transition: opacity 0.4s;
 	opacity: 0.5;
-  }
+	background-color: white;
+	border-radius: 50%;
+	animation: fadeIn 0.3s;
+	transition: opacity 0.3s;
+}
   
-  .scrollTop:hover{
+.scrollTop:hover{
 	opacity: 1;
-  }
+}
   
-  @keyframes fadeIn {
+@keyframes fadeIn {
 	0% {
 	  opacity: 0;
 	}
 	100% {
 	  opacity: 0.5;
 	}
-  }
+}

@@ -1,92 +1,88 @@
 {
-    "items": [
-      {
-        "title": "GameRush 2019",
-        "date": "30 Nov 2019",
-        "url": "./images/1.png",
-        "text": "Game Rush was a 24 hour game development hackathon organized by the IEEE Student Branch of UCSC.",
-        "id": 1
-      },
-      {
-        "title": "Induction 2019",
-        "date": "10 Apr 2019",
-        "url":"./images/1.png",
-        "text": "IEEEXtreme 11.0 is a prestigious coding challenge hosted by IEEE.",
-        "id": 2
-      },
-      {
-        "title": "IEEEXtreme 11.0",
-        "date": "29 Nov 2017",
-        "url":"./images/1.png",
-        "text": "IEEEXtreme 11.0 is a prestigious coding challenge hosted by IEEE.",
-        "id": 3
-      },
-      {
-        "title": "UCSC IEEE Day 2017",
-        "date": "19 Oct 2017",
-        "url":"./images/1.png",
-        "text": "UCSC IEEE Day 2017 was celebrated with much grace and grandeur on 11th of October 2017 at the New Arts Theatre of University of Colombo.",
-        "id": 4
-      },
-      {
-        "title": "CloudHack 2017",
-        "date": "24 Aug 2017",
-        "url":"./images/1.png",
-        "text": "The first ever cloud-based hackathon was organized by UCSC.",
-        "id": 5
-      },
-      {
-        "title": "UCSC IEEE DAY 2016",
-        "date": "31 Jan 2017",
-        "url":"./images/1.png",
-        "text": "Celebrating the first time in history, when engineers worldwide and IEEE members gathered to share their technical ideas.",
-        "id": 6
-      },
-      {
-        "title": "SLT e-Sports Reid Cyber Wars 2.0",
-        "date": "24 Aug 2017",
-        "url":"./images/1.png",
-        "text": "Inter-University Gaming Championship 2016 - “Let the Battle Begins.",
-        "id": 7
-      },
-      {
-        "title": "Pre IEEEXtreme Programming Competition 1.0",
-        "date": "31 Jan 2017",
-        "url":"./images/1.png",
-        "text": "Almost all the students of UCSC gathered in the morning to UCSC premises with enthusiastic minds to participate in the Pre IEEEXtreme Programming Competition 1.0.",
-        "id": 8
-      },
-      {
-        "title": "Achievements of IEEEXtreme 10.0",
-        "date": "31 Jan 2017",
-        "url":"./images/1.png",
-        "text": "CNN purchased Casey Neistat's Beme app for $25million.",
-        "id": 9
-      },
-      {
-        "title": "IEEEXtreme 10.0",
-        "date": "31 Jan 2017",
-        "url":"./images/1.png",
-        "text": "EEEXtreme 10.0, the most competitive and challenging 24-hour global programming competition was commenced at 05.30 a.m in Sri Lankan time on 22nd of October 2016.",
-        "id": 10
-      },
-      {
-        "title": "IEEE Student Branch events for year 2013",
-        "date": "15 Aug 2016",
-        "url":"./images/1.png",
-        "text": "CNN purchased Casey Neistat's Beme app for $25million.",
-        "id": 11
-      },
-      {
-        "title": "UCSC Research Symposium 2014",
-        "date": "15 Aug 2016",
-        "url":"./images/1.png",
-        "text": "UCSC Research Symposium is an annual event organized by the University of Colombo School of Computing.",
-        "id": 12
-      }
-
-
-    ]
-    
-
-  }
+  "items": [
+    {
+      "title": "GameRush 2019",
+      "date": "30 Nov 2019",
+      "url": "./images/1.png",
+      "text": "Game Rush was a 24 hour game development hackathon organized by the IEEE Student Branch of UCSC.",
+      "id": 1
+    },
+    {
+      "title": "Induction 2019",
+      "date": "10 Apr 2019",
+      "url":"./images/1.png",
+      "text": "IEEEXtreme 11.0 is a prestigious coding challenge hosted by IEEE.",
+      "id": 2
+    },
+    {
+      "title": "IEEEXtreme 11.0",
+      "date": "29 Nov 2017",
+      "url":"./images/1.png",
+      "text": "IEEEXtreme 11.0 is a prestigious coding challenge hosted by IEEE.",
+      "id": 3
+    },
+    {
+      "title": "UCSC IEEE Day 2017",
+      "date": "19 Oct 2017",
+      "url":"./images/1.png",
+      "text": "UCSC IEEE Day 2017 was celebrated with much grace and grandeur on 11th of October 2017 at the New Arts Theatre of University of Colombo.",
+      "id": 4
+    },
+    {
+      "title": "CloudHack 2017",
+      "date": "24 Aug 2017",
+      "url":"./images/1.png",
+      "text": "The first ever cloud-based hackathon was organized by UCSC.",
+      "id": 5
+    },
+    {
+      "title": "UCSC IEEE DAY 2016",
+      "date": "31 Jan 2017",
+      "url":"./images/1.png",
+      "text": "Celebrating the first time in history, when engineers worldwide and IEEE members gathered to share their technical ideas.",
+      "id": 6
+    },
+    {
+      "title": "SLT e-Sports Reid Cyber Wars 2.0",
+      "date": "24 Aug 2017",
+      "url":"./images/1.png",
+      "text": "Inter-University Gaming Championship 2016 - “Let the Battle Begins.",
+      "id": 7
+    },
+    {
+      "title": "Pre IEEEXtreme Programming Competition 1.0",
+      "date": "31 Jan 2017",
+      "url":"./images/1.png",
+      "text": "Almost all the students of UCSC gathered in the morning to UCSC premises with enthusiastic minds to participate in the Pre IEEEXtreme Programming Competition 1.0.",
+      "id": 8
+    },
+    {
+      "title": "Achievements of IEEEXtreme 10.0",
+      "date": "31 Jan 2017",
+      "url":"./images/1.png",
+      "text": "CNN purchased Casey Neistat's Beme app for $25million.",
+      "id": 9
+    },
+    {
+      "title": "IEEEXtreme 10.0",
+      "date": "31 Jan 2017",
+      "url":"./images/1.png",
+      "text": "EEEXtreme 10.0, the most competitive and challenging 24-hour global programming competition was commenced at 05.30 a.m in Sri Lankan time on 22nd of October 2016.",
+      "id": 10
+    },
+    {
+      "title": "IEEE Student Branch events for year 2013",
+      "date": "15 Aug 2016",
+      "url":"./images/1.png",
+      "text": "CNN purchased Casey Neistat's Beme app for $25million.",
+      "id": 11
+    },
+    {
+      "title": "UCSC Research Symposium 2014",
+      "date": "15 Aug 2016",
+      "url":"./images/1.png",
+      "text": "UCSC Research Symposium is an annual event organized by the University of Colombo School of Computing.",
+      "id": 12
+    }
+  ]
+}

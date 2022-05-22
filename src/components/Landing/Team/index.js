@@ -17,8 +17,12 @@ function Member({ data }) {
       <div class="pic">
         <img src={"../images/team/" + data.img} alt={data.name} />
       </div>
-      <h3 class="title">{data.name}</h3>
-      <span class="post">{data.post}</span>
+      <div class="title-wrapper">
+        <h3 class="title">{data.name}</h3>
+      </div>
+      <div class="post-wrapper">
+        <span class="post">{data.post}</span>
+      </div>
       <ul class="social">
         {data.linkedin ? (
           <li>
@@ -94,7 +98,7 @@ function Team() {
           <h3>Our Director Board</h3>
           <p style={{ paddingBottom: "20px" }}> Meet Our Team </p>
         </div>
-        <div className="row rows-cols-6 mt-5 justify-content-center">
+        <div className="row rows-cols-5 mt-5 justify-content-center">
           <div class="col-lg-2 col-sm-6 col-6">
             <Member data={data.bod.web} />
           </div>

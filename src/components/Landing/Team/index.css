@@ -136,6 +136,7 @@
 .our-team:hover {
   background: #f4f4f4;
   border-radius: 10px;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .pic img {
@@ -150,7 +151,6 @@
   text-transform: uppercase;
   display: block;
   font-size: 20px;
-  margin: 0 0 7px 0;
 }
 
 .our-team .post {
@@ -159,7 +159,20 @@
   display: block;
   font-weight: 200;
   font-size: 16px;
-  margin-bottom: 15px;
+}
+
+.title-wrapper, .post-wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+}
+
+.title-wrapper {
+  align-items: flex-end;
+}
+
+.post-wrapper {
+  align-items: flex-start;
 }
 
 .our-team .social {

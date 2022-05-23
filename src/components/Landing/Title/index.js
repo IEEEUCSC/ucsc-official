@@ -62,6 +62,7 @@ const Title = () => {
           playsInline={true}
           loop={true}
           muted={true}
+          autoPlay={true}
           style={{ width: "100%" }}
         >
           <source src={video} type="video/mp4" />

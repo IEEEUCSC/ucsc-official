@@ -32,7 +32,7 @@
 //                     <ul className="navbar-nav mx-auto" >
 //                         <li className="nav-item">
 //                             <Link
-//                                 activeclassName="active"
+//                                 activeClass="active"
 //                                 className="nav-item"
 //                                 to="home"
 //                                 spy={false}
@@ -45,7 +45,7 @@
 //                             </Link></li>
 //                         <li className="nav-item">
 //                             <Link
-//                                 activeclassName="active"
+//                                 activeClass="active"
 //                                 className="nav-item"
 //                                 to="aboutus"
 //                                 spy={true}
@@ -57,7 +57,7 @@
 //                             </Link></li>
 //                         <li className="nav-item">
 //                             <Link
-//                                 activeclassName="active"
+//                                 activeClass="active"
 //                                 className="nav-item"
 //                                 to="stat"
 //                                 spy={true}
@@ -71,7 +71,7 @@
 //
 //                         <li className="nav-item">
 //                             <Link
-//                                 activeclassName="active"
+//                                 activeClass="active"
 //                                 className="nav-item"
 //                                 to="timeline"
 //                                 spy={true}
@@ -83,7 +83,7 @@
 //                             </Link></li>
 //                         <li className="nav-item">
 //                             <Link
-//                                 activeclassName="active"
+//                                 activeClass="active"
 //                                 className="nav-item"
 //                                 to="newslist"
 //                                 spy={true}
@@ -97,7 +97,7 @@
 //
 //                         <li className="nav-item">
 //                             <Link
-//                                 activeclassName="active"
+//                                 activeClass="active"
 //                                 className="nav-item"
 //                                 to="team"
 //                                 spy={true}
@@ -109,7 +109,7 @@
 //                             </Link></li>
 //                         <li className="nav-item">
 //                             <Link
-//                                 activeclassName="active"
+//                                 activeClass="active"
 //                                 className="nav-item"
 //                                 to="contact"
 //                                 spy={true}

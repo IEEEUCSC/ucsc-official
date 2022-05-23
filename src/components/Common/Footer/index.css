@@ -17,15 +17,16 @@
   padding:0 10px;
 }
 
-.footer-basic ul button {
+.footer-basic ul a {
   background: none;
   border: none;
   color:inherit;
   text-decoration:none;
   opacity:0.8;
+  cursor: pointer;
 }
 
-.footer-basic ul button:hover {
+.footer-basic ul a:hover {
   opacity:1;
 }
 

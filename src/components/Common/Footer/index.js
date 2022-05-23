@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import logo from "../../../assets/ieeeucsc.webp";
 import "./index.css";
 
@@ -16,25 +17,39 @@ function Footer() {
         </div>
         <ul className="list-inline">
           <li className="list-inline-item">
-            <button>Home</button>
+            <Link to="home" smooth={true}>
+              Home
+            </Link>
           </li>
           <li className="list-inline-item">
-            <button>About Us</button>
+            <Link to="about-us" smooth={true}>
+              About Us
+            </Link>
           </li>
           <li className="list-inline-item">
-            <button>What we do</button>
+            <Link to="what-we-do" smooth={true}>
+              What we do
+            </Link>
           </li>
           <li className="list-inline-item">
-            <button>Timeline</button>
+            <Link to="timeline" smooth={true}>
+              Timeline
+            </Link>
           </li>
           <li className="list-inline-item">
-            <button>Past Events</button>
+            <Link to="past-events" smooth={true}>
+              Past Events
+            </Link>
           </li>
           <li className="list-inline-item">
-            <button>Team</button>
+            <Link to="team" smooth={true}>
+              Team
+            </Link>
           </li>
           <li className="list-inline-item">
-            <button>Contact Us</button>
+            <Link to="contact-us" smooth={true}>
+              Contact Us
+            </Link>
           </li>
         </ul>
         <p className="copyright">© 2022 - All Right Reserved</p>

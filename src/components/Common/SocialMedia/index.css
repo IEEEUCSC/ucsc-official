@@ -83,24 +83,24 @@
 .scrollTop {
 	position: fixed; 
 	bottom: 20px;
-	right: 20px;
+	right: 22.5px;
 	width: 40px;
 	height: 40px;
-	font-size: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	z-index: 1000;
 	cursor: pointer;
-	opacity: 0.5;
 	background-color: white;
+	color: #006699;
 	border-radius: 50%;
 	animation: fadeIn 0.3s;
-	transition: opacity 0.3s;
+	transition: 0.3s;
 }
   
 .scrollTop:hover{
-	opacity: 1;
+	background-color: #006699;
+	color: white;
 }
   
 @keyframes fadeIn {

@@ -37,7 +37,7 @@ function Footer() {
             <button>Contact Us</button>
           </li>
         </ul>
-        <p className="copyright">© 2021 - All Right Reserved</p>
+        <p className="copyright">© 2022 - All Right Reserved</p>
       </footer>
     </div>
   );

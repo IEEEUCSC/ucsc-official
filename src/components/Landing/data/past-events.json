@@ -1,16 +1,6 @@
 {
   "events": [
     {
-      "id": 1,
-      "title": "GameRush 2019",
-      "date": "Jul - Aug 2019",
-      "image": "gamerush.webp",
-      "url": "",
-      "summary": "Game Rush is a 24 hour game development hackathon organized by the IEEE Student Branch of University of Colombo School of Computing providing a platform for undergraduates all over the country to explore, experiment and brainstorm to develop an idea into a game.",
-      "description": "As proud as we are, the University of Colombo School of Computing is the first ever university in Sri Lanka to introduce a separate game development module to its curriculum. Coming from that background and identifying the infinitely many possibilities to the students to improve themselves, the idea for game development hackathon came into life. This platform was aimed to support the participants to create products that are of high quality and astonishingly innovative, to access the competitive market and beyond and to make a career out of it.\nGame Rush is a 24 hour game development hackathon organized by the IEEE Student Branch of UCSC providing a platform for undergraduates all over the country to explore, experiment and brainstorm to develop an idea into a game. It was a series consisting of four workshops which were conducted by industry experts to educate the competitors on how to build an edutainment based game from scratch. The top three winners were awarded.\nNot only that, the competition was intended to provide opportunities for the competitors to present their games to the world and seek partnerships and investments to develop their idea into reality.\n"
-    },
-    {
-      "id": 2,
       "title": "ReidXtreme",
       "date": "16 Oct 2021",
       "image": "reidxtreme.webp",
@@ -19,34 +9,22 @@
       "description": "ReidXtreme is a hackathon series organized by the IEEE Student Branch of UCSC. The core objective of this hackathon series was to build up the competitive programming skills of our undergraduates to successfully complete the IEEEXtreme Global Context.\nIn addition to preparing our students for IEEEXtreme, this hackathon series impacts on building up school rankings with other universities to highlight our students' talents across the country. Every competing team is receiving a certificate including their ranking and score.\n"
     },
     {
-      "id": 3,
-      "title": "IEEE Andaheraya",
-      "date": "07 Aug 2021",
-      "image": "ieee-andaharaya.webp",
+      "title": "IEEE Day 2021",
+      "date": "5 - 10 Oct 2021",
+      "image": "ieee-day-2021.webp",
       "url": "",
-      "summary": "IEEE Andaheraya is an event organized by the IEEE Student Branch of UCSC for its very own members with the objective of educating the membership about IEEE in a broader sense and enlightening them about the many opportunities it opens to succeed in the industry while nourishing their personal development.",
-      "description": "IEEE Andaheraya is an event organized by the IEEE Student Branch of UCSC for its very own members. The main objective of the event was to educate the membership about IEEE in a broader sense and to enlighten them about the many opportunities it opens to succeed in the industry while nourishing their personal development. The participants were addressed by the chairpersons of IEEE Computer Society Chapter and IEEE WIE Affinity Group followed by IEEE Student Branch Advisor. Finally, the guest speaker of the event shared her experience on how IEEE opened new doors for her in life. The event was successfully concluded with the participation of 100+ delegates."
+      "summary": "The IEEE Day is celebrated worldwide for IEEE members to rejoice, gather and share knowledge on technological aspects as the future conquerors. IEEE Day is celebrated every year on the first Tuesday of October, and for 2021 this happened on October 5th.",
+      "description": "The IEEE Day is celebrated worldwide for IEEE members to rejoice, gather and share knowledge on technological aspects as the future conquerors. IEEE Day is celebrated every year on the first Tuesday of October, and for 2021 this happened on October 5th.\n Keeping in line with the global IEEE Day theme, \"Leveraging Technology for a Better Tomorrow\", the IEEE Student Branches of the University of Colombo School of Computing also celebrated the day with a unique and entertaining approach. The Organizing Committee of UCSC IEEE Day 2021, together with IEEE Student Branch of UCSC, IEEE WIE Student Branch Affinity Group of UCSC, and IEEE CS Student Branch Chapter of UCSC, put forth an effort to organize a phenomenal IEEE Day 2021. \nThis intra-university event lasted 4 days, starting from the 7th of October 2021 and concluding with a grand final day on the 10th of October 2021. The entire event followed an exclusive theme and a reimagined storyline that brought together our favourite mystery and fantasy fictional characters such as Sherlock Holmes, Alice in Wonderland, Dracula, and more.  "
     },
     {
-      "id": 4,
-      "title": "7linesOfCode",
-      "date": "Jun - Aug 2021",
-      "image": "default.webp",
+      "title": "MADHack",
+      "date": "Jul - Sep 2021",
+      "image": "madhack.webp",
       "url": "",
-      "summary": "7 lines of code, is a 7-day workshop series initiated by the IEEE Student Branch of UCSC after identifying the necessity of providing proper guidance and knowledge to our set of fresh mindsets who are beginning their journey in the vast industry of Information Technology. ",
-      "description": "\"7 lines of code\", is a 7-day workshop series initiated by the IEEE Student Branch of UCSC after identifying the necessity of providing proper guidance and knowledge to our set of fresh mindsets who are beginning their journey in the vast industry of Information Technology. \nThe program focuses on giving a thorough understanding of the basics on different aspects of computing during each session, encouraging our undergraduates to explore and experiment different avenues of computing. \nEvery knowledge session concludes with an interactive quiz to test the knowledge they have gained from the session, QnA round to clarify any and all doubts our youngsters are having and a simple task from the discussed topic. Every submission is being thoroughly evaluated by the organizers and personal feedback is given eventually making this a platform that connects colleagues. This is a much appreciated event by everyone since it is providing an opportunity to our freshers to explore more about the industry while getting insights and a welcome to university life.\n"
+      "summary": "MadHack 2021 is a Mobile Application Development workshop series together with a final hackathon which was organized by the IEEE Student Branch of UCSC with the intention of giving undergraduates of the country an extensive introduction to the world of Mobile Application Development.",
+      "description": "MadHack 2021 is a Mobile Application Development workshop series together with a final hackathon which was organized by the IEEE Student Branch of UCSC with the intention of giving undergraduates of the country an extensive introduction to the world of Mobile Application Development.\nThe first round of MadHack was a three-part workshop series which was designed to give all the participants a comprehensive introduction to mobile application development. These sessions were conducted by industry experts on various concepts and topics introducing relevant software applications.\nThe second and final round of MadHack was the hackathon which also consisted of three stages, namely the Idea Stage, the Development Stage and the Judging Stage. \nMadHack was successfully concluded in July 2021, with the contribution of 600+ participants and 3 winning teams.\n"
     },
     {
-      "id": 5,
-      "title": "CSC",
-      "date": "Feb - Mar 2021",
-      "image": "csc.webp",
-      "url": "",
-      "summary": "Cloud Skills Challenge - 2021 was organized by the IEEE Student Branch of UCSC with the aim of enriching the undergraduates with cloud computing skills. CSC gave the participants a challenge that would test more than their determination, and left them with tools that would set them apart from the many others in the industry.",
-      "description": "To give the participants a challenge that would test more than their determination, and to leave them with tools that would set them apart from the many others in the industry, the IEEE Student Branch of University of Colombo School of Computing, organized the “Cloud Skills Challenge, 2021” with aim of enriching the undergraduates with cloud computing skills. The challenge was hosted on Microsoft Learn, a well-known and recognized platform that had modules which offered great value whilst summing a specific number of points to our competitors' score. More than 150 participants engaged in the competition and explored nearly 116 modules. \nAs a final test of competence, the participants were given a comprehensive quiz and the winners were rewarded with valuable swags from Microsoft for their achievement. The top 20 from the leaderboard were offered with AZ-900 vouchers as well. And all the participants were awarded badges in their Microsoft Learn profiles for the modules they completed as a testament to the skills they gained.\n"
-    },
-    {
-      "id": 6,
       "title": "RevolUX",
       "date": "Aug - Jul 2021",
       "image": "revolux.webp",
@@ -55,13 +33,36 @@
       "description": "RevolUX is the first ever UI/UX designathon organized by the IEEE Student Branch of UCSC in collaboration with AIESEC in University of Colombo. The major objective of this event was to unleash the creative and artistic minds of Sri Lankan undergraduates and schoolers while giving them an indispensable exposure to different trends in User Interface and User Experience Design, and related fields. The event consisted of two open workshops which were conducted by industry experts, an introductory session before the 12-hour designathon in which the top 10 teams battled to secure their place in the competition and the final event where the winning teams were crowned with valuable prizes. The event was a sounding success with over 1000+ delegates, 50+ partners and positive feedback from delegates and industry persons."
     },
     {
-      "id": 7,
-      "title": "MADHack",
-      "date": "Jul - Sep 2021",
-      "image": "madhack.webp",
+      "title": "7linesOfCode",
+      "date": "Jun - Aug 2021",
+      "image": "default.webp",
       "url": "",
-      "summary": "MadHack 2021 is a Mobile Application Development workshop series together with a final hackathon which was organized by the IEEE Student Branch of UCSC with the intention of giving undergraduates of the country an extensive introduction to the world of Mobile Application Development.",
-      "description": "MadHack 2021 is a Mobile Application Development workshop series together with a final hackathon which was organized by the IEEE Student Branch of UCSC with the intention of giving undergraduates of the country an extensive introduction to the world of Mobile Application Development.\nThe first round of MadHack was a three-part workshop series which was designed to give all the participants a comprehensive introduction to mobile application development. These sessions were conducted by industry experts on various concepts and topics introducing relevant software applications.\nThe second and final round of MadHack was the hackathon which also consisted of three stages, namely the Idea Stage, the Development Stage and the Judging Stage. \nMadHack was successfully concluded in July 2021, with the contribution of 600+ participants and 3 winning teams.\n"
+      "summary": "7 lines of code, is a 7-day workshop series initiated by the IEEE Student Branch of UCSC after identifying the necessity of providing proper guidance and knowledge to our set of fresh mindsets who are beginning their journey in the vast industry of Information Technology. ",
+      "description": "\"7 lines of code\", is a 7-day workshop series initiated by the IEEE Student Branch of UCSC after identifying the necessity of providing proper guidance and knowledge to our set of fresh mindsets who are beginning their journey in the vast industry of Information Technology. \nThe program focuses on giving a thorough understanding of the basics on different aspects of computing during each session, encouraging our undergraduates to explore and experiment different avenues of computing. \nEvery knowledge session concludes with an interactive quiz to test the knowledge they have gained from the session, QnA round to clarify any and all doubts our youngsters are having and a simple task from the discussed topic. Every submission is being thoroughly evaluated by the organizers and personal feedback is given eventually making this a platform that connects colleagues. This is a much appreciated event by everyone since it is providing an opportunity to our freshers to explore more about the industry while getting insights and a welcome to university life.\n"
+    },
+    {
+      "title": "IEEE Andaheraya",
+      "date": "07 Aug 2021",
+      "image": "ieee-andaharaya.webp",
+      "url": "",
+      "summary": "IEEE Andaheraya is an event organized by the IEEE Student Branch of UCSC for its very own members with the objective of educating the membership about IEEE in a broader sense and enlightening them about the many opportunities it opens to succeed in the industry while nourishing their personal development.",
+      "description": "IEEE Andaheraya is an event organized by the IEEE Student Branch of UCSC for its very own members. The main objective of the event was to educate the membership about IEEE in a broader sense and to enlighten them about the many opportunities it opens to succeed in the industry while nourishing their personal development. The participants were addressed by the chairpersons of IEEE Computer Society Chapter and IEEE WIE Affinity Group followed by IEEE Student Branch Advisor. Finally, the guest speaker of the event shared her experience on how IEEE opened new doors for her in life. The event was successfully concluded with the participation of 100+ delegates."
+    },
+    {
+      "title": "CSC",
+      "date": "Feb - Mar 2021",
+      "image": "csc.webp",
+      "url": "",
+      "summary": "Cloud Skills Challenge - 2021 was organized by the IEEE Student Branch of UCSC with the aim of enriching the undergraduates with cloud computing skills. CSC gave the participants a challenge that would test more than their determination, and left them with tools that would set them apart from the many others in the industry.",
+      "description": "To give the participants a challenge that would test more than their determination, and to leave them with tools that would set them apart from the many others in the industry, the IEEE Student Branch of University of Colombo School of Computing, organized the “Cloud Skills Challenge, 2021” with aim of enriching the undergraduates with cloud computing skills. The challenge was hosted on Microsoft Learn, a well-known and recognized platform that had modules which offered great value whilst summing a specific number of points to our competitors' score. More than 150 participants engaged in the competition and explored nearly 116 modules. \nAs a final test of competence, the participants were given a comprehensive quiz and the winners were rewarded with valuable swags from Microsoft for their achievement. The top 20 from the leaderboard were offered with AZ-900 vouchers as well. And all the participants were awarded badges in their Microsoft Learn profiles for the modules they completed as a testament to the skills they gained.\n"
+    },
+    {
+      "title": "GameRush 2019",
+      "date": "Jul - Aug 2019",
+      "image": "gamerush.webp",
+      "url": "",
+      "summary": "Game Rush is a 24 hour game development hackathon organized by the IEEE Student Branch of University of Colombo School of Computing providing a platform for undergraduates all over the country to explore, experiment and brainstorm to develop an idea into a game.",
+      "description": "As proud as we are, the University of Colombo School of Computing is the first ever university in Sri Lanka to introduce a separate game development module to its curriculum. Coming from that background and identifying the infinitely many possibilities to the students to improve themselves, the idea for game development hackathon came into life. This platform was aimed to support the participants to create products that are of high quality and astonishingly innovative, to access the competitive market and beyond and to make a career out of it.\nGame Rush is a 24 hour game development hackathon organized by the IEEE Student Branch of UCSC providing a platform for undergraduates all over the country to explore, experiment and brainstorm to develop an idea into a game. It was a series consisting of four workshops which were conducted by industry experts to educate the competitors on how to build an edutainment based game from scratch. The top three winners were awarded.\nNot only that, the competition was intended to provide opportunities for the competitors to present their games to the world and seek partnerships and investments to develop their idea into reality.\n"
     }
   ]
 }

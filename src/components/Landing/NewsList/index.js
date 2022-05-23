@@ -11,7 +11,7 @@
 //
 //     <section id="newslist">
 //       <div className="appContainer">
-//         <header class="app-header"></header>
+//         <header className="app-header"></header>
 //         <section className="app-title">
 //           <div className="app-title-content">
 //             <h1 style={{ color: "white", fontSize: "45px", fontWeight: "800", paddingBottom: "30px" }}>PAST EVENTS</h1>
@@ -29,7 +29,7 @@
 //                   <p className="date">{item.date}</p>
 //                   <h2>{item.title}</h2>
 //                   <p className="body-content">{item.text}</p>
-//                   <a class="aboutus-more" href="#">read more</a>
+//                   <a className="aboutus-more" href="#">read more</a>
 //                 </Link>
 //               </div>
 //             </article>

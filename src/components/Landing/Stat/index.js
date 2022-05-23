@@ -17,7 +17,7 @@ const Stat = () => {
   return (
     <section id="stat">
       <div className="Stat" style={{ backgroundColor: "#00629B" }}>
-        <div class="section-header">
+        <div className="section-header">
           <h3 style={{ color: "white", fontSize: "45px", fontWeight: "800" }}>
             WHAT WE DO
           </h3>

@@ -36,19 +36,19 @@ const SocialMedia = () => {
     <div>
       <a
         href="https://www.facebook.com/IEEE.UCSC/"
-        class="btn-pulse btn-pulse-border btn-pulse-border-fb"
+        className="btn-pulse btn-pulse-border btn-pulse-border-fb"
       >
         <FontAwesomeIcon icon={faFacebookF} />
       </a>
       <a
         href="https://www.linkedin.com/company/ucscieeesb/"
-        class="btn-pulse btn-pulse-border btn-pulse-border-insta"
+        className="btn-pulse btn-pulse-border btn-pulse-border-insta"
       >
         <FontAwesomeIcon icon={faLinkedinIn} />
       </a>
       <a
         href="https://www.instagram.com/ucsc.ieee/?igshid=138jsgkp9rjmz"
-        class="btn-pulse btn-pulse-border btn-pulse-border-linked"
+        className="btn-pulse btn-pulse-border btn-pulse-border-linked"
       >
         <FontAwesomeIcon icon={faInstagram} />
       </a>

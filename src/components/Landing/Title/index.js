@@ -3,19 +3,12 @@ import "./index.css";
 import video from "../../../assets/mp4/web_vid.mp4";
 import FadeIn from "react-fade-in";
 import $ from "jquery";
+import data from "../data/title-news.json";
 
 var pace = 5000; //Pace show
 
 //News and links
-const news = [
-  {
-    month: "MAY",
-    date: "22",
-    news: "RevolUX 2.0 - Officially Announced",
-    content: "Visit the RevolUX 2.0 official page",
-    link: "",
-  },
-];
+const news = data.news;
 
 const shownews = news.map((key) => key.news);
 const newslink = news.map((key) => key.link);
@@ -28,7 +21,9 @@ function allnews() {
   for (let i = 0; i < news.length; i++) {
     setTimeout(function () {
       $("#text").fadeOut("slow", function () {
-        $("#text").html("<a href=" + newslink[i] + ">" + shownews[i] + "</a>");
+        $("#text").html(
+          "<a href=" + newslink[i] + ' target="_blank">' + shownews[i] + "</a>"
+        );
       });
       $("#text").fadeIn();
 
@@ -38,7 +33,9 @@ function allnews() {
       $("#date").fadeIn();
 
       $("#para").fadeOut("slow", function () {
-        $("#para").html("<a href=" + newslink[i] + ">" + newstext[i] + "</a>");
+        $("#para").html(
+          "<a href=" + newslink[i] + ' target="_blank">' + newstext[i] + "</a>"
+        );
       });
       $("#para").fadeIn();
     }, pace * i);

@@ -18,9 +18,9 @@ function Likes() {
           gradientTransform="matrix(-1, 0, 0, 1, 651, 0)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.53514" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset="0" stopColor="gray" stopOpacity="0.25" />
+          <stop offset="0.53514" stopColor="gray" stopOpacity="0.12" />
+          <stop offset="1" stopColor="gray" stopOpacity="0.1" />
         </linearGradient>
       </defs>
       <path
@@ -33,28 +33,28 @@ function Likes() {
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M429.12694,184.69093H427.3524a1.50327,1.50327,0,0,1-1.50327-1.50327V158.20489a1.50327,1.50327,0,0,1,1.50327-1.50327h1.77454"
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M428.848,256.66345h-1.5147a1.69459,1.69459,0,0,1-1.69459-1.69459v-45.329a1.69459,1.69459,0,0,1,1.69459-1.6946h1.79366"
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M428.848,322.84871h-1.49148a1.61261,1.61261,0,0,1-1.6126-1.6126V275.32217a1.6126,1.6126,0,0,1,1.6126-1.61259H428.848"
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <rect
         x="317.6162"
@@ -64,7 +64,7 @@ function Likes() {
         rx="35.69395"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <rect
         x="454.87844"
@@ -83,7 +83,7 @@ function Likes() {
         rx="2.54189"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <circle
         cx="517.90777"
@@ -91,14 +91,14 @@ function Likes() {
         r="5.55051"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M752.91966,109.882v610.02a27.40545,27.40545,0,0,1-27.41,27.4h-247.66a27.40545,27.40545,0,0,1-27.41-27.4V109.882a27.40759,27.40759,0,0,1,27.41-27.41h37.06V87.232a22.57647,22.57647,0,0,0,22.57,22.57h125.95a22.57,22.57,0,0,0,22.57-22.57V82.472h39.51A27.40759,27.40759,0,0,1,752.91966,109.882Z"
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <rect
         x="347.57891"
@@ -107,7 +107,7 @@ function Likes() {
         height="4"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <rect
         x="347.57891"
@@ -116,7 +116,7 @@ function Likes() {
         height="4"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <rect
         x="347.57891"
@@ -125,14 +125,14 @@ function Likes() {
         height="4"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M738.75456,150.772h-.91824l-.34477-.28784a7.62034,7.62034,0,0,0,1.77982-4.893,7.43383,7.43383,0,1,0-7.405,7.48343,7.6931,7.6931,0,0,0,4.87907-1.78434l.34424.2879v.92086l5.74018,5.75644,1.722-1.72693Zm-6.88823,0a5.18086,5.18086,0,1,1,5.16612-5.18086A5.15205,5.15205,0,0,1,731.86633,150.772Z"
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M906.66523,217.77107a38.95007,38.95007,0,0,1,38.89611-36.91443c1.18377,0,2.35271.06174,3.50958.16513a51.74974,51.74974,0,0,1,89.45652-.04229c.976-.07331,1.95855-.12284,2.95327-.12284a38.95007,38.95007,0,0,1,38.89611,36.91443"
@@ -144,7 +144,7 @@ function Likes() {
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M802.66523,438.77107a38.95007,38.95007,0,0,1,38.89611-36.91443c1.18377,0,2.35271.06174,3.50958.16513a51.74974,51.74974,0,0,1,89.45652-.04229c.976-.07331,1.95855-.12284,2.95327-.12284a38.95007,38.95007,0,0,1,38.89611,36.91443"
@@ -156,7 +156,7 @@ function Likes() {
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M151.66523,114.77107a38.95007,38.95007,0,0,1,38.89611-36.91443c1.18377,0,2.35271.06174,3.50958.16513a51.74974,51.74974,0,0,1,89.45652-.04229c.976-.07331,1.95855-.12284,2.95327-.12284a38.95007,38.95007,0,0,1,38.89611,36.91443"
@@ -168,7 +168,7 @@ function Likes() {
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <rect
         x="349.07891"
@@ -186,7 +186,7 @@ function Likes() {
         rx="12.54724"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M555.05822,313.30129l20.99113,21.6334a4.77133,4.77133,0,0,0,3.509,1.40985h.06266a4.77133,4.77133,0,0,0,3.509-1.40985l20.99113-21.6334a4.63225,4.63225,0,0,0,0-6.76729,5.18146,5.18146,0,0,0-7.08059,0l-12.438,13.002V286.01282a5.01782,5.01782,0,0,0-10.02561,0V319.536l-12.438-13.002a5.18144,5.18144,0,0,0-7.08059,0,4.63225,4.63225,0,0,0,0,6.76729Z"
@@ -211,7 +211,7 @@ function Likes() {
         transform="translate(1073.66855 970.78194) rotate(-180)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M630.12107,539.3013a4.63225,4.63225,0,0,0,0-6.76729,5.18144,5.18144,0,0,0-7.08059,0l-12.438,13.002V512.01282a5.01782,5.01782,0,0,0-10.02561,0V545.536l-12.438-13.002a5.18146,5.18146,0,0,0-7.08059,0,4.63225,4.63225,0,0,0,0,6.76729l20.99113,21.6334a4.77131,4.77131,0,0,0,3.509,1.40985h.06266a4.77133,4.77133,0,0,0,3.509-1.40985l20.99113-21.6334Z"
@@ -406,14 +406,14 @@ function Likes() {
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M126.07747,691.6762a20.81252,20.81252,0,1,0,2.77159-39.91524l.52094,10.7122-5.06815-9.18045a20.734,20.734,0,0,0-10.68367,11.72261,20.40883,20.40883,0,0,0-1.19713,5.62986A20.80857,20.80857,0,0,0,126.07747,691.6762Z"
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M147.75389,632.47266A20.78823,20.78823,0,0,1,162.73382,619.275l1.71362,10.18378,3.177-10.69566a20.81,20.81,0,1,1-19.87057,13.70952Z"
@@ -425,7 +425,7 @@ function Likes() {
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M163.34728,742.48885a20.81,20.81,0,0,0,18.419-37.02267l-2.44122,8.21926-1.731-10.30382a.3621.3621,0,0,0-.053-.0201,20.81113,20.81113,0,1,0-14.1938,39.12733Z"
@@ -437,7 +437,7 @@ function Likes() {
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M141.68036,777.05148a20.80131,20.80131,0,1,0,4.01058-16.29737l9.27267,13.95654L142.29366,767.303A20.61637,20.61637,0,0,0,141.68036,777.05148Z"
@@ -449,7 +449,7 @@ function Likes() {
         transform="translate(-111.51074 -48.78194)"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M121.40226,831.01764s18.36546-7.19731,23.90035-11.13863,28.2507-8.64747,29.62377-2.32646,27.59987,31.43784,6.86536,31.60509-48.17778,3.40194-53.702.03692S121.40226,831.01764,121.40226,831.01764Z"
@@ -468,7 +468,7 @@ function Likes() {
         y2="799.55547"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
     </svg>
   );

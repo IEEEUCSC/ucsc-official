@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
-import { Link } from "react-scroll";
+import { NavLink as Link } from "react-router-dom";
 import { Fade as Hamburger } from "hamburger-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -37,14 +37,14 @@ const NavbarLogos = () => {
                   className="pt-2 pt-lg-1 pb-lg-0"
                 />
               </Link>
-              <Link to={{ pathname: "https://ieee.org" }} target="_blank">
+              <a href="https://ieee.org" rel="noreferrer" target="_blank">
                 <img
                   src={ieee_logo}
                   alt="IEEE Logo"
                   height="70px"
                   className="py-4 py-md-3 pe-2"
                 />
-              </Link>
+              </a>
             </Navbar.Brand>
           </Col>
         </Row>
@@ -82,12 +82,12 @@ const NavbarLinks = () => {
                 <Nav.Item className="my-1 my-lg-0">
                   <Link
                     to="home"
-                    spy={true}
-                    smooth={true}
+                    spy="true"
+                    smooth="true"
                     offset={0}
                     duration={100}
                     className="nav-link"
-                    activeClass="active"
+                    activeClassName="active"
                   >
                     <FontAwesomeIcon icon={faHome} className="me-2 me-lg-0" />
                     &ensp;Home
@@ -96,12 +96,12 @@ const NavbarLinks = () => {
                 <Nav.Item className="my-1 my-lg-0">
                   <Link
                     to="about-us"
-                    spy={true}
-                    smooth={true}
+                    spy="true"
+                    smooth="true"
                     offset={-130}
                     duration={100}
                     className="nav-link"
-                    activeClass="active"
+                    activeClassName="active"
                   >
                     <FontAwesomeIcon
                       icon={faInfoCircle}
@@ -113,12 +113,12 @@ const NavbarLinks = () => {
                 <Nav.Item className="my-1 my-lg-0">
                   <Link
                     to="what-we-do"
-                    spy={true}
-                    smooth={true}
+                    spy="true"
+                    smooth="true"
                     offset={-130}
                     duration={100}
                     className="nav-link"
-                    activeClass="active"
+                    activeClassName="active"
                   >
                     <FontAwesomeIcon icon={faCheck} className="me-2 me-lg-0" />
                     &ensp;What We Do
@@ -127,12 +127,12 @@ const NavbarLinks = () => {
                 <Nav.Item className="my-1 my-lg-0">
                   <Link
                     to="timeline"
-                    spy={true}
-                    smooth={true}
+                    spy="true"
+                    smooth="true"
                     offset={-180}
                     duration={100}
                     className="nav-link"
-                    activeClass="active"
+                    activeClassName="active"
                   >
                     <FontAwesomeIcon
                       icon={faCalendar}
@@ -144,12 +144,12 @@ const NavbarLinks = () => {
                 <Nav.Item className="my-1 my-lg-0">
                   <Link
                     to="past-events"
-                    spy={true}
-                    smooth={true}
+                    spy="true"
+                    smooth="true"
                     offset={-120}
                     duration={100}
                     className="nav-link"
-                    activeClass="active"
+                    activeClassName="active"
                   >
                     <FontAwesomeIcon icon={faTasks} className="me-2 me-lg-0" />
                     &ensp;Past Events
@@ -158,12 +158,12 @@ const NavbarLinks = () => {
                 <Nav.Item className="my-1 my-lg-0">
                   <Link
                     to="team"
-                    spy={true}
-                    smooth={true}
+                    spy="true"
+                    smooth="true"
                     offset={-130}
                     duration={100}
                     className="nav-link"
-                    activeClass="active"
+                    activeClassName="active"
                   >
                     <FontAwesomeIcon icon={faUsers} className="me-2 me-lg-0" />
                     &ensp;Team
@@ -172,12 +172,12 @@ const NavbarLinks = () => {
                 <Nav.Item className="my-1 my-lg-0">
                   <Link
                     to="contact-us"
-                    spy={true}
-                    smooth={true}
+                    spy="true"
+                    smooth="true"
                     offset={-110}
                     duration={100}
                     className="nav-link"
-                    activeClass="active"
+                    activeClassName="active"
                   >
                     <FontAwesomeIcon
                       icon={faPhoneAlt}

@@ -59,10 +59,9 @@ const Title = () => {
       <div className="overlay">
         <div className="overlay2"></div>
         <video
-          playsinline="playsinline"
-          autoplay="autoplay"
-          muted="muted"
-          loop="loop"
+          playsInline={true}
+          loop={true}
+          muted={true}
           style={{ width: "100%" }}
         >
           <source src={video} type="video/mp4" />

@@ -63,19 +63,19 @@ const ContactUs = () => {
             <span className="circle one"></span>{" "}
             <span className="circle two"></span>
             <h3 className="titlec">Contact us</h3>
-            <p>
-              {officers.map((officer) => (
-                <>
-                  <hr />
+            {officers.map((officer, index) => (
+              <div key={index}>
+                <hr />
+                <p>
                   <b>{officer.name}</b> <br />
                   {officer.post}, IEEE Student Branch of UCSC
                   <br />
                   <a className="email" href={"mailto:" + officer.email}>
                     {officer.email}
                   </a>
-                </>
-              ))}
-            </p>
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

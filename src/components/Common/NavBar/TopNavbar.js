@@ -73,7 +73,7 @@ const NavbarLinks = () => {
               aria-controls="basic-navbar-nav"
               className="mt-1 py-0 px-2"
             >
-              <Hamburger rounded size={24} />
+              <Hamburger rounded size={24} label="Hamburger Menu" />
             </Navbar.Toggle>
             <Navbar.Collapse
               id="basic-navbar-nav"

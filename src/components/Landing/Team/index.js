@@ -12,6 +12,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import data from "../data/team.json";
 
 function Member({ data }) {
+  const firstName = data.name.split(" ")[0] || "";
   return (
     <div className="our-team">
       <div className="pic">
@@ -26,27 +27,27 @@ function Member({ data }) {
       <ul className="social">
         {data.linkedin ? (
           <li>
-            <a href={data.linkedin}>
+            <a href={data.linkedin} title={firstName + "'s LinkedIn"}>
               <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
           </li>
         ) : null}
         {data.facebook ? (
           <li>
-            <a href={data.facebook}>
+            <a href={data.facebook} title={firstName + "'s Facebook"}>
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
           </li>
         ) : null}
         {data.instagram ? (
           <li>
-            <a href={data.instagram}>
+            <a href={data.instagram} title={firstName + "'s Instagram"}>
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </li>
         ) : null}
         <li>
-          <a href={"mailto:" + data.email}>
+          <a href={"mailto:" + data.email} title={firstName + "'s email"}>
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </li>

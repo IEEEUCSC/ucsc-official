@@ -17,37 +17,37 @@ function Footer() {
         </div>
         <ul className="list-inline">
           <li className="list-inline-item">
-            <Link to="home" smooth={true}>
+            <Link href="#home" to="home">
               Home
             </Link>
           </li>
           <li className="list-inline-item">
-            <Link to="about-us" smooth={true}>
+            <Link href="#about-us" to="about-us">
               About Us
             </Link>
           </li>
           <li className="list-inline-item">
-            <Link to="what-we-do" smooth={true}>
+            <Link href="#what-we-do" to="what-we-do">
               What we do
             </Link>
           </li>
           <li className="list-inline-item">
-            <Link to="timeline" smooth={true}>
+            <Link href="#timeline" to="timeline">
               Timeline
             </Link>
           </li>
           <li className="list-inline-item">
-            <Link to="past-events" smooth={true}>
+            <Link href="#past-events" to="past-events">
               Past Events
             </Link>
           </li>
           <li className="list-inline-item">
-            <Link to="team" smooth={true}>
+            <Link href="#team" to="team">
               Team
             </Link>
           </li>
           <li className="list-inline-item">
-            <Link to="contact-us" smooth={true}>
+            <Link href="#contact-us" to="contact-us">
               Contact Us
             </Link>
           </li>

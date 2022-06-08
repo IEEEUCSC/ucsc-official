@@ -64,34 +64,34 @@ function Team() {
           <h3>Our Executive Committee</h3>
           <p style={{ paddingBottom: "20px" }}> Meet Our Team </p>
         </div>
-        <div className="row rows-cols-5 mt-5 justify-content-center">
-          <div className="col-lg-3 col-sm-6 col-6">
+        <div className="row mt-5 justify-content-center">
+          <div className="col-lg-3 col-6">
             <Member data={data.excom.chairperson} />
           </div>
-          <div className="col-lg-3 col-sm-6 col-6">
+          <div className="col-lg-3 col-6">
             <Member data={data.excom.viceChairperson} />
           </div>
-          <div className="col-lg-3 col-sm-6 col-6">
+          <div className="col-lg-3 col-6">
             <Member data={data.excom.secretary} />
           </div>
-          <div className="col-lg-3 col-sm-6 col-6">
+          <div className="col-lg-3 col-6">
             <Member data={data.excom.treasurer} />
           </div>
         </div>
-        <div className="row rows-cols-5 mt-5 justify-content-center">
-          <div className="col-lg-2 col-sm-6 col-6">
+        <div className="row mt-5 justify-content-center">
+          <div className="col-lg-3 col-6">
             <Member data={data.excom.publicityCoord} />
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-3 offset-lg-1 col-6">
             <Member data={data.excom.programCoord} />
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-3 offset-lg-1 col-6">
             <Member data={data.excom.membershipCoord} />
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-3 col-6">
             <Member data={data.excom.designMaster} />
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-3 offset-lg-1 col-6">
             <Member data={data.excom.webMaster} />
           </div>
         </div>
@@ -100,22 +100,22 @@ function Team() {
           <p style={{ paddingBottom: "20px" }}> Meet Our Team </p>
         </div>
         <div className="row rows-cols-5 mt-5 justify-content-center">
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-3 col-sm-6 col-6">
             <Member data={data.bod.web} />
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-3 col-sm-6 col-6">
             <Member data={data.bod.program} />
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-3 col-sm-6 col-6">
             <Member data={data.bod.content} />
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-3 col-sm-6 col-6">
             <Member data={data.bod.design} />
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-3 col-sm-6 col-6">
             <Member data={data.bod.finance} />
           </div>
-          <div className="col-lg-2 col-sm-6 col-6">
+          <div className="col-lg-3 col-sm-6 col-6">
             <Member data={data.bod.publicRelations} />
           </div>
         </div>

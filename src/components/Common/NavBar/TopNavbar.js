@@ -1,6 +1,7 @@
 import React from "react";
-import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
+import { Col, Container, Nav, Navbar, Row, NavDropdown } from "react-bootstrap";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { Fade as Hamburger } from "hamburger-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -156,20 +157,34 @@ const NavbarLinks = () => {
                     &ensp;Past Events
                   </Link>
                 </Nav.Item>
-                <Nav.Item className="my-1 my-lg-0">
-                  <Link
-                    to="team"
-                    spy={true}
-                    smooth={true}
-                    offset={-130}
-                    duration={100}
-                    className="nav-link"
-                    activeClass="active"
-                  >
-                    <FontAwesomeIcon icon={faUsers} className="me-2 me-lg-0" />
-                    &ensp;Team
-                  </Link>
-                </Nav.Item>
+                <NavDropdown
+                  title={
+                    <>
+                      <FontAwesomeIcon
+                        icon={faUsers}
+                        className="me-2 me-lg-0"
+                      />
+                      &ensp;Our Team
+                    </>
+                  }
+                >
+                  <NavDropdown.Item className="my-1 my-lg-0">
+                    <Link
+                      to="team"
+                      spy={true}
+                      smooth={true}
+                      offset={-130}
+                      duration={100}
+                      className="nav-link"
+                      activeClass="active"
+                    >
+                      Current Team
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item className="my-1 my-lg-0">
+                    <RouterLink to="/previous-teams">Previous Teams</RouterLink>
+                  </NavDropdown.Item>
+                </NavDropdown>
                 <Nav.Item className="my-1 my-lg-0">
                   <Link
                     to="contact-us"

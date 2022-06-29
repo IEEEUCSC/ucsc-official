@@ -1,59 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./index.css";
 import video from "../../../assets/mp4/web_vid.mp4";
 import FadeIn from "react-fade-in";
-import $ from "jquery";
 import data from "../data/title-news.json";
-
-var pace = 5000; //Pace show
 
 //News and links
 const news = data.news;
 
-const shownews = news.map((key) => key.news);
-const newslink = news.map((key) => key.link);
-const newsmonth = news.map((key) => key.month);
-const newsdate = news.map((key) => key.date);
-const newstext = news.map((key) => key.content);
-
-//Show News and links
-function allnews() {
-  for (let i = 0; i < news.length; i++) {
-    setTimeout(function () {
-      $("#text").fadeOut("slow", function () {
-        $("#text").html(
-          "<a href=" + newslink[i] + ' target="_blank">' + shownews[i] + "</a>"
-        );
-      });
-      $("#text").fadeIn();
-
-      $("#date").fadeOut("slow", function () {
-        $("#date").html(newsmonth[i] + "<span>" + newsdate[i] + "</span>");
-      });
-      $("#date").fadeIn();
-
-      $("#para").fadeOut("slow", function () {
-        $("#para").html(
-          "<a href=" + newslink[i] + ' target="_blank">' + newstext[i] + "</a>"
-        );
-      });
-      $("#para").fadeIn();
-    }, pace * i);
-  }
-}
-
-allnews();
-var callCount = 1;
-var repeater = setInterval(function () {
-  if (callCount < 10) {
-    allnews();
-    callCount += 1;
-  } else {
-    clearInterval(repeater);
-  }
-}, 20000);
-
 const Title = () => {
+  const totalNews = news.length;
+
+  const [newsIndex, setNewsIndex] = useState(0);
+  const currentNews = news[newsIndex];
+
+  useEffect(() => {
+    setInterval(() => {
+      setNewsIndex((prevIndex) => (prevIndex + 1) % totalNews);
+    }, 10000);
+  }, []);
+
   return (
     <div className="title-div">
       <div className="overlay">
@@ -90,10 +55,21 @@ const Title = () => {
           </div>
           <div className="h-25">
             <div className="shownews">
-              <div className="title" id="date"></div>
+              <div className="title" id="date">
+                <div>
+                  {currentNews.month}
+                  <span>{currentNews.date}</span>
+                </div>
+              </div>
               <div id="news">
-                <span id="text"></span>
-                <span id="para"></span>
+                <span id="text">
+                  <a href={currentNews.link} target="_blank" rel="noreferrer">
+                    {currentNews.news}
+                  </a>
+                </span>
+                <span id="para">
+                  <a href={currentNews.link}>{currentNews.content}</a>
+                </span>
               </div>
             </div>
           </div>

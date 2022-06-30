@@ -168,7 +168,7 @@ const NavbarLinks = () => {
                     </>
                   }
                 >
-                  <NavDropdown.Item className="my-1 my-lg-0">
+                  <NavDropdown.Item as="div" className="my-1 my-lg-0">
                     <Link
                       to="team"
                       spy={true}
@@ -181,8 +181,10 @@ const NavbarLinks = () => {
                       Current Team
                     </Link>
                   </NavDropdown.Item>
-                  <NavDropdown.Item className="my-1 my-lg-0">
-                    <RouterLink to="/previous-teams">Previous Teams</RouterLink>
+                  <NavDropdown.Item as="div" className="my-1 my-lg-0">
+                    <RouterLink className="nav-link" to="/previous-teams">
+                      Previous Teams
+                    </RouterLink>
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Item className="my-1 my-lg-0">

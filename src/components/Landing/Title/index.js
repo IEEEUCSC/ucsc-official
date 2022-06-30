@@ -3,7 +3,7 @@ import "./index.css";
 import video from "../../../assets/mp4/web_vid.mp4";
 import FadeIn from "react-fade-in";
 import $ from "jquery";
-import data from "../data/title-news.json";
+import data from "../../../data/title-news.json";
 
 var pace = 5000; //Pace show
 

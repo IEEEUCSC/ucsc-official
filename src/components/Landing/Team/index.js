@@ -9,7 +9,7 @@ import {
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import data from "../data/team.json";
+import data from "../../../data/team.json";
 
 function Member({ data }) {
   const firstName = data.name.split(" ")[0] || "";

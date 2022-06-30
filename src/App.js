@@ -5,7 +5,7 @@ import Footer from "./components/Common/Footer/index";
 import EventDetails from "./components/Landing/EventDetails/EventDetails";
 import React from "react";
 import TopNavbar from "./components/Common/NavBar/TopNavbar";
-import PreviousTeams from "./components/Pages/PreviousTeams";
+import PreviousTeams from "./components/PreviousTeams";
 
 function App() {
   // let { id } = useParams();

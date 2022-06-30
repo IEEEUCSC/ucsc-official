@@ -6,7 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./styles.css";
-import data from "../data/timeline-events.json";
+import data from "../../../data/timeline-events.json";
 
 const Timeline = () => {
   const [events] = useState(data.events);

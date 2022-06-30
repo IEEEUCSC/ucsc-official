@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import "./styles.css";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import data from "../data/past-events.json";
+import data from "../../../data/past-events.json";
 
 const EventDetails = () => {
   const { id } = useParams();

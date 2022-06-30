@@ -6,7 +6,7 @@ import {
   faEnvelope,
   faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons";
-import data from "../data/team.json";
+import data from "../../../data/team.json";
 
 const ContactUs = () => {
   const excom = data.excom;

@@ -5,7 +5,7 @@ import "./styles.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SizeMe } from "react-sizeme";
-import data from "../data/past-events.json";
+import data from "../../../data/past-events.json";
 import { useHistory } from "react-router-dom";
 
 const NewsList = ({ type }) => {

@@ -1,0 +1,34 @@
+.member .social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.member .social li {
+  display: inline-block;
+
+  margin-right: 5px;
+}
+
+.member .social li a {
+  border-radius: 50%;
+  font-size: 15px;
+  color: #101010;
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  transition: all 0.5s ease 0s;
+}
+
+.member .social li a:hover {
+  background: #00629b;
+  color: #fff;
+}
+
+@media only screen and (max-width: 479px) {
+  .member .title {
+    font-size: 0.98em;
+    overflow-wrap: anywhere;
+  }
+}

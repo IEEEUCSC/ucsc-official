@@ -1,0 +1,82 @@
+{
+  "2022": {
+    "chairperson" : {
+      "name": "Akila Maithripala",
+      "post": "Chairperson",
+      "img": "excom/Akila.webp",
+      "linkedin": "https://www.linkedin.com/in/akilamaithri/",
+      "facebook": "https://www.facebook.com/akila.my3",
+      "instagram": "https://www.instagram.com/akila_maithripala",
+      "email": "akilamaithripala@gmail.com"
+    },
+    "viceChairperson" : {
+      "name": "Ravin Perera",
+      "post": "Vice Chairperson",
+      "img": "excom/Ravin.webp",
+      "linkedin": "https://www.linkedin.com/in/ravin-perera-b3ba551a4",
+      "facebook": "https://www.facebook.com/ravin.perera.7923",
+      "email": "bravinperera@gmail.com"
+    },
+    "secretary" : {
+      "name": "Yadeesha Weerasinghe",
+      "post": "Secretary",
+      "img": "excom/Yadeesha.webp",
+      "linkedin": "http://www.linkedin.com/in/yadeesha-weerasinghe-284936211",
+      "facebook": "https://www.facebook.com/yadeesha.weerasinghe.9",
+      "instagram": "https://www.instagram.com/yadeeshaa/",
+      "email": "yadeeshaw@gmail.com"
+    },
+    "treasurer" : {
+      "name": "Pinsara Dhanika",
+      "post": "Treasurer",
+      "img": "excom/Dhanika.webp",
+      "linkedin": "https://www.linkedin.com/in/pinsara-dhanika-43a78b1a5/",
+      "facebook": "https://www.facebook.com/pinsara.dhanika",
+      "instagram": "https://www.instagram.com/pinsaradhanika/",
+      "email": "pinsara.dhanika@gmail.com"
+    },
+    "publicityCoord": {
+      "name": "Venudi Dayaratne",
+      "post": "Publicity Coordinator",
+      "img": "excom/Venudi.webp",
+      "linkedin": "https://www.linkedin.com/in/venudidayaratne",
+      "instagram": "https://instagram.com/_venudi_",
+      "email": "venudidisara@gmail.com"
+    },
+    "programCoord": {
+      "name": "Muhammad Suraif",
+      "post": "Program Coordinator",
+      "img": "excom/Suraif.webp",
+      "linkedin": "https://www.linkedin.com/in/muhammad-suraif",
+      "facebook": "https://www.facebook.com/suraif.muhamed",
+      "instagram": "https://instagram.com/suraif16?utm_medium=copy_link",
+      "email": "muhammad.suraif@ieee.org"
+    },
+    "membershipCoord": {
+      "name": "Dushanee Gamage",
+      "post": "Membership Coordinator",
+      "img": "excom/Dushanee.webp",
+      "linkedin": "https://www.linkedin.com/in/dushanee-gamage-26aa291ba/",
+      "facebook": "https://www.facebook.com/dushanee.gamage",
+      "instagram": "https://www.instagram.com/__dushiee_la_sushiee__/",
+      "email": "dushanee2000@gmail.com"
+    },
+    "designMaster" : {
+      "name": "Anjali Rodrigo",
+      "post": "Design Master",
+      "img": "excom/Anjali.webp",
+      "linkedin": "https://www.linkedin.com/in/anjali-rodrigo",
+      "facebook": "https://www.facebook.com/anjali.rodrigo.50",
+      "instagram": "https://instagram.com/anjali_rodrigo",
+      "email": "anjalikrodrigo@gmail.com"
+    },
+    "webMaster" : {
+      "name": "Nipun Chamikara",
+      "post": "Web Master",
+      "img": "excom/Nipun.webp",
+      "linkedin": "https://www.linkedin.com/in/nipun-chamikara-weerasiri",
+      "instagram": "https://www.instagram.com/nipun.weerasiri",
+      "email": "nipunchamikara@ieee.org"
+    }
+  }
+}

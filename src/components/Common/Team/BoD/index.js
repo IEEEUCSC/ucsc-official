@@ -6,7 +6,9 @@ function BoD({ data }) {
   return (
     <>
       <div className="row rows-cols-5 mt-5 justify-content-center">
-        <Member data={data.web} />
+        <div className="col-lg-3 col-sm-6 col-6">
+          <Member data={data.web} />
+        </div>
         <div className="col-lg-3 col-sm-6 col-6">
           <Member data={data.program} />
         </div>

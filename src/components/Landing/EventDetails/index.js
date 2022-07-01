@@ -5,6 +5,7 @@ import "./styles.css";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import data from "../../../data/past-events.json";
+import GoBack from "../../Common/GoBack";
 
 const EventDetails = () => {
   const { id } = useParams();
@@ -20,11 +21,7 @@ const EventDetails = () => {
       as="section"
     >
       <div className="my-5 pb-1 pb-lg-3 mx-2 mx-md-3 mx-lg-5">
-        <Link to={"/"} style={{ textDecoration: "none" }}>
-          <Button variant="outline-primary mb-4">
-            <FontAwesomeIcon icon={faArrowLeft} className="me-1" /> Go back
-          </Button>
-        </Link>
+        <GoBack url="/" />
         <Card className="event-details-card text-center align-content-center justify-content-center">
           <Card.Img
             variant="top"

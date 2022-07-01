@@ -1,7 +1,6 @@
 import { useState, React } from "react";
-import "./index.css";
+import "./styles.css";
 import { useParams } from "react-router-dom";
-import useFetch from "../../useFetch";
 import data from "../../data/newsItems.json";
 
 function Article() {

@@ -182,7 +182,16 @@ const NavbarLinks = () => {
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item as="div" className="my-1 my-lg-0">
-                    <RouterLink className="nav-link" to="/previous-teams">
+                    <RouterLink
+                      className="nav-link"
+                      to="/previous-teams"
+                      onClick={() =>
+                        window.localStorage.setItem(
+                          "scrollYPosition",
+                          window.scrollY.toString()
+                        )
+                      }
+                    >
                       Previous Teams
                     </RouterLink>
                   </NavDropdown.Item>

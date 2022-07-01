@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import logo from "../../../assets/ieeeucsc.webp";
-import "./index.css";
+import "./styles.css";
 
 function Footer() {
   return (

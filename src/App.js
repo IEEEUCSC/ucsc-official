@@ -5,7 +5,7 @@ import Footer from "./components/Common/Footer";
 import EventDetails from "./components/Landing/EventDetails";
 import React from "react";
 import TopNavbar from "./components/Common/TopNavbar";
-import PreviousTeams from "./components/PreviousTeams";
+import PreviousOfficers from "./components/PreviousOfficers";
 
 function App() {
   // let { id } = useParams();
@@ -24,9 +24,9 @@ function App() {
               <EventDetails />
               <Footer />
             </Route>
-            <Route path="/previous-teams">
+            <Route path="/previous-officers">
               <TopNavbar showLinks={false} />
-              <PreviousTeams />
+              <PreviousOfficers />
               <Footer />
             </Route>
           </Switch>

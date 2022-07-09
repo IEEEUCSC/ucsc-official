@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { Container } from "react-bootstrap";
 
-import data from "../../data/previous-teams.json";
+import data from "../../data/previous-officers.json";
 import GoBack from "../Common/GoBack";
 
-import Excom from "../Common/Team/Excom";
+import Officers from "../Common/Team/Officers";
 
 import "./styles.css";
 
@@ -21,10 +21,13 @@ function PreviousTeam() {
       <div className="my-5 pb-1 pb-lg-3 mx-2 mx-md-3 mx-lg-5">
         <GoBack url="/" />
       </div>
-      {data["previous-teams"].map((team, index) => (
+      <div className="section-header">
+        <h3>Previous Officers</h3>
+      </div>
+      {data["previous-officers"].map((team, index) => (
         <div className="team" key={index} id={team.year}>
-          <h1 className="year">{team.year}</h1>
-          <Excom data={team.excom} />
+          <h2 className="year">{team.year}</h2>
+          <Officers officers={team.officers} />
         </div>
       ))}
     </Container>

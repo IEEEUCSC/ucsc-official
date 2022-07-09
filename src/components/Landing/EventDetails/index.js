@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Button, Card, Container } from "react-bootstrap";
-import { Link, useParams } from "react-router-dom";
+import { Card, Container } from "react-bootstrap";
+import { useParams } from "react-router-dom";
 import "./styles.css";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import data from "../../../data/past-events.json";
 import GoBack from "../../Common/GoBack";
 

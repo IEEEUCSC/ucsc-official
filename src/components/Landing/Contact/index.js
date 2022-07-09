@@ -9,13 +9,7 @@ import {
 import data from "../../../data/team.json";
 
 const ContactUs = () => {
-  const excom = data.excom;
-  const officers = [
-    excom.chairperson,
-    excom.viceChairperson,
-    excom.secretary,
-    excom.treasurer,
-  ];
+  const officers = Object.values(data.excom.officers);
 
   return (
     <section id="contact">

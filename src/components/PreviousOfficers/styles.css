@@ -1,0 +1,25 @@
+.previous-teams {
+  margin-top: 150px;
+}
+
+.previous-teams button {
+    transition: all 0.3s ease-out;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #137aaa;
+    border: 1px solid #137aaa;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+
+.previous-teams button:hover {
+    background: #137aaa;
+    color: white;
+}
+
+.previous-teams .year {
+  color: black;
+}

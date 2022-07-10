@@ -1,0 +1,17 @@
+button.btn.btn-outline-primary {
+    transition: all 0.3s ease-out;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #137aaa;
+    border: 1px solid #137aaa;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    margin: 4px 4px 4px 0;
+}
+
+button.btn.btn-outline-primary:hover {
+    background: #137aaa;
+    color: white;
+}

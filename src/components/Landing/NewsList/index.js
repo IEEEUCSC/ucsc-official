@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import Slider from "react-slick";
 import "./styles.css";
 import "slick-carousel/slick/slick.css";
@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { SizeMe } from "react-sizeme";
 import data from "../../../data/past-events.json";
 import { useHistory } from "react-router-dom";
+import Button from "../../Common/Button";
 
 const NewsList = ({ type }) => {
   const coverImgRatio = 16 / 9; // width / height
@@ -53,7 +54,6 @@ const NewsList = ({ type }) => {
           </div>
           <div className="text-fade" />
           <Button
-            variant="outline-primary"
             onClick={() => {
               window.localStorage.setItem(
                 "scrollYPosition",
@@ -85,7 +85,6 @@ const NewsList = ({ type }) => {
           </div>
           <div className="text-fade" />
           <Button
-            variant="outline-primary"
             onClick={() => {
               window.localStorage.setItem(
                 "scrollYPosition",

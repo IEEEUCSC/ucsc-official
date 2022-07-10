@@ -10,14 +10,15 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./styles.css";
 
 function Member({ data }) {
-  const firstName = data.name.split(" ")[0] || "";
+  const [firstName, lastName] = data.name.split(" ").slice(0, 2);
   return (
     <div className="member">
       <div className="pic">
         <img src={"../images/team/" + data.img} alt={data.name} />
       </div>
       <div className="title-wrapper">
-        <h3 className="title">{data.name}</h3>
+        <h3 className="title">{firstName}</h3>
+        <h3 className="title">{lastName}</h3>
       </div>
       <div className="post-wrapper">
         <span className="post">{data.post}</span>

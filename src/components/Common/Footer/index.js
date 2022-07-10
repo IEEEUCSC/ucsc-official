@@ -44,7 +44,7 @@ function Footer() {
           </li>
           <li className="list-inline-item">
             <Link href="#team" to="team">
-              CurrentTeam
+              Current Team
             </Link>
           </li>
           <li className="list-inline-item">

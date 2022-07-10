@@ -36,26 +36,24 @@
   font-size: 20px;
 }
 
+.member .title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.member .post-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
 .member .post {
   color: #000000;
   text-transform: capitalize;
   display: block;
   font-weight: 200;
   font-size: 16px;
-}
-
-.title-wrapper, .post-wrapper {
-  display: flex;
-  justify-content: center;
-  min-height: 50px;
-}
-
-.title-wrapper {
-  align-items: flex-end;
-}
-
-.post-wrapper {
-  align-items: flex-start;
 }
 
 .member .social {

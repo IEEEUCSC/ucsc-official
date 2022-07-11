@@ -38,67 +38,46 @@ const NewsList = ({ type }) => {
     );
   };
 
-  const EventCards1 = events.map((event, index) => (
-    <article className="mt-2 mb-4" key={index}>
-      <Card>
-        <Card.Header className="p-0 m-0">
-          {renderCoverImage(event.image)}
-        </Card.Header>
-        <Card.Body>
-          <Card.Subtitle className="my-0">{event.date}</Card.Subtitle>
-          <Card.Title as="h3" className="my-3">
-            {event.title}
-          </Card.Title>
-          <div className="card-text-container">
-            <Card.Text>{event.summary}</Card.Text>
-          </div>
-          <div className="text-fade" />
-          <Button
-            onClick={() => {
-              window.localStorage.setItem(
-                "scrollYPosition",
-                window.scrollY.toString()
-              );
-              history.push("/event-details/" + index);
-            }}
-          >
-            Read more
-          </Button>
-        </Card.Body>
-      </Card>
-    </article>
-  ));
+  const EventCard = ({ event, index }) => (
+    <Card>
+      <Card.Header className="p-0 m-0">
+        {renderCoverImage(event.image)}
+      </Card.Header>
+      <Card.Body>
+        <Card.Subtitle className="my-0">{event.date}</Card.Subtitle>
+        <Card.Title as="h3" className="my-3">
+          {event.title}
+        </Card.Title>
+        <div className="card-text-container">
+          <Card.Text>{event.summary}</Card.Text>
+        </div>
+        <div className="text-fade" />
+        <Button
+          onClick={() => {
+            window.localStorage.setItem(
+              "scrollYPosition",
+              window.scrollY.toString()
+            );
+            history.push("/event-details/" + index);
+          }}
+        >
+          Read more
+        </Button>
+      </Card.Body>
+    </Card>
+  );
 
-  const EventCards2 = events.map((event, index) => (
-    <div className="mt-2 mb-4" key={index}>
-      <Card>
-        <Card.Header className="p-0 m-0">
-          {renderCoverImage(event.image)}
-        </Card.Header>
-        <Card.Body>
-          <Card.Subtitle className="my-0">{event.date}</Card.Subtitle>
-          <Card.Title as="h3" className="my-3">
-            {event.title}
-          </Card.Title>
-          <div className="card-text-container">
-            <Card.Text>{event.summary}</Card.Text>
-          </div>
-          <div className="text-fade" />
-          <Button
-            onClick={() => {
-              window.localStorage.setItem(
-                "scrollYPosition",
-                window.scrollY.toString()
-              );
-              history.push("/event-details/" + index);
-            }}
-          >
-            Read more
-          </Button>
-        </Card.Body>
-      </Card>
-    </div>
-  ));
+  const EventCards = events.map((event, index) =>
+    type === "home" ? (
+      <article className="mt-2 mb-4" key={index}>
+        <EventCard event={event} index={index} />
+      </article>
+    ) : (
+      <div className="mt-2 mb-4" key={index}>
+        <EventCard event={event} index={index} />
+      </div>
+    )
+  );
 
   const sliderSettings = {
     dots: true,
@@ -128,7 +107,7 @@ const NewsList = ({ type }) => {
             }}
             className="mx-3 px-0"
           >
-            {type === "home" ? EventCards1 : EventCards2}
+            {EventCards}
           </Slider>
         )}
       </SizeMe>

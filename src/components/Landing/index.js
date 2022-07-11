@@ -25,10 +25,6 @@ const Home = () => {
         </ParallaxProvider>
       </section>
 
-      {/* <div className="WhatWeDo">
-                <OurWork/>
-            </div> */}
-
       <section id="what-we-do" className="numbers">
         <Work />
       </section>
@@ -38,9 +34,6 @@ const Home = () => {
       </section>
 
       <section id="past-events" className="newsFeed">
-        {/* {error && <div>{error}</div>}
-                {isPending && <div>Loading...</div>}
-        {items && */}
         <NewsList type="home" />
       </section>
 

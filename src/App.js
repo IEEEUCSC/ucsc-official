@@ -1,17 +1,24 @@
-import Home from "./components/Landing";
+import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+// import Home from "./components/Landing";
+// import EventDetails from "./components/Landing/EventDetails";
+// import PreviousOfficers from "./components/PreviousOfficers";
+
 import SocialMedia from "./components/Common/SocialMedia";
 import Footer from "./components/Common/Footer";
-import EventDetails from "./components/Landing/EventDetails";
-import React from "react";
 import TopNavbar from "./components/Common/TopNavbar";
-import PreviousOfficers from "./components/PreviousOfficers";
+import Loading from "./components/Common/Loading";
 
-function App() {
-  // let { id } = useParams();
+// lazy loading components
+const Home = lazy(() => import("./components/Landing"));
+const EventDetails = lazy(() => import("./components/Landing/EventDetails"));
+const PreviousOfficers = lazy(() => import("./components/PreviousOfficers"));
+
+const App = () => {
   return (
-    <>
-      <Router>
+    <Router>
+      <Suspense fallback={<Loading />}>
         <main>
           <Switch>
             <Route exact path="/">
@@ -32,9 +39,9 @@ function App() {
           </Switch>
           <SocialMedia />
         </main>
-      </Router>
-    </>
+      </Suspense>
+    </Router>
   );
-}
+};
 
 export default App;

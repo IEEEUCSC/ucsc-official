@@ -2,9 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
 
 * {
-    font-family: 'Open Sans', sans-serif;
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: 'Open Sans', sans-serif;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'League Spartan', sans-serif;
+  font-family: 'League Spartan', sans-serif;
 }

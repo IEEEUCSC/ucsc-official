@@ -38,7 +38,6 @@ const ContactUs = () => {
                 </p>
               </div>
               <div className="social-information">
-                {" "}
                 <p>
                   <FontAwesomeIcon icon={faEnvelope} />
                   <a className="email" href="mailto:ucscieee@gmail.com">
@@ -48,7 +47,10 @@ const ContactUs = () => {
               </div>
               <div className="social-information">
                 <p>
-                  <FontAwesomeIcon icon={faPhoneAlt} /> +94 112843687
+                  <FontAwesomeIcon icon={faPhoneAlt} />
+                  <a className="tel" href="tel:+94112843687">
+                    +94 112 843 687
+                  </a>
                 </p>
               </div>
             </div>
@@ -56,7 +58,7 @@ const ContactUs = () => {
           <div className="contact-info-form">
             <span className="circle one"></span>{" "}
             <span className="circle two"></span>
-            <h3 className="titlec">Contact us</h3>
+            <h3 className="titlec">Contact Us</h3>
             {officers.map((officer, index) => (
               <div key={index}>
                 <hr />

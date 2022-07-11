@@ -81,7 +81,7 @@ const About = () => {
             </div>
             <div className="py-1 pb-0 py-md-2 py-lg-3 mt-3 mb-lg-4">
               <p>
-                The IEEE student branch of University of Colombo School of
+                The IEEE Student Branch of University of Colombo School of
                 Computing was established in 2011 and has achieved great success
                 during the past few years. The student branch has been formed
                 with the participation and contribution of all four batches of

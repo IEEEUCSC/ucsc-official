@@ -20,16 +20,16 @@ function PreviousTeam() {
     >
       <div className="my-5 pb-1 pb-lg-3 mx-2 mx-md-3 mx-lg-5">
         <GoBack url="/" />
-      </div>
-      <div className="section-header">
-        <h3>Previous Officers</h3>
-      </div>
-      {data["previous-officers"].map((team, index) => (
-        <div className="team" key={index} id={team.year}>
-          <h2 className="year">{team.year}</h2>
-          <Officers officers={team.officers} />
+        <div className="section-header">
+          <h3>Previous Officers</h3>
         </div>
-      ))}
+        {data["previous-officers"].map((team, index) => (
+          <div className="team" key={index} id={team.year}>
+            <h2 className="year">{team.year}</h2>
+            <Officers officers={team.officers} />
+          </div>
+        ))}
+      </div>
     </Container>
   );
 }

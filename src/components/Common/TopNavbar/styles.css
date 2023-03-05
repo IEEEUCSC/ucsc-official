@@ -7,7 +7,7 @@
 }
 
 .navbar-links {
-    background: rgb(0, 98, 155) !important;
+    background: rgb(0, 98, 155);
     box-shadow: rgba(17, 12, 46, 0.2) 0 0.25rem 2rem 0;
 }
 
@@ -23,6 +23,14 @@
 
 .navbar-links .nav-item {
     margin: 0 16px 0 16px;
+}
+
+.navbar-links .nav-item .dropdown-menu {
+    background: rgb(0, 98, 155);
+    box-shadow: rgba(17, 12, 46, 0.2) 0 0.25rem 2rem 0;
+}
+.navbar-links .nav-item .dropdown-item {
+    background: rgb(0, 98, 155);
 }
 
 .navbar-dark .navbar-nav .nav-link {

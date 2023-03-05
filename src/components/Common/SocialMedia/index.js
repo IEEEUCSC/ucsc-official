@@ -8,7 +8,7 @@ import {
   faInstagram,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
-import "./index.css";
+import "./styles.css";
 
 const SocialMedia = () => {
   const [showScroll, setShowScroll] = useState(false);

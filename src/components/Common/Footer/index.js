@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import logo from "../../../assets/ieeeucsc.webp";
-import "./index.css";
+import "./styles.css";
 
 function Footer() {
   return (
@@ -43,8 +44,21 @@ function Footer() {
           </li>
           <li className="list-inline-item">
             <Link href="#team" to="team">
-              Team
+              Current Team
             </Link>
+          </li>
+          <li className="list-inline-item">
+            <RouterLink
+              to="/previous-officers"
+              onClick={() => {
+                window.localStorage.setItem(
+                  "scrollYPosition",
+                  window.scrollY.toString()
+                );
+              }}
+            >
+              Previous Officers
+            </RouterLink>
           </li>
           <li className="list-inline-item">
             <Link href="#contact-us" to="contact-us">
@@ -52,7 +66,7 @@ function Footer() {
             </Link>
           </li>
         </ul>
-        <p className="copyright">© 2022 - All Right Reserved</p>
+        <p className="copyright">© 2022 - All Rights Reserved</p>
       </footer>
     </div>
   );

@@ -3,15 +3,17 @@
     border-radius: 10px;
 }
 
-.email {
+.email, .tel {
   color: inherit;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.social-information .email:hover {
+.social-information .email:hover,
+.social-information .tel:hover {
   color: grey;
 }
-.contact-info-form .email:hover {
+.contact-info-form .email:hover,
+.contact-info-form .tel:hover {
   color: #dddddd;
 }

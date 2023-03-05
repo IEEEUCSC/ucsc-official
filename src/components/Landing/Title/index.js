@@ -2,8 +2,10 @@ import React, { useEffect, useRef, useState } from "react";
 import "./index.css";
 import video from "../../../assets/mp4/web_vid.mp4";
 import FadeIn from "react-fade-in";
-import data from "../data/title-news.json";
 import { CSSTransition, SwitchTransition } from "react-transition-group";
+import data from "../../../data/title-news.json";
+
+var pace = 5000; //Pace show
 
 //News and links
 const news = data.news;
@@ -19,7 +21,7 @@ const Title = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setNewsIndex((prevIndex) => (prevIndex + 1) % totalNews);
-    }, 5000);
+    }, pace);
 
     return () => clearInterval(interval);
   }, [totalNews]);

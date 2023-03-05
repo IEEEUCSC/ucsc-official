@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import Team from './Team';
-import Work from './Stat';
-import Title from './Title';
-import ContactUs from './Contact';
+import Team from "./Team";
+import Work from "./Stat";
+import Title from "./Title";
+import ContactUs from "./Contact";
 
-import About from "./About/About";
-import NewsList from "./NewsList/NewsList";
-import Timeline from "./Timeline/Timeline";
-import {ParallaxProvider} from "react-scroll-parallax";
+import About from "./About";
+import NewsList from "./NewsList";
+import Timeline from "./Timeline";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 const Home = () => {
   // const { data: items, isPending, error } = useFetch('http://localhost:8000/items');
@@ -16,46 +16,38 @@ const Home = () => {
   return (
     <main className="home">
       <section id="home" className="titleSection">
-        <Title/>
+        <Title />
       </section>
 
       <section id="about-us" className="aboutUs">
         <ParallaxProvider>
-          <About/>
+          <About />
         </ParallaxProvider>
       </section>
 
-      {/* <div className="WhatWeDo">
-                <OurWork/>
-            </div> */}
-
       <section id="what-we-do" className="numbers">
-        <Work/>
+        <Work />
       </section>
 
       <section id="timeline">
-        <Timeline/>
+        <Timeline />
       </section>
 
       <section id="past-events" className="newsFeed">
-        {/* {error && <div>{error}</div>}
-                {isPending && <div>Loading...</div>}
-        {items && */} <NewsList type="home"/>
+        <NewsList type="home" />
       </section>
 
-      <section id="gallery" className="gallery">
-      </section>
+      <section id="gallery" className="gallery"></section>
 
       <section id="team" className="team">
-        <Team/>
+        <Team />
       </section>
 
       <section id="contact-us" className="contactUs">
-        <ContactUs/>
+        <ContactUs />
       </section>
-
     </main>
   );
-}
+};
 
 export default Home;

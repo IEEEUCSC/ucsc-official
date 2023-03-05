@@ -1,0 +1,44 @@
+{
+  "previous-officers": [
+    {
+      "year": 2021,
+      "officers": {
+        "chairperson" : {
+          "name": "Sahan Dissanayaka",
+          "post": "Chairperson",
+          "img": "previous-officers/2021/Sahan.webp",
+          "linkedin": "https://www.linkedin.com/in/sahan-dissanayaka-3099b9191/",
+          "facebook": "https://www.facebook.com/sahan.dissanayaka.71/",
+          "email": "sahandisa@ieee.org"
+        },
+        "viceChairperson" : {
+          "name": "Anjana Dodampe",
+          "post": "Vice Chairperson",
+          "img": "previous-officers/2021/Anjana.webp",
+          "linkedin": "https://www.linkedin.com/in/anjanadodampe",
+          "facebook": "https://www.facebook.com/IManjanadodampe",
+          "instagram": "https://www.instagram.com/anjana_hd",
+          "email": "ahmdodampe@ieee.org"
+        },
+        "secretary" : {
+          "name": "Thenuka Ovin",
+          "post": "Secretary",
+          "img": "previous-officers/2021/Thenuka.webp",
+          "linkedin": "https://www.linkedin.com/in/thenuka-ovin",
+          "facebook": "https://www.facebook.com/thenuka.ovin",
+          "instagram": "https://www.instagram.com/ov1.n",
+          "email": "thenukaovin@gmail.com"
+        },
+        "treasurer" : {
+          "name": "Chanaka Wickramasinghe",
+          "post": "Treasurer",
+          "img": "previous-officers/2021/Chanaka.webp",
+          "linkedin": "https://www.linkedin.com/in/chanakawick",
+          "facebook": "https://www.facebook.com/cwickramasinghe",
+          "instagram": "https://www.instagram.com/_mr.chaw",
+          "email": "cmwick@ieee.org"
+        }
+      }
+    }
+  ]
+}

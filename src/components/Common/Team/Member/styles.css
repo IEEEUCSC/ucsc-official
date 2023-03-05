@@ -1,0 +1,92 @@
+.member {
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 10px 30px;
+  transition: 0.3s;
+}
+
+.member .pic {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .member:hover {
+      background: #f4f4f4;
+      border-radius: 10px;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      transform: translate(0, -0.25rem);
+  }
+}
+
+.member .pic img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.member .title {
+  font-weight: 600;
+  color: #010101;
+  text-transform: uppercase;
+  display: block;
+  font-size: 20px;
+}
+
+.member .title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.member .post-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.member .post {
+  color: #000000;
+  text-transform: capitalize;
+  display: block;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.member .social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.member .social li {
+  display: inline-block;
+
+  margin-right: 5px;
+}
+
+.member .social li a {
+  border-radius: 50%;
+  font-size: 15px;
+  color: #101010;
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  transition: all 0.5s ease 0s;
+}
+
+.member .social li a:hover {
+  background: #00629b;
+  color: #fff;
+}
+
+@media only screen and (max-width: 479px) {
+  .member .title {
+    font-size: 0.98em;
+    overflow-wrap: anywhere;
+  }
+}

@@ -18,6 +18,7 @@
 }
 
 .footer-basic ul a {
+  text-transform: uppercase;
   background: none;
   border: none;
   color:inherit;
@@ -40,7 +41,7 @@
 
 .logo-foot{
   text-align: center;
-  margin: auto;
+  margin: 50px auto;
   
 }
 

@@ -6,9 +6,9 @@ import Title from "./Title";
 import ContactUs from "./Contact";
 
 import About from "./About";
-import NewsList from "./NewsList";
+import EventList from "./EventList";
 import Timeline from "./Timeline";
-import { ParallaxProvider } from "react-scroll-parallax";
+import {ParallaxProvider} from "react-scroll-parallax";
 
 const Home = () => {
   // const { data: items, isPending, error } = useFetch('http://localhost:8000/items');
@@ -16,35 +16,35 @@ const Home = () => {
   return (
     <main className="home">
       <section id="home" className="titleSection">
-        <Title />
+        <Title/>
       </section>
 
       <section id="about-us" className="aboutUs">
         <ParallaxProvider>
-          <About />
+          <About/>
         </ParallaxProvider>
       </section>
 
       <section id="what-we-do" className="numbers">
-        <Work />
+        <Work/>
       </section>
 
       <section id="timeline">
-        <Timeline />
+        <Timeline/>
       </section>
 
       <section id="past-events" className="newsFeed">
-        <NewsList type="home" />
+        <EventList type="home"/>
       </section>
 
       <section id="gallery" className="gallery"></section>
 
       <section id="team" className="team">
-        <Team />
+        <Team/>
       </section>
 
       <section id="contact-us" className="contactUs">
-        <ContactUs />
+        <ContactUs/>
       </section>
     </main>
   );

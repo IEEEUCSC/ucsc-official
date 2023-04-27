@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "title": "MADHack 2.0",
+      "date": "Feb - March 2023",
+      "image": "madhack-2.webp",
+      "url": "madhack.ucscieee.com",
+      "summary": "MADHack is a mobile app development hackathon and workshop series organized by the IEEE Student Branch of UCSC. It gives university students in Sri Lanka the chance to participate in a mobile app development competition, allowing them to sharpen their skills and learn from experts in the field.",
+      "description": "The awareness session of MADHACK took place on the 3rd of February 2023 with the purpose of bringing about awareness of the event and giving the participants an introduction to the world of mobile app development. The very first workshop for MADHack, the Mobile Application Development Hackathon was conducted on the 11th February via Zoom platforms with more than 200 participants live. The session delivered an introduction to Android Native development with a remarkable engagement of the participants. The second workshop of MADHack was conducted on the 18th of February, 2023 physically with more than 250 participants focusing on different topics namely React Native, Flutter and Code to AppStore (i.e. Deployment)."
+    },
+    {
+      "title": "IEEE Day 2022",
+      "date": "22nd January 2023",
+      "image": "ieee-day-2022.webp",
+      "url": "ieeeday.ucscieee.com",
+      "summary": "IEEE Day is an annual event of global significance, celebrated by IEEE members on the first Tuesday of October. This time, the IEEE Student Branch of UCSC celebrated IEEE Day 2022 on the 22nd of January 2023.",
+      "description": "IEEE Day is an annual event of global significance, celebrated by IEEE members on the first Tuesday of October. The keynote speech, on Metaverse and how it can influence gaming’ was delivered by Ravindu Omantha - Director of RAM studios. Appreciation tokens were given to him as well as other speakers. There was a knowledge sharing session and some time full of VR games just before the lunch was served.\n\nAfter that the attendees engaged in an interesting game of treasure hunt which was followed by a quiz. IEEE Day ended with the prize givings for the quiz and the promotions of future events."
+    },
+    {
+      "title": "RevolUX 2.0",
+      "date": "June - July 2022",
+      "image": "revolux-2.webp",
+      "url": "revolux.ucscieee.com",
+      "summary": "RevolUX 2.0 is the second edition of the UI/UX designathon organized by the IEEE Student Branch of UCSC in collaboration with AIESEC in University of Colombo.",
+      "description": "RevolUX was initiated by the IEEE student branch of UCSC together with AIESEC in University of Colombo after observing the growing interest in the field of UI/UX. The event was conducted in two phases: the preparation phase and competition phase. The initial phase consisted of awareness sessions and workshops. The subsequent phase was consistent of the initial competition round of prototype submission and a 24-hour designathon. The final designathon of RevolUX 2.0 was held on the 23rd and 24th of July 2022 as a physica 24 hour event with 10 final teams with nearly 40 participating in the competition. The competitors got a kick start at 10 a.m. of the 23rd July and concluded their final outcome at 10 a.m. of the 24th July. Afterwards, the winning three teams were carefully processed by the judge panel and it was announced at the award ceremony. The project is the recipient of the IEEE Best Student Branch Project Award for the year 2022."
+    },
+    {
       "title": "ReidXtreme",
       "date": "16 Oct 2021",
       "image": "reidxtreme.webp",

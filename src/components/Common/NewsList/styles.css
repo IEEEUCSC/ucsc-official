@@ -1,0 +1,97 @@
+.show-news {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-weight: 700;
+    color: #fff;
+    width: 600px;
+    text-transform: capitalize;
+    font-family: "Open", sans-serif;
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-column-gap: 10px;
+    z-index: 999;
+}
+
+.show-news > div {
+    border: solid white;
+}
+
+.show-news .title {
+    background: rgb(7, 43, 82);
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif !important;
+    clip-path: polygon(0px 0px, 100% 0, 100% 100%, 0px 100%);
+    animation: mask 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    border-radius: 0 0 0 0;
+    width: 100px;
+    text-align: center;
+}
+
+.show-news .title span {
+    display: block;
+    font-size: 50px;
+}
+
+.show-news #news span#text {
+    display: block;
+    font-size: 20px;
+}
+
+.show-news #news span#para {
+    display: block;
+    font-size: 13px;
+}
+
+.show-news #news {
+    background: #00629b;
+    display: inline-block;
+    padding: 16px 16px;
+    border-radius: 0 15px 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+    clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%);
+    animation: mask 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.show-news #news a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 479px) {
+    .show-news .title {
+        /* width: 25%; */
+    }
+
+    #news {
+        width: 45%;
+    }
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-enter-active {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+}
+
+.fade-enter-active,
+.fade-exit-active {
+    transition: opacity 500ms;
+}

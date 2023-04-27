@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import React, {useEffect, useState} from "react";
+import {Card, Col, Container, Row} from "react-bootstrap";
 import Slider from "react-slick";
 import "./styles.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { SizeMe } from "react-sizeme";
+import {SizeMe} from "react-sizeme";
 import data from "../../../data/past-events.json";
-import { useHistory } from "react-router-dom";
+import {useHistory} from "react-router-dom";
 import Button from "../../Common/Button";
 
-const NewsList = ({ type }) => {
+const EventList = ({type}) => {
   const coverImgRatio = 16 / 9; // width / height
   let history = useHistory();
   const [events] = useState(data.events);
@@ -25,7 +25,7 @@ const NewsList = ({ type }) => {
   const renderCoverImage = (imgName) => {
     return (
       <SizeMe>
-        {({ size }) => (
+        {({size}) => (
           <div
             className="m-0 p-0 cover-container"
             style={{
@@ -38,7 +38,7 @@ const NewsList = ({ type }) => {
     );
   };
 
-  const EventCard = ({ event, index }) => (
+  const EventCard = ({event, index}) => (
     <Card>
       <Card.Header className="p-0 m-0">
         {renderCoverImage(event.image)}
@@ -51,7 +51,7 @@ const NewsList = ({ type }) => {
         <div className="card-text-container">
           <Card.Text>{event.summary}</Card.Text>
         </div>
-        <div className="text-fade" />
+        <div className="text-fade"/>
         <Button
           onClick={() => {
             window.localStorage.setItem(
@@ -70,11 +70,11 @@ const NewsList = ({ type }) => {
   const EventCards = events.map((event, index) =>
     type === "home" ? (
       <article className="mt-2 mb-4" key={index}>
-        <EventCard event={event} index={index} />
+        <EventCard event={event} index={index}/>
       </article>
     ) : (
       <div className="mt-2 mb-4" key={index}>
-        <EventCard event={event} index={index} />
+        <EventCard event={event} index={index}/>
       </div>
     )
   );
@@ -90,7 +90,7 @@ const NewsList = ({ type }) => {
   const renderSlider = () => {
     return (
       <SizeMe>
-        {({ size }) => (
+        {({size}) => (
           <Slider
             {...{
               ...sliderSettings,
@@ -98,10 +98,10 @@ const NewsList = ({ type }) => {
                 size.width < 576
                   ? 1
                   : size.width <= 768
-                  ? 2
-                  : size.width < 1200
-                  ? 3
-                  : 4,
+                    ? 2
+                    : size.width < 1200
+                      ? 3
+                      : 4,
               arrows: size.width >= 576,
               speed: size.width >= 576 ? 1000 : 1500,
             }}
@@ -169,4 +169,4 @@ const NewsList = ({ type }) => {
   }
 };
 
-export default NewsList;
+export default EventList;

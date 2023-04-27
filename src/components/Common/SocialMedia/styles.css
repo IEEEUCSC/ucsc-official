@@ -1,56 +1,58 @@
 .btn-pulse {
-	background: #006699;
-	color: white;
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	font-size: 25px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 0;
-	height: 0;
-	padding: 20px;
-	text-decoration: none;
-	border-radius: 50%;
-	border: solid transparent;
-	transition: background-color 0.3s, color 0.3s;
-	/* animation-name: pulse;
-	animation-duration: 1.5s;
-	animation-timing-function: ease-out;
-	animation-iteration-count: infinite; */
-	z-index: 1000;
+    background: #006699;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 0;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    border: solid white;
+    transition: background-color 0.3s, color 0.3s;
+    /* animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite; */
+    z-index: 1000;
 }
 
-.btn-pulse:hover{
-	background: #fff;
-	color: #006699;
-	border: solid #006699;
+.btn-pulse:hover {
+    background: #fff;
+    color: #006699;
+    border: solid #006699;
 }
 
 @keyframes pulse {
-	0% {
-		box-shadow: 0 0 0 0 #006699;
-	}
-	80% {
-		box-shadow: 0 0 0 10px #006699;
-	}
+    0% {
+        box-shadow: 0 0 0 0 #006699;
+    }
+    80% {
+        box-shadow: 0 0 0 10px #006699;
+    }
 }
 
 .btn-pulse-border-fb {
-	bottom: 205px;
-	right: 20px;
-	/* animation-play-state: paused; */
+    bottom: 205px;
+    right: 20px;
+    /* animation-play-state: paused; */
 }
+
 .btn-pulse-border-insta {
-	bottom: 150px;
-	right: 20px;
-	/* animation-play-state: paused; */
+    bottom: 150px;
+    right: 20px;
+    /* animation-play-state: paused; */
 }
+
 .btn-pulse-border-linked {
-	bottom:95px;
-	right: 20px;
-	/* animation-play-state: paused; */
+    bottom: 95px;
+    right: 20px;
+    /* animation-play-state: paused; */
 }
 
 /* .btn-pulse-border::before {
@@ -67,47 +69,47 @@
 } */
 
 @keyframes pulse-border {
-	0% {
-		padding: 25px;
-		opacity: 0.75;
-	}
-	75% {
-		padding: 30px;
-		opacity: 0;
-	}
-	100% {
-		opacity: 0;
-	}
+    0% {
+        padding: 25px;
+        opacity: 0.75;
+    }
+    75% {
+        padding: 30px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 .scrollTop {
-	position: fixed; 
-	bottom: 20px;
-	right: 22.5px;
-	width: 40px;
-	height: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	z-index: 1000;
-	cursor: pointer;
-	background-color: white;
-	color: #006699;
-	border-radius: 50%;
-	animation: fadeIn 0.3s;
-	transition: 0.3s;
+    position: fixed;
+    bottom: 20px;
+    right: 22.5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+    background-color: white;
+    color: #006699;
+    border-radius: 50%;
+    animation: fadeIn 0.3s;
+    transition: 0.3s;
 }
-  
-.scrollTop:hover{
-	background-color: #006699;
-	color: white;
+
+.scrollTop:hover {
+    background-color: #006699;
+    color: white;
 }
-  
+
 @keyframes fadeIn {
-	0% {
-	  opacity: 0;
-	}
-	100% {
-	  opacity: 0.5;
-	}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
 }

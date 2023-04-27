@@ -1,7 +1,7 @@
 import { useState, React } from "react";
 import "./styles.css";
 import { useParams } from "react-router-dom";
-import data from "../../data/newsItems.json";
+import data from "../../data/event-items.json";
 
 function Article() {
   const { id } = useParams();

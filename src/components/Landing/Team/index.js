@@ -17,10 +17,10 @@ function Team() {
         </div>
         <Excom data={data.excom} />
         <div className="section-header">
-          <h3>Our Director Board</h3>
+          <h3>Our Standing Committee Leads</h3>
           <p style={{ paddingBottom: "20px" }}> Meet Our Team </p>
         </div>
-        <BoD data={data.bod} />
+        <BoD data={data.scom} />
       </div>
     </section>
   );

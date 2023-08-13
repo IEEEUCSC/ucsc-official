@@ -1,40 +1,56 @@
 {
   "excom": {
     "officers": {
-      "chairperson" : {
-        "name": "Akila Maithripala",
+      "chairperson": {
+        "name": "Ravindu Sasanka",
         "post": "Chairperson",
-        "img": "excom/Akila.webp",
-        "linkedin": "https://www.linkedin.com/in/akilamaithri/",
-        "facebook": "https://www.facebook.com/akila.my3",
-        "instagram": "https://www.instagram.com/akila_maithripala",
-        "email": "akilamaithripala@gmail.com"
+        "img": "excom/RavinduS.webp",
+        "linkedin": "https://www.linkedin.com/in/ravindu-sas/",
+        "instagram": "https://www.instagram.com/chaot.c_bean/",
+        "email": "ravindu.w23@gmail.com"
       },
-      "viceChairperson" : {
-        "name": "Ravin Perera",
+      "viceChairperson": {
+        "name": "Kivi Amarakoon",
         "post": "Vice Chairperson",
-        "img": "excom/Ravin.webp",
-        "linkedin": "https://www.linkedin.com/in/ravin-perera-b3ba551a4",
-        "facebook": "https://www.facebook.com/ravin.perera.7923",
-        "email": "bravinperera@gmail.com"
+        "img": "excom/Kivi.webp",
+        "linkedin": "https://www.linkedin.com/in/kivi-amarakoon-543a84195",
+        "facebook": "https://www.facebook.com/profile.php?id=100008353609477",
+        "email": "kiviamarakoon@gmail.com"
       },
-      "secretary" : {
-        "name": "Yadeesha Weerasinghe",
+      "secretary": {
+        "name": "Anjali Rodrigo",
         "post": "Secretary",
-        "img": "excom/Yadeesha.webp",
-        "linkedin": "http://www.linkedin.com/in/yadeesha-weerasinghe-284936211",
-        "facebook": "https://www.facebook.com/yadeesha.weerasinghe.9",
-        "instagram": "https://www.instagram.com/yadeeshaa/",
-        "email": "yadeeshaw@gmail.com"
+        "img": "excom/Anjali.webp",
+        "linkedin": "https://www.linkedin.com/in/anjali-rodrigo",
+        "facebook": "https://www.facebook.com/anjali.rodrigo.50",
+        "instagram": "https://instagram.com/anjali_rodrigo",
+        "email": "anjalikrodrigo@gmail.com"
       },
-      "treasurer" : {
-        "name": "Pinsara Dhanika",
+      "treasurer": {
+        "name": "Adeepa Bandara",
         "post": "Treasurer",
-        "img": "excom/Dhanika.webp",
-        "linkedin": "https://www.linkedin.com/in/pinsara-dhanika-43a78b1a5/",
-        "facebook": "https://www.facebook.com/pinsara.dhanika",
-        "instagram": "https://www.instagram.com/pinsaradhanika/",
-        "email": "pinsara.dhanika@gmail.com"
+        "img": "excom/Adeepa.webp",
+        "linkedin": "https://www.linkedin.com/in/adeepa-bandara-891ab4185/",
+        "instagram": "https://www.instagram.com/adeepabandara/",
+        "email": "adeepabandara@gmail.com"
+      },
+      "webmaster": {
+        "name": "Saliya Bandara",
+        "post": "Webmaster",
+        "img": "excom/Saliya.webp",
+        "linkedin": "https://www.linkedin.com/in/saliyabandara/",
+        "facebook": "https://www.facebook.com/SaliyaBandaraS",
+        "instagram": "https://www.instagram.com/saliya_bandara_",
+        "email": "saliyab21@gmail.com"
+      },
+      "assSecretary": {
+        "name": "Venuri Abeysekara",
+        "post": "Ass. Secretary",
+        "img": "excom/Venuri.webp",
+        "linkedin": "https://www.linkedin.com/in/venuri-abeysekara-110852258",
+        "facebook": "https://www.facebook.com/venuri.abeysekara",
+        "instagram": "https://instagram.com/venuri_abeysekara",
+        "email": "anjalikrodrigo@gmail.com"
       }
     },
     "coords": {
@@ -66,7 +82,7 @@
       }
     },
     "masters": {
-      "designMaster" : {
+      "designMaster": {
         "name": "Anjali Rodrigo",
         "post": "Design Master",
         "img": "excom/Anjali.webp",
@@ -75,7 +91,7 @@
         "instagram": "https://instagram.com/anjali_rodrigo",
         "email": "anjalikrodrigo@gmail.com"
       },
-      "webMaster" : {
+      "webMaster": {
         "name": "Nipun Weerasiri",
         "post": "Web Master",
         "img": "excom/Nipun.webp",
@@ -85,57 +101,75 @@
       }
     }
   },
-  "bod": {
-    "content": {
-      "name": "Kavisha Perera",
-      "post": "Content Director",
-      "img": "bod/Kavisha.webp",
-      "linkedin": "https://www.linkedin.com/in/kavisha-perera-8b6429203/",
-      "facebook": "https://www.facebook.com/kavisha.perera.9828456",
-      "instagram": "https://www.instagram.com/kavii1409/",
-      "email": "kavisha.g.perera@gmail.com"
+  "scom": {
+    "membership1": {
+      "name": "Tharindra Fernando",
+      "post": "Membership Development Co-Lead",
+      "img": "scom/tharindra.webp",
+      "linkedin": "https://www.linkedin.com/in/tharindra-gayashika/",
+      "facebook": "https://www.facebook.com/gayashika.fernando.1",
+      "instagram": "https://www.instagram.com/tharindra26/",
+      "email": "tharindragayashika@gmail.com"
+    },
+    "membership2": {
+      "name": "Dinu Jayatissa",
+      "post": "Membership Development Co-Lead",
+      "img": "scom/dinu.webp",
+      "linkedin": "https://www.linkedin.com/in/dinu-jayatissa-9b7079203",
+      "facebook": "https://www.facebook.com/profile.php?id=100082736943270",
+      "instagram": "https://instagram.com/_dinu.jay_",
+      "email": "damsinijayatissa@gmail.com"
+    },
+    "visibility1": {
+      "name": "Vidhara Ranujee",
+      "post": "Public Visibility Co-Lead",
+      "img": "scom/vidhara.webp",
+      "linkedin": "https://www.linkedin.com/in/vidhara-ranujee-30b628264/",
+      "instagram": "https://www.instagram.com/ranu__vi_____/",
+      "email": "ranu2001vi@gmail.com"
+    },
+    "visibility2": {
+      "name": "Sasanka Udana",
+      "post": "Public Visibility Co-Lead",
+      "img": "scom/sasanka.webp",
+      "linkedin": "https://www.linkedin.com/in/sasanka-udana-47362221a/",
+      "instagram": "https://www.instagram.com/sasanka_udana/",
+      "email": "sasankaudana@gmail.com"
+    },
+    "industry1": {
+      "name": "Dilki Sewwandi",
+      "post": "Industry Engagement Co-Lead",
+      "img": "scom/dilki.webp",
+      "linkedin": "https://www.linkedin.com/in/dilki-sewwandi/",
+      "facebook": "https://www.facebook.com/profile.php?id=100078651251778",
+      "instagram": "https://www.instagram.com/dilki_zew/",
+      "email": "dsewwandi2001@gmail.com"
+    },
+    "industry2": {
+      "name": "Radiyah Hassan",
+      "post": "Industry Engagement Co-Lead",
+      "img": "scom/radiyah.webp",
+      "linkedin": "https://www.linkedin.com/in/radiyah-hassan",
+      "instagram": "https://instagram.com/___radhiii",
+      "email": "radiyah.hassan2001@gmail.com"
     },
     "design": {
-      "name": "Ravindu Weliwita",
-      "post": "Design Director",
-      "img": "bod/RavinduS.webp",
-      "linkedin": "https://www.linkedin.com/in/ravindu-s-83514b213",
-      "instagram": "https://www.instagram.com/r_zzy_/",
-      "email": "ravindu.w23@gmail.com"
+      "name": "Danujaya Liyanage",
+      "post": "Design Lead",
+      "img": "scom/danujaya.webp",
+      "linkedin": "https://www.linkedin.com/in/danujayaliyanage/",
+      "facebook": "https://www.facebook.com/danujayas.liyanage",
+      "instagram": "https://www.instagram.com/_dee00.__/",
+      "email": "danujayas00@gmail.com"
     },
-    "finance": {
-      "name": "Ravindu Wegiriya",
-      "post": "Finance Director",
-      "img": "bod/RavinduW.webp",
-      "linkedin": "https://linkedin.com/in/ravinduwegiriya",
-      "facebook": "https://www.facebook.com/ravinduwegiriya",
-      "instagram": "https://www.instagram.com/ravinduwegiriya",
-      "email": "ravinduwegiriya@gmail.com"
-    },
-    "program": {
-      "name": "Kivi Amarakoon",
-      "post": "Program Director",
-      "img": "bod/Kivi.webp",
-      "linkedin": "https://www.linkedin.com/in/kivi-amarakoon-543a84195",
-      "facebook": "https://www.facebook.com/profile.php?id=100008353609477",
-      "email": "kiviamarakoon@gmail.com"
-    },
-    "publicRelations": {
-      "name": "Abdullah Jasmin",
-      "post": "Public Relations Director",
-      "img": "bod/Abdullah.webp",
-      "linkedin": "https://www.linkedin.com/in/abdullah-jasmin-8b6a75192",
-      "facebook": "https://www.facebook.com/abdullah.jasmin.75",
-      "email": "abdullahmohjasmin@gmail.com"
-    },
-    "web": {
-      "name": "Sandul Renuja",
-      "post": "Web Director",
-      "img": "bod/Sandul.webp",
-      "linkedin": "https://www.linkedin.com/in/sandulr/",
-      "facebook": "https://www.facebook.com/SandulRenuja/",
-      "instagram": "https://www.instagram.com/_s.a.n.d.u.l_/",
-      "email": "sandulrenuja@gmail.com"
+    "content": {
+      "name": "Nushara Ariyawansa",
+      "post": "Content Lead",
+      "img": "scom/nushara.webp",
+      "linkedin": "https://www.linkedin.com/in/nushara-ariyawansa-553a8a211/",
+      "facebook": "https://www.facebook.com/nushara.ariyawansa.5",
+      "instagram": "https://www.instagram.com/nushara_ariyawansa/",
+      "email": "nusharaariyawansa4@gmail.com"
     }
   }
 }

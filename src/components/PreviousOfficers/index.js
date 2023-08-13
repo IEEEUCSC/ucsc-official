@@ -24,7 +24,7 @@ function PreviousTeam() {
           <h3>Previous Officers</h3>
         </div>
         {data["previous-officers"].map((team, index) => (
-          <div className="team" key={index} id={team.year}>
+          <div className="team mb-4" key={index} id={team.year}>
             <h2 className="year">{team.year}</h2>
             <Officers officers={team.officers} />
           </div>

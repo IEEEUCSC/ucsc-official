@@ -59,7 +59,7 @@ const ContactUs = () => {
             <span className="circle one"></span>{" "}
             <span className="circle two"></span>
             <h3 className="titlec">Contact Us</h3>
-            {officers.map((officer, index) => (
+            {officers.slice(0, -2).map((officer, index) => (
               <div key={index}>
                 <hr />
                 <p>

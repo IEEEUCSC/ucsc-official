@@ -66,7 +66,7 @@ function Footer() {
             </Link>
           </li>
         </ul>
-        <p className="copyright">© 2022 - All Rights Reserved</p>
+        <p className="copyright">© {new Date().getFullYear()} - All Rights Reserved</p>
       </footer>
     </div>
   );

@@ -1,6 +1,46 @@
 {
   "previous-officers": [
     {
+      "year": 2022,
+      "officers": {
+        "chairperson" : {
+          "name": "Akila Maithripala",
+          "post": "Chairperson",
+          "img": "excom/Akila.webp",
+          "linkedin": "https://www.linkedin.com/in/akilamaithri/",
+          "facebook": "https://www.facebook.com/akila.my3",
+          "instagram": "https://www.instagram.com/akila_maithripala",
+          "email": "akilamaithripala@gmail.com"
+        },
+        "viceChairperson" : {
+          "name": "Ravin Perera",
+          "post": "Vice Chairperson",
+          "img": "excom/Ravin.webp",
+          "linkedin": "https://www.linkedin.com/in/ravin-perera-b3ba551a4",
+          "facebook": "https://www.facebook.com/ravin.perera.7923",
+          "email": "bravinperera@gmail.com"
+        },
+        "secretary" : {
+          "name": "Yadeesha Weerasinghe",
+          "post": "Secretary",
+          "img": "excom/Yadeesha.webp",
+          "linkedin": "http://www.linkedin.com/in/yadeesha-weerasinghe-284936211",
+          "facebook": "https://www.facebook.com/yadeesha.weerasinghe.9",
+          "instagram": "https://www.instagram.com/yadeeshaa/",
+          "email": "yadeeshaw@gmail.com"
+        },
+        "treasurer" : {
+          "name": "Pinsara Dhanika",
+          "post": "Treasurer",
+          "img": "excom/Dhanika.webp",
+          "linkedin": "https://www.linkedin.com/in/pinsara-dhanika-43a78b1a5/",
+          "facebook": "https://www.facebook.com/pinsara.dhanika",
+          "instagram": "https://www.instagram.com/pinsaradhanika/",
+          "email": "pinsara.dhanika@gmail.com"
+        }
+      }
+    },
+    {
       "year": 2021,
       "officers": {
         "chairperson" : {

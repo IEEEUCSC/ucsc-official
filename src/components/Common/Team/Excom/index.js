@@ -1,6 +1,6 @@
 import React from "react";
 import Officers from "../Officers";
-import Member from "../Member";
+// import Member from "../Member";
 
 function Excom({ data }) {
   return (

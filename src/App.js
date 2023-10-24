@@ -14,10 +14,10 @@ import NewsList from "./components/Common/NewsList";
 const Home = lazy(() => import("./components/Landing"));
 const EventDetails = lazy(() => import("./components/Landing/EventDetails"));
 const PreviousOfficers = lazy(() => import("./components/PreviousOfficers"));
+const RevoluxOCJobDesc = lazy(() => import("./components/Landing/Misc/RevoluxOCJobDesc.js"));
 
 const App = () => {
   return (
-    <Router>
       <Suspense fallback={<Loading/>}>
         <main>
           <Switch>
@@ -36,12 +36,19 @@ const App = () => {
               <PreviousOfficers/>
               <Footer/>
             </Route>
+            <Route path="/revolux-oc-job-desc">
+              <RevoluxOCJobDesc/>
+            </Route>
           </Switch>
-          <NewsList/>
-          <SocialMedia/>
+          {window.location.hash !== "#/revolux-oc-job-desc" && (
+              <>
+                <NewsList/>
+                <SocialMedia/>
+              </>
+          )}
+          
         </main>
       </Suspense>
-    </Router>
   );
 };
 

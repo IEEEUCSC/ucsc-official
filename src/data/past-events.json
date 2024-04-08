@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "title": "MADHack 3.0",
+      "date": "Feb - April 2024",
+      "image": "madhack-3.0.jpg",
+      "url": "madhack.ucscieee.com",
+      "summary": "MADHack is a mobile app development hackathon and workshop series organized by the IEEE Student Branch of UCSC. It gives university students in Sri Lanka the chance to participate in a mobile app development competition, allowing them to sharpen their skills and learn from experts in the field.",
+      "description": "The awareness session of MADHACK took place on the 6th of January 2024 with the purpose of bringing about awareness of the event and giving the participants an introduction to the world of mobile app development. The very first workshop for MADHack, the Mobile Application Development Hackathon was conducted on the 11th February via Zoom platforms with more than 200 participants live. The session delivered an introduction to Android Native development with a remarkable engagement of the participants. The second workshop of MADHack was conducted on the 4th of February, 2024 physically with more than 250 participants focusing on different topics namely React Native, Flutter and Code to AppStore (i.e. Deployment)."
+    },
+    {
+      "title": "RevolUX 3.0",
+      "date": "January - March 2024",
+      "image": "revolux-3.0.jpg",
+      "url": "revolux.ucscieee.com",
+      "summary": "RevolUX 3.0 is the third edition of the UI/UX designathon organized by the IEEE Student Branch of UCSC in collaboration with AIESEC in University of Colombo.",
+      "description": "RevolUX was initiated by the IEEE student branch of UCSC together with AIESEC in University of Colombo after observing the growing interest in the field of UI/UX. The event was conducted in two phases: the preparation phase and competition phase. The initial phase consisted of awareness sessions and workshops. The subsequent phase was consistent of the initial competition round of prototype submission and a 24-hour designathon. The final designathon of RevolUX 3.0 was held on the 2nd of March 2024 as a online 24 hour event with 10 final teams with nearly 40 participating in the competition. The competitors got a kick start at 8 a.m. and concluded their final outcome at 8 a.m. of the following day. Afterwards, the winning three teams were carefully processed by the judge panel and it was announced at the award ceremony."
+    },
+    {
+      "title": "Infinite Loop",
+      "date": "Jun - Aug 2023",
+      "image": "infinite-loop.jpg",
+      "url": "",
+      "summary": "InfiniteLoop was an online workshop series by IEEE Student Branch of UCSC aimed at enhancing technological knowledge and skills of first-year undergraduates. Led by senior UCSC students, it covered diverse computer science and IT topics.",
+      "description": "InfiniteLoop was a series of weekly online workshops organized by the IEEE Student Branch of the UCSC from June to August 2023. Designed to forge unique learning journeys guided by passions and aspirations in the boundless realm of technology, the workshops focused on various trending technological topics. Conducted by experienced second and third-year UCSC undergraduates, the sessions aimed to enhance both the academic knowledge and technical skills of participants, primarily targeting first-year UCSC students new to computer science and information technology. Through interactive and hands-on sessions exploring diverse subjects, InfiniteLoop provided an opportunity for attendees to delve into theoretical concepts, practical applications, and gain valuable experience in their areas of interest within the ever-evolving technology landscape."
+    },
+    {
       "title": "MADHack 2.0",
       "date": "Feb - March 2023",
       "image": "madhack-2.webp",

@@ -1,27 +1,27 @@
 {
   "events": [
     {
-      "title": "RevolUX 2.0",
+      "title": "Infinite Loop",
+      "subTitle": "Online Workshop Series",
+      "date": "Jun - Aug 2023",
+      "iconSrc": "infinite-loop.jpg",
+      "altText": "Infinite Loop Logo",
+      "description": "InfiniteLoop was an online workshop series by IEEE Student Branch of UCSC aimed at enhancing technological knowledge and skills of first-year undergraduates. Led by senior UCSC students, it covered diverse computer science and IT topics."
+    },
+    {
+      "title": "RevolUX 3.0",
       "subTitle": "Inter-University UI/UX Designathon",
-      "date": "June - July 2022",
-      "iconSrc": "Revolux2.0-logo.webp",
-      "altText": "Revolux 2.0 logo",
-      "description": "RevolUX 2.0 is an inter-university UI/UX designathon organized by the IEEE Student Branch of UCSC in collaboration with AIESEC in UOC. We are proud to bring this event for the second time in a row with the goal of providing undergraduates with hands on experience in User Interface and User Experience Design"
+      "date": "January - March 2024",
+      "iconSrc": "Revolux3.0-logo.jpg",
+      "altText": "Revolux 3.0 logo",
+      "description": "RevolUX 3.0 is an inter-university UI/UX designathon organized by the IEEE Student Branch of UCSC in collaboration with AIESEC in UOC. We are proud to bring this event for the second time in a row with the goal of providing undergraduates with hands on experience in User Interface and User Experience Design"
     },
     {
-      "title": "IEEE Day 2022",
-      "subTitle": "Celebrating Global IEEE Day",
-      "date": "22nd January 2023",
-      "iconSrc": "IEEE-Day-2022-logo.webp",
-      "altText": "IEEE Day 2022 logo",
-      "description": "IEEE Day is an annual event of global significance, celebrated by IEEE members on the first Tuesday of October. This time, the IEEE Student Branch of UCSC celebrated IEEE Day 2022 on the 22nd of January 2023."
-    },
-    {
-      "title": "MADHack 2.0",
+      "title": "MADHack 3.0",
       "subTitle": "Mobile Application Development Hackathon",
-      "date": "Feb - March 2023",
+      "date": "Feb - April 2024",
       "iconSrc": "MADHACK-2.0-logo.webp",
-      "altText": "MADHack 2.0 logo",
+      "altText": "MADHack 3.0 logo",
       "description": "MADHack is a mobile app development hackathon and workshop series organized by the IEEE Student Branch of UCSC. It gives university students in Sri Lanka the chance to participate in a mobile app development competition, allowing them to sharpen their skills and learn from experts in the field."
     }
   ]

@@ -1,28 +1,44 @@
 {
   "events": [
     {
-      "title": "Infinite Loop",
-      "subTitle": "Online Workshop Series",
-      "date": "Jun - Aug 2023",
+      "title": "Infinite Loop 2.0",
+      "subTitle": "Workshop Series",
+      "date": "Jun - Jul 2024",
       "iconSrc": "infinite-loop.jpg",
       "altText": "Infinite Loop Logo",
-      "description": "InfiniteLoop was an online workshop series by IEEE Student Branch of UCSC aimed at enhancing technological knowledge and skills of first-year undergraduates. Led by senior UCSC students, it covered diverse computer science and IT topics."
+      "description": "InfiniteLoop is a workshop series by IEEE Student Branch of UCSC aimed at enhancing technological knowledge and skills of first-year undergraduates. Led by senior UCSC students, it covered diverse computer science and IT topics."
     },
     {
-      "title": "RevolUX 3.0",
-      "subTitle": "Inter-University UI/UX Designathon",
-      "date": "January - March 2024",
-      "iconSrc": "Revolux3.0-logo.jpg",
-      "altText": "Revolux 3.0 logo",
-      "description": "RevolUX 3.0 is an inter-university UI/UX designathon organized by the IEEE Student Branch of UCSC in collaboration with AIESEC in UOC. We are proud to bring this event for the second time in a row with the goal of providing undergraduates with hands on experience in User Interface and User Experience Design"
+      "title": "MS Power Tools Workshops",
+      "subTitle": "Workshop Series",
+      "date": "Aug 2024",
+      "iconSrc": "MS-Power-Tools.jpg",
+      "altText": "Infinite Loop Logo",
+      "description": "The MS Power Tools Workshops, organized by the IEEE Student Branch of UCSC with the help of Microsoft, aimed at helping university students discover and use Microsoft Power tools"
     },
     {
-      "title": "MADHack 3.0",
-      "subTitle": "Mobile Application Development Hackathon",
-      "date": "Feb - April 2024",
-      "iconSrc": "MADHACK-2.0-logo.webp",
-      "altText": "MADHack 3.0 logo",
-      "description": "MADHack is a mobile app development hackathon and workshop series organized by the IEEE Student Branch of UCSC. It gives university students in Sri Lanka the chance to participate in a mobile app development competition, allowing them to sharpen their skills and learn from experts in the field."
+      "title": "RiedXtreme 3.0",
+      "subTitle": "Inter-University Competitive programming Hackathon",
+      "date": "Aug - Sep 2024",
+      "iconSrc": "RiedXtreme.jpg",
+      "altText": "RiedXtreme logo",
+      "description": "ReidXtreme is a hackathon series organized by the IEEE Student Branch of UCSC collaboratively with ACM Student Chapter of UCSC. The core objective of this series is to build up the competitive programming skills of our undergraduates to help them successfully compete in IEEEXtreme."
+    },
+    {
+      "title": "IEEE Introductory Session",
+      "subTitle": "All about IEEE",
+      "date": "Aug 2024",
+      "iconSrc": "Intro-Session.png",
+      "altText": "Introductory Session logo",
+      "description": "This session is organized collaboratively by IEEE Student Branch, the IEE CS chapter and IEEE WIE, with the aim of assisting the first year undergraduates to find their place in IEEE"
+    },
+    {
+      "title": "IEEEXtreme 18.0",
+      "subTitle": "24-hour Competitive Programming Competition",
+      "date": "Oct 2024",
+      "iconSrc": "IEEEXtreme.jpeg",
+      "altText": "Introductory Session logo",
+      "description": "IEEEXtreme is a global challenge in which teams of IEEE Student members - advised and proctored by an IEEE member, and  supported by an IEEE Student Branch of UCSC – to compete in a 24-hour time span against each other to solve programming problems."
     }
   ]
 }

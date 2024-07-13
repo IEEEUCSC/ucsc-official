@@ -2,55 +2,57 @@
   "excom": {
     "officers": {
       "chairperson": {
-        "name": "Ravindu Sasanka",
+        "name": "Dinu Jayatissa",
         "post": "Chairperson",
-        "img": "excom/RavinduS.webp",
-        "linkedin": "https://www.linkedin.com/in/ravindu-sas/",
-        "instagram": "https://www.instagram.com/chaot.c_bean/",
-        "email": "ravindu.w23@gmail.com"
+        "img": "excom/dinu.webp",
+        "linkedin": "https://www.linkedin.com/in/dinu-jayatissa-9b7079203",
+        "facebook": "https://www.facebook.com/profile.php?id=100082736943270",
+        "instagram": "https://instagram.com/_dinu.jay_",
+        "email": "damsinijayatissa@gmail~.com"
       },
       "viceChairperson": {
-        "name": "Kivi Amarakoon",
+        "name": "Tharindra Fernando",
         "post": "Vice Chairperson",
-        "img": "excom/Kivi.webp",
-        "linkedin": "https://www.linkedin.com/in/kivi-amarakoon-543a84195",
-        "facebook": "https://www.facebook.com/profile.php?id=100008353609477",
-        "email": "kiviamarakoon@gmail.com"
+        "img": "excom/tharindra.webp",
+        "linkedin": "https://www.linkedin.com/in/tharindra-gayashika/",
+        "facebook": "https://www.facebook.com/gayashika.fernando.1",
+        "instagram": "https://www.instagram.com/tharindra26/",
+        "email": "tharindragayashika@gmail.com"
       },
       "secretary": {
-        "name": "Anjali Rodrigo",
+        "name": "Vidhara Ranujee",
         "post": "Secretary",
-        "img": "excom/Anjali.webp",
-        "linkedin": "https://www.linkedin.com/in/anjali-rodrigo",
-        "facebook": "https://www.facebook.com/anjali.rodrigo.50",
-        "instagram": "https://instagram.com/anjali_rodrigo",
-        "email": "anjalikrodrigo@gmail.com"
+        "img": "excom/vidhara.webp",
+        "linkedin": "https://www.linkedin.com/in/vidhara-ranujee-30b628264/",
+        "instagram": "https://www.instagram.com/ranu__vi_____/",
+        "email": "ranu2001vi@gmail.com"
       },
       "treasurer": {
-        "name": "Adeepa Bandara",
+        "name": "Nushara Ariyawansa",
         "post": "Treasurer",
-        "img": "excom/Adeepa.webp",
-        "linkedin": "https://www.linkedin.com/in/adeepa-bandara-891ab4185/",
-        "instagram": "https://www.instagram.com/adeepabandara/",
-        "email": "adeepabandara@gmail.com"
+        "img": "excom/nushara.webp",
+        "linkedin": "https://www.linkedin.com/in/nushara-ariyawansa-553a8a211/",
+        "facebook": "https://www.facebook.com/nushara.ariyawansa.5",
+        "instagram": "https://www.instagram.com/nushara_ariyawansa/",
+        "email": "nusharaariyawansa4@gmail.com"
       },
       "webmaster": {
-        "name": "Saliya Bandara",
+        "name": "Ravien Dalpatadu",
         "post": "Webmaster",
-        "img": "excom/Saliya.webp",
-        "linkedin": "https://www.linkedin.com/in/saliyabandara/",
-        "facebook": "https://www.facebook.com/SaliyaBandaraS",
-        "instagram": "https://www.instagram.com/saliya_bandara_",
-        "email": "saliyab21@gmail.com"
+        "img": "excom/ravien.webp",
+        "linkedin": "https://www.linkedin.com/in/ravien-dalpatadu-8718b7223",
+        "facebook": "https://www.facebook.com/ravien.dalpatadu",
+        "instagram": "https://www.instagram.com/ravien_dalpatadu?igsh=dHFyYXU4ZXo4ajZp",
+        "email": "dalpataduravien@gmail.com"
       },
-      "assSecretary": {
-        "name": "Venuri Abeysekara",
-        "post": "Ass. Secretary",
-        "img": "excom/Venuri.webp",
-        "linkedin": "https://www.linkedin.com/in/venuri-abeysekara-110852258",
-        "facebook": "https://www.facebook.com/venuri.abeysekara",
-        "instagram": "https://instagram.com/venuri_abeysekara",
-        "email": "anjalikrodrigo@gmail.com"
+      "designMaster": {
+        "name": "Danujaya Liyanage",
+        "post": "Design Master",
+        "img": "excom/danujaya.webp",
+        "linkedin": "https://www.linkedin.com/in/danujayaliyanage/",
+        "facebook": "https://www.facebook.com/danujayas.liyanage",
+        "instagram": "https://www.instagram.com/_dee00.__/",
+        "email": "danujayas00@gmail.com"
       }
     },
     "coords": {
@@ -102,74 +104,75 @@
     }
   },
   "scom": {
-    "membership1": {
-      "name": "Tharindra Fernando",
-      "post": "Membership Development Co-Lead",
-      "img": "scom/tharindra.webp",
-      "linkedin": "https://www.linkedin.com/in/tharindra-gayashika/",
-      "facebook": "https://www.facebook.com/gayashika.fernando.1",
-      "instagram": "https://www.instagram.com/tharindra26/",
-      "email": "tharindragayashika@gmail.com"
+    "program1": {
+      "name": "Likitha Chathubhashini",
+      "post": "Program Co-Lead",
+      "img": "scom/likitha.webp",
+      "linkedin": "https://www.linkedin.com/in/likitha-chathubhashini-b852b0289",
+      "facebook": "https://www.facebook.com/share/xXr5ciytWFxNqGJL/?mibextid=qi2Omg",
+      "instagram": "https://www.instagram.com/sathruwaniii?igsh=d2NldnpnazNzN3Zp&utm_source=qr",
+      "email": "likithachathu@gmail.com"
     },
-    "membership2": {
-      "name": "Dinu Jayatissa",
-      "post": "Membership Development Co-Lead",
-      "img": "scom/dinu.webp",
-      "linkedin": "https://www.linkedin.com/in/dinu-jayatissa-9b7079203",
-      "facebook": "https://www.facebook.com/profile.php?id=100082736943270",
-      "instagram": "https://instagram.com/_dinu.jay_",
-      "email": "damsinijayatissa@gmail.com"
+    "program2": {
+      "name": "Noji Yudara",
+      "post": "Program Co-Lead",
+      "img": "scom/noji.webp",
+      "linkedin": "https://www.linkedin.com/in/noji-yudara-554295290",
+      "facebook": "https://www.facebook.com/noji.yudara?mibextid=ZbWKwL",
+      "instagram": "https://www.instagram.com/nojjyuu_?igsh=N3BxcjUwYnJidGNj",
+      "email": "noji.yu123@gmail.com"
     },
-    "visibility1": {
-      "name": "Vidhara Ranujee",
-      "post": "Public Visibility Co-Lead",
-      "img": "scom/vidhara.webp",
-      "linkedin": "https://www.linkedin.com/in/vidhara-ranujee-30b628264/",
+    "marketing": {
+      "name": "Nethmi Hapuarachchi",
+      "post": "Marketing Lead",
+      "img": "scom/nethmi.webp",
+      "linkedin": "https://www.linkedin.com/in/sathruwani-hapuarachchi-a85933235",
+      "facebook": "https://www.facebook.com/profile.php?id=100085176430951&mibextid=LQQJ4d",
       "instagram": "https://www.instagram.com/ranu__vi_____/",
-      "email": "ranu2001vi@gmail.com"
-    },
-    "visibility2": {
-      "name": "Sasanka Udana",
-      "post": "Public Visibility Co-Lead",
-      "img": "scom/sasanka.webp",
-      "linkedin": "https://www.linkedin.com/in/sasanka-udana-47362221a/",
-      "instagram": "https://www.instagram.com/sasanka_udana/",
-      "email": "sasankaudana@gmail.com"
-    },
-    "industry1": {
-      "name": "Dilki Sewwandi",
-      "post": "Industry Engagement Co-Lead",
-      "img": "scom/dilki.webp",
-      "linkedin": "https://www.linkedin.com/in/dilki-sewwandi/",
-      "facebook": "https://www.facebook.com/profile.php?id=100078651251778",
-      "instagram": "https://www.instagram.com/dilki_zew/",
-      "email": "dsewwandi2001@gmail.com"
-    },
-    "industry2": {
-      "name": "Radiyah Hassan",
-      "post": "Industry Engagement Co-Lead",
-      "img": "scom/radiyah.webp",
-      "linkedin": "https://www.linkedin.com/in/radiyah-hassan",
-      "instagram": "https://instagram.com/___radhiii",
-      "email": "radiyah.hassan2001@gmail.com"
-    },
-    "design": {
-      "name": "Danujaya Liyanage",
-      "post": "Design Lead",
-      "img": "scom/danujaya.webp",
-      "linkedin": "https://www.linkedin.com/in/danujayaliyanage/",
-      "facebook": "https://www.facebook.com/danujayas.liyanage",
-      "instagram": "https://www.instagram.com/_dee00.__/",
-      "email": "danujayas00@gmail.com"
+      "email": "sathruwanihapuarachchi7@gmail.com"
     },
     "content": {
-      "name": "Nushara Ariyawansa",
-      "post": "Content Lead",
-      "img": "scom/nushara.webp",
-      "linkedin": "https://www.linkedin.com/in/nushara-ariyawansa-553a8a211/",
-      "facebook": "https://www.facebook.com/nushara.ariyawansa.5",
-      "instagram": "https://www.instagram.com/nushara_ariyawansa/",
-      "email": "nusharaariyawansa4@gmail.com"
+      "name": "Chamudi Upeka",
+      "post": "Editorial Content Lead",
+      "img": "scom/chamudi.webp",
+      "linkedin": "https://www.linkedin.com/in/upeka-kumarage",
+      "facebook": "https://www.facebook.com/upekakumarage?mibextid=ZbWKwL",
+      "instagram": "https://www.instagram.com/upeka_kumarage?igsh=MXQ1a3Z5bmJiYXJsYw==",
+      "email": "chamudiupeka21@gmail.com"
+    },
+    "web": {
+      "name": "Ashwinie Jayamanna",
+      "post": "Editorial Web Lead",
+      "img": "scom/ashwinie.webp",
+      "linkedin": "www.linkedin.com/in/ashwinie-jayamanna-08a635190",
+      "instagram": "https://www.instagram.com/ash_jayyy",
+      "email": "ashwiniejay@ieee.org"
+    },
+    "design1": {
+      "name": "Raveesha Samarasekera",
+      "post": "Editorial Design Co-Lead",
+      "img": "scom/raveesha.webp",
+      "linkedin": "https://www.linkedin.com/in/raveesha-samarasekera-9141b4287",
+      "instagram": "https://www.facebook.com/profile.php?id=100084843331929&mibextid=ZbWKwL",
+      "email": "https://www.instagram.com/_raveesha.__?igsh=MW50dTAxdmRoeHRuZQ=="
+    },
+    "design2": {
+      "name": "Vishwani Vilochana",
+      "post": "Editorial Design Co-Lead",
+      "img": "scom/vishwani.webp",
+      "linkedin": "https://www.linkedin.com/in/vishwani-vilochana-498a5b246/",
+      "facebook": "https://www.facebook.com/profile.php?id=100091316127435",
+      "instagram": "https://www.instagram.com/vilo__14?igsh=MWt3empwejE0NXp0Zw==",
+      "email": "vishwani2002@gmail.com"
+    },
+    "finance": {
+      "name": "Sadewni Vihidula",
+      "post": "Finance Lead",
+      "img": "scom/sadewni.webp",
+      "linkedin": "https://www.linkedin.com/in/wehallage-sadewni-vihidula-395223289",
+      "facebook": "https://www.facebook.com/share/EZ9EzzTHkyRu3KcP/?mibextid=qi2Omg",
+      "instagram": "https://www.instagram.com/_sadewni.v_?igsh=b3l1cHJvNTl5Nmo4",
+      "email": "wehallagesadwni@gmail.com"
     }
   }
 }

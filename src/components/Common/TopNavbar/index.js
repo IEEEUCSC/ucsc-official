@@ -15,7 +15,7 @@ import {
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 
-import logo from "../../../assets/ieeeucsc.webp";
+import ucscieee_logo from "../../../assets/ieeeucsc.webp";
 import ieee_logo from "../../../assets/logo-ieee.svg";
 import "./styles.css";
 
@@ -31,19 +31,19 @@ const NavbarLogos = () => {
         <Row xs={12} className="w-100 mx-0 my-1 my-lg-0">
           <Col xs={12}>
             <Navbar.Brand className="pt-1 pb-2 pt-lg-0 pb-lg-1 d-flex justify-content-between w-100">
-              <NavLink to="/">
+              <NavLink to="/" className="d-flex align-items-center">
                 <img
-                  src={logo}
+                  src={ucscieee_logo}
                   alt="IEEE Student Branch of UCSC Logo"
-                  height="70px"
-                  className="pt-2 pt-lg-1 pb-lg-0"
+                  height="50px"
+                  className="pt-2 pt-lg-0"
                 />
               </NavLink>
               <a href="https://ieee.org" rel="noreferrer" target="_blank">
                 <img
                   src={ieee_logo}
                   alt="IEEE Logo"
-                  height="70px"
+                  height="60px"
                   className="py-4 py-md-3 pe-2"
                 />
               </a>

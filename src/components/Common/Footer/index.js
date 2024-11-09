@@ -13,7 +13,7 @@ function Footer() {
             src={logo}
             alt="IEEE-UCSC"
             className="img-foot"
-            style={{ width: "50%" }}
+            style={{ width: "60%" }}
           />
         </div>
         <ul className="list-inline">

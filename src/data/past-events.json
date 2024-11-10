@@ -1,6 +1,38 @@
 {
   "events": [
     {
+      "title": "IEEEXtreme 18.0",
+      "date": "Oct 2024",
+      "image": "ieeextreme-18.jpg",
+      "url": "https://www.linkedin.com/posts/ieee-student-branch-ucsc_ieeextreme-ieeeucsc-activity-7258455797863522304-A654?utm_source=share&utm_medium=member_desktop",
+      "description": "IEEEXtreme is a global challenge in which teams of IEEE Student members - advised and proctored by an IEEE member, and  supported by an IEEE Student Branch of UCSC – to compete in a 24-hour time span against each other to solve programming problems.",
+      "summary": "IEEEXtreme 18.0 at UCSC was an exciting overnight event held on October 26, where participants gathered in person at the university to tackle challenging programming problems. This physical setup fostered a collaborative and high-energy environment, allowing students to work side-by-side, share ideas, and stay motivated throughout the night. The event brought a hands-on experience to competitive coding, creating a memorable and engaging atmosphere for all involved as they competed against teams worldwide"
+    },
+    {
+      "title": "IEEE Introductory Session 2024",
+      "date": "Aug 2024",
+      "image": "intro-2024.jpeg",
+      "url": "https://www.linkedin.com/posts/ieee-student-branch-ucsc_ieeesb-ieeecschapter-ieeewie-activity-7237120493768613891-JaPO?utm_source=share&utm_medium=member_desktop",
+      "summary": "This session is organized collaboratively by IEEE Student Branch, the IEE CS chapter and IEEE WIE, with the aim of assisting the first year undergraduates to find their place in IEEE",
+      "description": "The IEEE Introductory Session, organized by the IEEE Student Branch along with the IEEE Computer Society and IEEE Women in Engineering (WIE) chapters, is aimed at helping first-year undergraduates find their place in IEEE. During this session, each group—Student Branch, CS Chapter, and WIE—is introduced by its respective chairperson, followed by interactive segments where current members share their experiences. This collaborative event helps new students learn about IEEE’s mission and the various opportunities available for growth and engagement within each chapter."
+    },
+    {
+      "title": "RiedXtreme 3.0",
+      "date": "Aug - Sep 2024",
+      "image": "reidxtreme-3.jpg",
+      "url": "https://reidxtreme.ucscieee.lk/",
+      "summary": "ReidXtreme is a hackathon series organized by the IEEE Student Branch of UCSC collaboratively with ACM Student Chapter of UCSC. The core objective of this series is to build up the competitive programming skills of our undergraduates to help them successfully compete in IEEEXtreme.",
+      "description": "REidXtreme 3.0 featured a comprehensive approach to competitive programming with three workshops that covered essential skills for aspiring coders. The event's initial round was held virtually, allowing wide participation, while the top 10 teams advanced to an in-person final round at Pearson Lanka. Through these rounds, participants developed their coding skills, tackling data structures, algorithms, and problem-solving challenges in a competitive setting, mirroring real-world coding competitions and fostering a collaborative environment for skill enhancement."
+    },
+    {
+      "title": "Infinite Loop 2.0",
+      "date": "Jun - Jul 2024",
+      "image": "infiniteloop-2.jpg",
+      "url": "https://www.instagram.com/p/C-fVQEhI7_9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "summary": "InfiniteLoop is a workshop series by IEEE Student Branch of UCSC aimed at enhancing technological knowledge and skills of first-year undergraduates. Led by senior UCSC students, it covered diverse computer science and IT topics.",
+      "description": "Infinite Loop 2.0 is an engaging event tailored for first-year undergraduates, offering sessions across essential tech fields. Topics include Web 101 for web development fundamentals, Data Structures and Algorithms (DSA) for data management techniques, Linux and Capture the Flag (CTF) challenges, insights into Computer Systems, Game Development basics, and Mobile App Development essentials. This event aims to provide a comprehensive foundation, helping new students explore various tech areas, gain hands-on experience, and foster skills vital for their academic and professional growth."
+    },
+    {
       "title": "MADHack 3.0",
       "date": "Feb - April 2024",
       "image": "madhack-3.0.jpg",

@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "../../../assets/ieeeucsc.webp";
 import "./styles.css";
 
 const Loading = () => {
@@ -7,8 +7,9 @@ const Loading = () => {
     <div className="loading">
       <div className="wrapper">
         <img
-          src="./images/logos/ieeeucsc.webp"
+          src={logo}
           alt="IEEE Student Branch of UCSC Logo"
+          style={{ width: "50%", paddingBottom: "20px" }}
         />
         <span className="loader"></span>
       </div>

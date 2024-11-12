@@ -1,18 +1,32 @@
 {
   "news": [
     {
-      "month": "MARCH",
-      "date": "08",
-      "news": "MadHack 2.0 Champions Announced",
-      "content": "Congratulations to the winners of MadHack 2.0!",
-      "link": "https://www.facebook.com/photo/?fbid=628073615999059"
+      "month": "AUG",
+      "date": "30",
+      "news": "ReidXtreme 3.0 Finalists Announced",
+      "content": "Congratulations to the outstanding teams of ReidXtreme 3.0!",
+      "link": "https://www.instagram.com/p/C_SSGSsoY5D/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
     },
     {
-      "month": "APRIL",
+      "month": "SEP",
+      "date": "02",
+      "news": "IEE Introductory Session 2024 Successfully Concluded",
+      "content": "Thrilled to gather the future spirits of IEEE",
+      "link": "https://www.instagram.com/p/C_iSXY9oRU3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    },
+    {
+      "month": "OCT",
+      "date": "26",
+      "news": "IEEEXtreme 18.0 executed successfully",
+      "content": "The 18th version of IEEEXtreme was successfully held at UCSC premises",
+      "link": "https://www.linkedin.com/posts/ieee-student-branch-ucsc_ieeextreme-ieeeucsc-activity-7258455797863522304-A654?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "month": "NOV",
       "date": "07",
-      "news": "Volunteers of the Month - March 2023",
-      "content": "Presenting to you, the volunteers of the month of UCSC for the month of March!",
-      "link": "https://www.facebook.com/photo/?fbid=647518734054547"
+      "news": "Volunteers of the Month - October",
+      "content": "Presenting to you, our volunteers who stood out in the month of October",
+      "link": "https://www.linkedin.com/posts/ieee-student-branch-ucsc_ieeextreme-ieeeucsc-activity-7258455797863522304-A654?utm_source=share&utm_medium=member_desktop"
     }
   ]
 }
